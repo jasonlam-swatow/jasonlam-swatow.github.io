@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Jason Lam]]></title><description><![CDATA[慎獨｜純亦不已]]></description><link>https://lumen.netlify.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 26 Oct 2018 10:31:51 GMT</lastBuildDate><item><title><![CDATA[React 狀態管理模式]]></title><description><![CDATA[如果你的 React 應用沒有用上恰當的狀態管理模式，開發會變得非常辛苦。]]></description><link>https://lumen.netlify.com/posts/react-state-patterns</link><guid isPermaLink="false">https://lumen.netlify.com/posts/react-state-patterns</guid><pubDate>Sat, 01 Sep 2018 22:40:32 GMT</pubDate><content:encoded>&lt;h2&gt;狀態定義&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Jason Lam]]></title><description><![CDATA[慎獨｜純亦不已]]></description><link>https://lumen.netlify.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 26 Oct 2018 12:39:28 GMT</lastBuildDate><item><title><![CDATA[React 狀態管理模式]]></title><description><![CDATA[如果你的 React 應用沒有用上恰當的狀態管理模式，開發會變得非常辛苦。]]></description><link>https://lumen.netlify.com/posts/react-state-patterns</link><guid isPermaLink="false">https://lumen.netlify.com/posts/react-state-patterns</guid><pubDate>Sat, 01 Sep 2018 22:40:32 GMT</pubDate><content:encoded>&lt;h2&gt;狀態定義&lt;/h2&gt;
 &lt;p&gt;React 應用有四種不同的狀態：&lt;/p&gt;
 &lt;p&gt;
   &lt;a
@@ -36,7 +36,7 @@
   &lt;/a&gt;
     &lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;全局狀態：在組件樹外部維護的狀態，典型者爲 Redux。此處的狀態能爲應用中任意一處所訪問。&lt;/li&gt;
+&lt;li&gt;全局狀態：在組件樹外部維護的狀態，典型者為 Redux。此處的狀態能為應用中任意一處所訪問。&lt;/li&gt;
 &lt;li&gt;組件狀態：在組件（container）中透過 &lt;code class=&quot;language-text&quot;&gt;setState&lt;/code&gt; 持有並維護的狀態。&lt;/li&gt;
 &lt;li&gt;相對狀態：從父組件傳至子組件的狀態。&lt;/li&gt;
 &lt;li&gt;供給狀態：被一個 provider 置入上下文（使用 React 的 Context API）的狀態，能被組件單獨取用而毋須在組件樹中傳遞。&lt;/li&gt;
@@ -75,7 +75,7 @@
   
   &lt;/a&gt;
     &lt;/p&gt;
-&lt;p&gt;這是最爲常見的模式。其理念是僅有 containers（smart components）負責創建狀態，也僅有它們可以取用全局 store 的狀態。它們能透過 &lt;code class=&quot;language-text&quot;&gt;setState&lt;/code&gt; 創建其自己的狀態，並用 &lt;code class=&quot;language-text&quot;&gt;props&lt;/code&gt; 傳給組件樹。&lt;/p&gt;
+&lt;p&gt;這是最為常見的模式。其理念是僅有 containers（smart components）負責創建狀態，也僅有它們可以取用全局 store 的狀態。它們能透過 &lt;code class=&quot;language-text&quot;&gt;setState&lt;/code&gt; 創建其自己的狀態，並用 &lt;code class=&quot;language-text&quot;&gt;props&lt;/code&gt; 傳給組件樹。&lt;/p&gt;
 &lt;p&gt;當全局狀態需要變化，該變化會在 container 處激發（如 Redux 的 dispatch 一個 action）。&lt;/p&gt;
 &lt;p&gt;
   &lt;a
@@ -149,7 +149,7 @@
     &lt;/p&gt;
 &lt;p&gt;與前一個模式不同之處在於，dumb components 現在不那麼 dumb 了。它們能自己訪問到全局狀態，而毋需 Container 傳遞。&lt;/p&gt;
 &lt;p&gt;但這帶來的壞處是模糊了職責的定義，現在 container 和 dumb components 皆能自行訪問全局狀態；dumb components 何時應接收相對狀態、何時應使用全局狀態亦不明確。&lt;/p&gt;
-&lt;p&gt;最重要的是，全局狀態並不遵循 React 組件的生命週期。如果使用相對狀態模式，當 container 卸載時，其狀態會重置，意味着從 container 接收數據的組件不再擁有那些 props。但是如果該組件是從全局拉取其狀態的，而當其卸載時，該狀態仍存在於全局。當它重新掛載時，將會收到如舊的數據。這通常引致 bug。組件現在與相關的全局狀態緊密耦合了，降低其復用性。&lt;/p&gt;
+&lt;p&gt;最重要的是，全局狀態並不遵循 React 組件的生命週期。如果使用相對狀態模式，當 container 卸載時，其狀態會重置，意味著從 container 接收數據的組件不再擁有那些 props。但是如果該組件是從全局拉取其狀態的，而當其卸載時，該狀態仍存在於全局。當它重新掛載時，將會收到如舊的數據。這通常引致 bug。組件現在與相關的全局狀態緊密耦合了，降低其復用性。&lt;/p&gt;
 &lt;p&gt;一個方法是在組件卸載時重置該部分全局狀態。但這也說明了如果需要這樣做，或許更宜使用組件內的狀態。&lt;/p&gt;
 &lt;h2&gt;Pattern 3: Provided State&lt;/h2&gt;
 &lt;p&gt;
@@ -318,55 +318,55 @@
 
 &lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;Table&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; children &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;table&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;children&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;table&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;p&gt;完 :)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[朱熹中和說]]></title><description><![CDATA[朱熹的新舊中和說，主要在闡發《中庸》中關於已發、未發的思想，着重於討論「心」的層面。此文介紹中和說之餘，順便梳理其與孟子心性論、陽明心學之關係。]]></description><link>https://lumen.netlify.com/posts/朱熹中和說/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/朱熹中和說/</guid><pubDate>Sun, 01 Jul 2018 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;朱熹的新舊中和說，主要在闡發《中庸》中關於已發、未發的思想，着重於討論「心」的層面。&lt;/p&gt;
-&lt;p&gt;近代學者都將朱熹的「心」解釋爲「認知心」，而王陽明的「心」則具有道德主體之意。似乎朱熹沒有孟子心學的思路，而陽明纔是真正繼承或完成孟子心性論主體思想體系。&lt;/p&gt;
-&lt;p&gt;亦有學者認爲朱熹談《中庸》之已發未發學說是出於心性論的角度，其對道德本心、良心的肯定並非不明確。&lt;/p&gt;
+&lt;p&gt;完 :)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[朱熹中和說]]></title><description><![CDATA[朱熹的新舊中和說，主要在闡發《中庸》中關於已發、未發的思想，著重於討論「心」的層面。此文介紹中和說之餘，順便梳理其與孟子心性論、陽明心學之關係。]]></description><link>https://lumen.netlify.com/posts/zhuxi-theory/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/zhuxi-theory/</guid><pubDate>Sun, 01 Jul 2018 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;朱熹的新舊中和說，主要在闡發《中庸》中關於已發、未發的思想，著重於討論「心」的層面。&lt;/p&gt;
+&lt;p&gt;近代學者都將朱熹的「心」解釋為「認知心」，而王陽明的「心」則具有道德主體之意。似乎朱熹沒有孟子心學的思路，而陽明才是真正繼承或完成孟子心性論主體思想體系。&lt;/p&gt;
+&lt;p&gt;亦有學者認為朱熹談《中庸》之已發未發學說是出於心性論的角度，其對道德本心、良心的肯定並非不明確。&lt;/p&gt;
 &lt;p&gt;朱熹如何談已發、未發來討論「心」之概念？朱熹論「心」是否僅取「認知心」之意義、抑或涵攝「道德本心」、「良心」的層面？&lt;/p&gt;
 &lt;h2&gt;中和說之意涵&lt;/h2&gt;
-&lt;p&gt;朱熹以四書及四書義理之學取代六經及六經訓詁之學作爲整體經學的主體和基礎，強調四書重於六經，以四書闡明道統，爲建構和完善道統思想體系作論證。&lt;/p&gt;
-&lt;p&gt;如何閱讀四書，朱熹提出一「入道之序」：「&lt;em&gt;學問需以《大學》為先，次《論語》，次《孟子》，次《中庸》。《中庸》工夫密，規模大。&lt;/em&gt;」朱熹早年從學時即着重討論《中庸》義理，並對於已發未發的問題尤其注重，後來進而提出中和說。&lt;/p&gt;
+&lt;p&gt;朱熹以四書及四書義理之學取代六經及六經訓詁之學作為整體經學的主體和基礎，強調四書重於六經，以四書闡明道統，為建構和完善道統思想體系作論證。&lt;/p&gt;
+&lt;p&gt;如何閱讀四書，朱熹提出一「入道之序」：「&lt;em&gt;學問需以《大學》為先，次《論語》，次《孟子》，次《中庸》。《中庸》工夫密，規模大。&lt;/em&gt;」朱熹早年從學時即著重討論《中庸》義理，並對於已發未發的問題尤其注重，後來進而提出中和說。&lt;/p&gt;
 &lt;h3&gt;中和舊說&lt;/h3&gt;
-&lt;p&gt;朱熹反覆思索何謂「已發」「未發」的過程中，首先體認到：&lt;strong&gt;人生在世，無時無刻不與生活世界發生關係，而人在面對整體存在界的周流萬變，皆是時時發動念頭，包含人心在內皆屬於「已發」狀態。&lt;/strong&gt;故何來「未發」之際？當我們思考何爲「未發」時，已全然在「已發」之中，如何有「喜怒哀樂之未發」時工夫操持的可能？&lt;/p&gt;
-&lt;p&gt;既然人自出生始所有活動皆是已發，朱熹思考到是否未發是既有別於人心又與人息息相關的。朱熹進而認爲整體存在界的流行變化，即使人未接觸應對客體時，仍然生機盎然地存在並作用者，其即爲「天命流行、生生不已之機」，亦即「天理本真」是無時無刻不在作用當中。此「天理本真」是在人活動之前即有，是整體存在界運行的理序與規律，故言未發，它可存在於人的感知之外，卻又時刻可被人所感知到。而人之良心在接事應物時即會發生作用，體認到是否合乎天理或是僅爲私慾。因此必須時時體察自我之良心發現即可「&lt;em&gt;貫乎大本達道之全體而復其初&lt;/em&gt;」。&lt;strong&gt;從已發中可見人之行爲處事是否合乎未發的「天理本真」並時時察識並存養之，此即平時工夫操持。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;此爲「中和舊說」之主要論點，即以「天理本真」爲未發，即「天命流行、生生不已之機」。所謂已發則是人心感物應事之發用。&lt;/p&gt;
+&lt;p&gt;朱熹反覆思索何謂「已發」「未發」的過程中，首先體認到：&lt;strong&gt;人生在世，無時無刻不與生活世界發生關係，而人在面對整體存在界的周流萬變，皆是時時發動念頭，包含人心在內皆屬於「已發」狀態。&lt;/strong&gt;故何來「未發」之際？當我們思考何為「未發」時，已全然在「已發」之中，如何有「喜怒哀樂之未發」時工夫操持的可能？&lt;/p&gt;
+&lt;p&gt;既然人自出生始所有活動皆是已發，朱熹思考到是否未發是既有別於人心又與人息息相關的。朱熹進而認為整體存在界的流行變化，即使人未接觸應對客體時，仍然生機盎然地存在並作用者，其即為「天命流行、生生不已之機」，亦即「天理本真」是無時無刻不在作用當中。此「天理本真」是在人活動之前即有，是整體存在界運行的理序與規律，故言未發，它可存在於人的感知之外，卻又時刻可被人所感知到。而人之良心在接事應物時即會發生作用，體認到是否合乎天理或是僅為私慾。因此必須時時體察自我之良心發現即可「&lt;em&gt;貫乎大本達道之全體而復其初&lt;/em&gt;」。&lt;strong&gt;從已發中可見人之行為處事是否合乎未發的「天理本真」並時時察識並存養之，此即平時工夫操持。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;此為「中和舊說」之主要論點，即以「天理本真」為未發，即「天命流行、生生不已之機」。所謂已發則是人心感物應事之發用。&lt;/p&gt;
 &lt;figure&gt;
 	&lt;blockquote&gt;
-		&lt;p&gt;據其已發者而指其未發者，則已發者人心，而凡未發者接其性也，亦無一物不備矣。&lt;/p&gt;
+		&lt;p&gt;「據其已發者而指其未發者，則已發者人心，而凡未發者接其性也，亦無一物不備矣。」&lt;/p&gt;
 		&lt;footer&gt;
 			&lt;cite&gt;——朱熹《答張敬夫》&lt;/cite&gt;
 		&lt;/footer&gt;
 	&lt;/blockquote&gt;
 &lt;/figure&gt;
-&lt;p&gt;於是未發之天理本體是性，感物而動，進而有喜怒哀樂等情緒體顯是心的發用，因此&lt;strong&gt;性與心是體用關係&lt;/strong&gt;。此時「人心」是一思慮營爲之心。但若心僅是一認知及感受之心，則如何使得人的行爲「發而皆中節」、符合天理本真？&lt;/p&gt;
-&lt;p&gt;於是朱熹認爲心亦具備主宰功能。當事物呈現之時，心亦同時發動覺察，而「良心」亦萌發。此良心之萌發是接天理本真之性，而工夫之發用處即是致察良心的萌發並時時涵養操存之。&lt;/p&gt;
-&lt;p&gt;但若心具有主宰功能，則何以有惡？朱熹認爲人的行爲會有合宜不合宜之分，在於心有沒有作爲主宰，心若能作主宰則行爲舉止皆合乎天理、則合情合宜；否則流於私慾和情緒，行爲舉止乃有所偏頗。&lt;/p&gt;
+&lt;p&gt;於是未發之天理本體是性，感物而動，進而有喜怒哀樂等情緒體顯是心的發用，因此&lt;strong&gt;性與心是體用關係&lt;/strong&gt;。此時「人心」是一思慮營為之心。但若心僅是一認知及感受之心，則如何使得人的行為「發而皆中節」、符合天理本真？&lt;/p&gt;
+&lt;p&gt;於是朱熹認為心亦具備主宰功能。當事物呈現之時，心亦同時發動覺察，而「良心」亦萌發。此良心之萌發是接天理本真之性，而工夫之發用處即是致察良心的萌發並時時涵養操存之。&lt;/p&gt;
+&lt;p&gt;但若心具有主宰功能，則何以有惡？朱熹認為人的行為會有合宜不合宜之分，在於心有沒有作為主宰，心若能作主宰則行為舉止皆合乎天理、則合情合宜；否則流於私慾和情緒，行為舉止乃有所偏頗。&lt;/p&gt;
 &lt;h3&gt;中和新說&lt;/h3&gt;
-&lt;p&gt;朱熹推翻舊說所言指心皆是已發，而認爲「&lt;em&gt;思慮未萌，事物未至&lt;/em&gt;」「&lt;em&gt;喜怒哀樂之未發&lt;/em&gt;」之時即是心體寂然不動之時。而「&lt;em&gt;喜怒哀樂之情發&lt;/em&gt;」之際則是心體的發用。因此所謂已發未發是指心的動靜狀態，即心的兩層面。&lt;/p&gt;
+&lt;p&gt;朱熹推翻舊說所言指心皆是已發，而認為「&lt;em&gt;思慮未萌，事物未至&lt;/em&gt;」「&lt;em&gt;喜怒哀樂之未發&lt;/em&gt;」之時即是心體寂然不動之時。而「&lt;em&gt;喜怒哀樂之情發&lt;/em&gt;」之際則是心體的發用。因此所謂已發未發是指心的動靜狀態，即心的兩層面。&lt;/p&gt;
 &lt;figure&gt;
 	&lt;blockquote&gt;
-		&lt;p&gt;方其靜也，事物未至，思慮未萌，而一性渾然，道義全具，其所謂中，乃心之所以為體，而寂然不動者也。及其動也，事物交至，思慮萌焉，則七情迭用，各有攸主，其所謂和，乃心之所以為用，感而遂通者也。&lt;/p&gt;
+		&lt;p&gt;「方其靜也，事物未至，思慮未萌，而一性渾然，道義全具，其所謂中，乃心之所以為體，而寂然不動者也。及其動也，事物交至，思慮萌焉，則七情迭用，各有攸主，其所謂和，乃心之所以為用，感而遂通者也。」&lt;/p&gt;
 		&lt;footer&gt;
 			&lt;cite&gt;——朱熹《答張敬夫》&lt;/cite&gt;
 		&lt;/footer&gt;
 	&lt;/blockquote&gt;
 &lt;/figure&gt;
-&lt;p&gt;朱熹已心之用爲已發，在中和新舊說中立場一致。至於未發之心，朱熹言「性爲未發」亦是心之未發，如黃宗羲言「&lt;em&gt;合性於心，言工夫也&lt;/em&gt;」即是「持敬」工夫。朱熹言「心爲已發、性爲未發」則「日用工夫全無本領」，而又言「&lt;em&gt;向來議論思索，直以心爲已發，而日用工夫，以止以察識端倪爲最初下手處，已故闕卻平日涵養一段工夫&lt;/em&gt;」。其所謂平日涵養之工夫在於涵養「&lt;em&gt;事物未至，思慮未萌，而一性渾然，道義全具，其所謂中，乃心之所以體，而寂然不動者也&lt;/em&gt;」。&lt;strong&gt;心之未發之際，性亦未發；未發之心乃一實體，內含着道義俱全之性。心在已發之際，如何能體察本心中道義俱全的性，則不僅是思慮萌發之時省察行爲、情緒，亦必須在未發之際存養本心之理。&lt;/strong&gt;此所謂「一性渾然，道義全具」之心體該是朱熹所指稱之「道心」；思慮營爲之心，該是朱熹所稱之人心。唯道心與人心並非兩物，而是繫於人之心體但有已發未發之不同層面。&lt;/p&gt;
+&lt;p&gt;朱熹已心之用為已發，在中和新舊說中立場一致。至於未發之心，朱熹言「性為未發」亦是心之未發，如黃宗羲言「&lt;em&gt;合性於心，言工夫也&lt;/em&gt;」即是「持敬」工夫。朱熹言「心為已發、性為未發」則「日用工夫全無本領」，而又言「&lt;em&gt;向來議論思索，直以心為已發，而日用工夫，以止以察識端倪為最初下手處，已故闕卻平日涵養一段工夫&lt;/em&gt;」。其所謂平日涵養之工夫在於涵養「&lt;em&gt;事物未至，思慮未萌，而一性渾然，道義全具，其所謂中，乃心之所以體，而寂然不動者也&lt;/em&gt;」。&lt;strong&gt;心之未發之際，性亦未發；未發之心乃一實體，內含著道義俱全之性。心在已發之際，如何能體察本心中道義俱全的性，則不僅是思慮萌發之時省察行為、情緒，亦必須在未發之際存養本心之理。&lt;/strong&gt;此所謂「一性渾然，道義全具」之心體該是朱熹所指稱之「道心」；思慮營為之心，該是朱熹所稱之人心。唯道心與人心並非兩物，而是繫於人之心體但有已發未發之不同層面。&lt;/p&gt;
 &lt;p&gt;心貫於已發未發，統合性情。當心未發，即思慮未萌，事物未至之時，性內在於心中，是心之虛靈，是性命之正。當事物交至，思慮萌發之時，性發動為情，心可以使發動之情有節制，此為道心；若心不使其發動之情有節制凡而使情傾向於私欲，則以人心稱之。於未發之際存養道義俱全之體，於已發之後時時省察行為處事，此「持敬」工夫，所著重是在「未發」時，存養工夫。&lt;/p&gt;
-&lt;h2&gt;當代學者之詮解&lt;/h2&gt;
-&lt;p&gt;當代學者的一大問題是：朱熹的心性思想是否承繼了孟子的道德心性學？在以心學與理學作爲分判宋明理學的哲人時，伊川、朱熹被列入理學體系，而與象山、陽明的心學相異。&lt;/p&gt;
+&lt;h2&gt;當代之詮解&lt;/h2&gt;
+&lt;p&gt;當代學者的一大問題是：朱熹的心性思想是否承繼了孟子的道德心性學？在以心學與理學作為分判宋明理學的哲人時，伊川、朱熹被列入理學體系，而與象山、陽明的心學相異。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;象山、陽明：「心即理」，言心即是本心，而本心是道德的源泉與主體；「理」則明指仁義禮智等道德準則。人是一道德主體，因爲此本心內含於人之中，且可以自律地體現出仁義禮智，此等理則非社會習俗亦非聖人特有而制訂的律則。&lt;/li&gt;
-&lt;li&gt;伊川、朱熹：「性即理」，「心」僅爲一「認知心」，既然是經驗認知的知覺心便僅能認識道理而無創生意義，仁義禮智是來於社會規範或聖人之教、而非人自發自覺的體認。&lt;/li&gt;
+&lt;li&gt;象山、陽明：「心即理」，言心即是本心，而本心是道德的源泉與主體；「理」則明指仁義禮智等道德準則。人是一道德主體，因為此本心內含於人之中，且可以自律地體現出仁義禮智，此等理則非社會習俗亦非聖人特有而制訂的律則。&lt;/li&gt;
+&lt;li&gt;伊川、朱熹：「性即理」，「心」僅為一「認知心」，既然是經驗認知的知覺心便僅能認識道理而無創生意義，仁義禮智是來於社會規範或聖人之教、而非人自發自覺的體認。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;牟宗三認爲象山、陽明是全然的孟子之學，其心性論是一「自律道德系統」，而伊川、朱熹的心性論則是一「他律道德系統」，與孟子心性體統不同。&lt;/p&gt;
-&lt;p&gt;勞思光認爲朱熹的「心」是一「經驗主體」，只是能「知覺」「理」的能力，「理」纔是一超驗實體。而孔孟至象山則是將「心」視爲一超驗主體，是萬理之本。言朱熹是「立客體實有」而孔孟象山「立主體實有」。&lt;/p&gt;
-&lt;p&gt;牟宗三認爲中和舊說的性與心是體用關係，是承繼孟子心學的。朱熹所謂「&lt;em&gt;天命流行，生生不已之機&lt;/em&gt;」說明萬物之所以「生生不已」其「機」在於「天命流行」乃一創造實體，而「中」便是體認到「天命流行之體」。又及「寂然之本體」，牟先生認爲「天命流行之體」是「&lt;em&gt;形式地說、客觀地說&lt;/em&gt;」而「寂然之本體」是「&lt;em&gt;內容地說、亦是主觀地說&lt;/em&gt;」。如此則「於穆不已」的「天命流行之體」不只是理，亦是心，亦可曰「寂感真機」。&lt;/p&gt;
+&lt;p&gt;牟宗三認為象山、陽明是全然的孟子之學，其心性論是一「自律道德系統」，而伊川、朱熹的心性論則是一「他律道德系統」，與孟子心性體統不同。&lt;/p&gt;
+&lt;p&gt;勞思光認為朱熹的「心」是一「經驗主體」，只是能「知覺」「理」的能力，「理」才是一超驗實體。而孔孟至象山則是將「心」視為一超驗主體，是萬理之本。言朱熹是「立客體實有」而孔孟象山「立主體實有」。&lt;/p&gt;
+&lt;p&gt;牟宗三認為中和舊說的性與心是體用關係，是承繼孟子心學的。朱熹所謂「&lt;em&gt;天命流行，生生不已之機&lt;/em&gt;」說明萬物之所以「生生不已」其「機」在於「天命流行」乃一創造實體，而「中」便是體認到「天命流行之體」。又及「寂然之本體」，牟先生認為「天命流行之體」是「&lt;em&gt;形式地說、客觀地說&lt;/em&gt;」而「寂然之本體」是「&lt;em&gt;內容地說、亦是主觀地說&lt;/em&gt;」。如此則「於穆不已」的「天命流行之體」不只是理，亦是心，亦可曰「寂感真機」。&lt;/p&gt;
 &lt;p&gt;在舊說中，性與心是一體用關係，但在新說中，心與性被視為一平行的兩體。而之所以會有這樣的轉向，是由於朱熹從「天命流行之體」說「未發之中」，轉而從「心之寂然」說「未發之中」。前者視「中」為一「於穆不已」之創生實體，是為「中體」，後者則是指「中」為一描述語，描述心在未發之際的狀態。在新說中強調了「心體流行」即是心的活動作用。當心體未活動作用時，是思慮未萌、事物未至之時，言此時心處於「寂然不動」狀態，以此言「未發之中」，而此「未發之中」的寂然不動的心體體現了天命之理，也因此言心性平行關係。&lt;/p&gt;
 &lt;p&gt;牟先生認為，朱熹在新說中，將心性視為一平行關係，真正的超越之實體（大本）只能是性，而不能是心。「心」必是一實然之心，其主要作用則是經驗知覺能力，但此一認知能力，使得人是為一經驗主體而非道德主體，「心」可以合於理，亦可以不合於理，全待於後天的修養工夫。&lt;/p&gt;
-&lt;p&gt;完 :)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[儒家脈絡]]></title><description><![CDATA[以歷史為脈絡，梳理儒家之源頭與歷程，乃知儒家與其他哲學宗教之相同之處，蓋在天人合一也。]]></description><link>https://lumen.netlify.com/posts/儒家脈絡/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/儒家脈絡/</guid><pubDate>Tue, 19 Jun 2018 22:40:32 GMT</pubDate><content:encoded>&lt;h2&gt;巫傳統&lt;/h2&gt;
+&lt;p&gt;完 :)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[儒家脈絡]]></title><description><![CDATA[以歷史為脈絡，梳理儒家之源頭與歷程，乃知儒家與其他哲學宗教之相同之處，蓋在天人合一也。]]></description><link>https://lumen.netlify.com/posts/digest-of-confucianism/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/digest-of-confucianism/</guid><pubDate>Tue, 19 Jun 2018 22:40:32 GMT</pubDate><content:encoded>&lt;h2&gt;巫傳統&lt;/h2&gt;
 &lt;figure&gt;
 	&lt;blockquote&gt;
-		&lt;p&gt;儒之名蓋出於需。需者，雲上於天。而儒亦知天文識旱潦。何以明之？……古之儒知天文占候，謂其多技，故號遍施於九能，諸有術者悉亥之矣。」&lt;/p&gt;
+		&lt;p&gt;「儒之名蓋出於需。需者，雲上於天。而儒亦知天文識旱潦。何以明之？……古之儒知天文占候，謂其多技，故號遍施於九能，諸有術者悉亥之矣。」&lt;/p&gt;
 		&lt;footer&gt;
 			&lt;cite&gt;——章太炎《原儒》&lt;/cite&gt;
 		&lt;/footer&gt;
@@ -536,7 +536,19 @@
 &lt;p&gt;明代王學出現以前，是朱學的天下。王學對於朱學的態度，不再滿足於「述朱」。儘管宋代有改經風氣，而明代王學對於經學尤其是《大學》，則是採取復古的態度。因此，明代學術不支持宋代改經，而是回到漢學。然而明代經學不同於漢代，意不在表面的字句或順序，而在於印證於心——即王陽明所稱作「行」。&lt;/p&gt;
 &lt;p&gt;余英時指出，天和人分別代表「超越領域」和「現實領域」，故天人關係、天人合一其實並不只是一種對天的敬畏或是某種特殊的精神體悟，還代表了一種逐漸完善自身的過程。這種觀點以劉殿爵所翻譯的英譯《孟子》序言可看出：「&lt;em&gt;如此一來，孟子已經打破天人隔閡及天命與人性之間的藩籬，由人心深處有一密道可通上天，而所屬天者已經非外於人，反而是屬於人最真實的本性了。&lt;/em&gt;」龐樸又言：「&lt;em&gt;儒學走向心性論研究，相信人道源於人心。&lt;/em&gt;」&lt;/p&gt;
 &lt;p&gt;但我們也須思考，最終心學得出的德性近乎於完全歸結於內心的結論，其實是否已經是對於傳統儒家的偏離？天命觀與經學幾乎完全從心學的視野裏消失，其實也意味著人論基礎的破碎化和個人化，最終極有可能造成一種顛覆。而這種內在的衝突，其實早在孔子那裏便已埋下伏筆。&lt;/p&gt;
-&lt;p&gt;完 :)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[事件循環之 Macrotask & Microtask]]></title><description><![CDATA[JavaScript 的事件循环（Event Loop）中，macrotask 和 microtask 同属于异步任务。二者有什么区别？何时使用何者？]]></description><link>https://lumen.netlify.com/posts/macrotask-and-microtask/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/macrotask-and-microtask/</guid><pubDate>Fri, 01 Jun 2018 22:40:32 GMT</pubDate><content:encoded>&lt;h2&gt;定義&lt;/h2&gt;
+&lt;p&gt;完 :)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[禪宗公案之疏山有句無句]]></title><description><![CDATA[唐末僧疏山問大安：「有與無的概念既如同藤繞樹，忽遇樹倒藤枯，世界又歸何處？」大安聽畢，呵呵大笑而歸。]]></description><link>https://lumen.netlify.com/posts/koan-sozan/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/koan-sozan/</guid><pubDate>Fri, 01 Jun 2018 22:40:32 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;唐末僧&lt;u&gt;疏山&lt;/u&gt;特至福州溈山參學&lt;u&gt;大安&lt;/u&gt;之「&lt;strong&gt;有句無句，如藤倚樹&lt;/strong&gt;」（有與無的概念如同藤繞樹），並請問「忽遇樹倒藤枯，句歸何處」，&lt;u&gt;大安&lt;/u&gt;聞後，放下泥槃，呵呵大笑而歸方丈；&lt;u&gt;疏山&lt;/u&gt;不滿，深感賣卻布單，特為此事遠道而來，和尚何得相弄；&lt;u&gt;大安&lt;/u&gt;遂囑侍者予師二百錢，並告知&lt;u&gt;明招德謙&lt;/u&gt;可為師點破。&lt;u&gt;疏山&lt;/u&gt;遂往明招處，&lt;u&gt;明招&lt;/u&gt;欲為其點破，謂「頭正尾正，祇是不遇知音」。師亦不明白，又問「忽遇樹倒藤枯，句歸何處」，明招以「卻使&lt;u&gt;溈山&lt;/u&gt;笑轉新」作答，師乃言下大悟，有感而謂「&lt;u&gt;溈山&lt;/u&gt;元來笑裡有刀」，遙望禮拜。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;有與無的問題是抽象觀念和哲學問題。吾人一切思想皆始於有無之對立，若無這種對立，吾人就不可能推理。因此，疏山的問題直擊基本：「若有與無的概念枯萎掉，吾人的思想體系將會如何？」當樹倒下，藤亦自然枯死。有必須與無為伴，才成其存在，反之亦然。唯有當吾輩認識到有與無之基本對立，才能對個殊事物的世界有所瞭解。當此有無之對立不再存在時，吾輩將前往何處？絕對的空無嗎？這似乎是不可思議的。如此，則這種對立看法是否根本就錯了呢？然而它又面對著吾人，吾人無法消除這個生與死的世界；而這生與死的世界，以眼下的狀態而言，又遠不能滿足吾人精神上的需要。這種生與死、有與無的對立似非最終階段，而吾輩又永遠渴切超逾它；它指向某種愈高、愈深之事，而此事是吾輩希望抓住的。相互的對立狀態是必須超逾的，但如何超逾？事實上這正是疏山所提之問題。&lt;/p&gt;
+&lt;p&gt;祇有吾人還停留在相互對立的世界，吾人就永不得滿足；吾人常被不安感所騷擾。疏山深受有與無或生與死的問題所騷擾——或就基督教之說法，深受靈魂不死的問題所騷擾。當他聽聞溈山大安和尚言及此事時，他想終於有人可助他解決這個問題、為他帶來安寧了。他變賣財物，長途跋涉來到溈山，迫不及待地向正在抹泥牆的大安祈求啟悟：「當這個世界在這一劫結束之際，同它的一切萬象俱化成灰之後，我們這些人、我們人類的靈魂都會如何呢？」&lt;/p&gt;
+&lt;p&gt;此問題，既是形而上學的，又是宗教的。就以它不想沿著純粹智性的路線來發展而言，它是宗教的；就以它是以抽象的概念為表達方式而言，它又是形而上的。此乃禪宗之一大特色。若想選用一個名字，可稱之為實際哲學，而這種實際性全可從溈山大安用大笑來回答疏山的問題表明出來。&lt;strong&gt;疏山的心相當於形而上學，故會訴諸有與無這樣抽象的概念，但他的實際心靈又使他把這種抽象概念化為樹與藤之間的具體關係。&lt;/strong&gt;然而疏山的這種實際性卻被大安更進一步的實際性徹底攪亂了：大安丟下泥槃，大笑歸去。大安完全是實際行動的，而疏山則還在語言象徵的層面；這即是說，他還在概念層面，離開了生活。&lt;/p&gt;
+&lt;p&gt;疏山仍舊是語文的困囚，他不能立即抓住真如。他的心充滿了有與無、樹與藤、生與死、絕對與限制、因與果、業與涅槃等觀念，而對事實的真如沒有直接的領悟。而大安根本不同這位邏輯家辯論，不談絕對又不談矛盾辯證，亦不談在有與無的對立之下的基本存在。他祇是大笑歸去。&lt;/p&gt;
+&lt;p&gt;疏山的問題有何好笑？吾輩人類總是因自己所見事物之毀壞而憂愁，尤以關於吾人肉體的存在、以及之後的來生為然。這似乎是吾人共同的情感，何以惹來禪師的大笑呢？他大笑不特止，還丟下了器具、停止工作，回到自己的房中。他這樣做，是否意味著不要問任何東西，祇須去過生活、享受生活，當事物展現在吾人面前時，就按照它們的樣子認識它們，當可笑的事物出現就笑，當使你哭的事物出現就哭——總之，是否意味著接受一切，並因此歡愉呢？或者他意味當世界結束之際，他就享受同世界一起結束？或者他意味並無所謂結束——一切都是永恆，相對的世界祇是表象——因之並無樹倒亦無藤枯，由此來截斷由相對觀念與表象為基礎所產生的概念臆想？或者他大笑發問者的愚蠢，這個愚蠢使得他未能認識到他內在正運作著的另一樣東西，這種東西是與他對樹倒藤枯的深切關懷完全分開的；或者從另一角度說，是與他對樹倒藤枯的深切關懷交合並進的。所有這些意義上的變化，都可以在大安的行為中覽讀出來。但從禪的觀點來看，此處當務之急，是在直接體驗那意義之本身，而把智性的解釋留待必然隨這體驗產生的禪意識去做。&lt;/p&gt;
+&lt;p&gt;在這整個故事裏，並無任何形而上學的討論，沒有任何神祕虔敬的宗教行為。它始於對有與無的哲學性詢問，將之比於藤繞樹；而其解答則完全沒有按照原路線——而是絕對超乎常人在這種情形下的預期。而更為特異的是發問者終竟了悟了禪師的怪異行為，後者蘊涵的意義顯然解除了有與無的對立糾纏。&lt;/p&gt;
+&lt;p&gt;附：&lt;/p&gt;
+&lt;p&gt;當圜悟問五祖關於樹倒藤枯的事情時，五祖說：「你設網自陷。」體驗有其表達方法，它需要說出來，它需要肯定它自己、意識到它自己。而為了這樣做，禪有其絕對獨特的方式。既然沒有任何方式可以把完美的禪體驗世界描繪出來，則有與無、樹與藤、生與死、綜合與對立、內在與超越、毀壞與構築、倒與枯以及化歸無物等又是甚麼呢？所有這些觀念與範疇，都是我們為了生活在這個世界而發明的方便工具；但除非我們知道，如何在得當的機會應用它們，它們就會轉過來把我們陷住；亦即是說，我們會被它們所奴役所束縛。當禪體驗未能被我們適當地掌握，它就變成一個導致不幸的工具。這個體驗是一把雙刃劍，需要小心謹慎。&lt;/p&gt;
+&lt;p&gt;本文錄自鈴木大拙《悟性的提升》並改寫&lt;/p&gt;
+&lt;p&gt;完 :)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[事件循環之 Macrotask & Microtask]]></title><description><![CDATA[JavaScript 的事件循環（Event Loop）中，macrotask 和 microtask 同屬於異步任務。二者有什麼區別？何時使用何者？]]></description><link>https://lumen.netlify.com/posts/macrotask-and-microtask/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/macrotask-and-microtask/</guid><pubDate>Fri, 01 Jun 2018 22:40:32 GMT</pubDate><content:encoded>&lt;h2&gt;定義&lt;/h2&gt;
 &lt;p&gt;一個事件循環（event loop）中會有一個正在執行的任務（task），這個任務就是從 macrotask 中來的。當該 macrotask 執行結束後，所有可用的 microtask 將會在同一個事件循環中執行，當這些 microtask 執行結束後還能繼續添加 microtask 直至整個 microtask 隊列執行結束。&lt;/p&gt;
 &lt;h2&gt;用法&lt;/h2&gt;
 &lt;p&gt;當我們想以同步的方式處理異步任務時就用 microtask（比如需要直接在某斷代碼後去執行某個任務，正如 Promise）。其他情況就直接用 macrotask。&lt;/p&gt;
@@ -553,28 +565,28 @@
 &lt;li&gt;一個 task 可放入 macrotask queue 亦可放入 microtask queue&lt;/li&gt;
 &lt;li&gt;當一個 task 被放入 queue（macro/micro）則該 task 可被立即執行&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;當 call stack 爲空時，開始依次執行：&lt;/p&gt;
+&lt;p&gt;當 call stack 為空時，開始依次執行：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;把最早的任務 task A 放入任務隊列&lt;/li&gt;
-&lt;li&gt;若 task A 爲 null（則任務隊列爲空），直接跳到第 6 步&lt;/li&gt;
-&lt;li&gt;將 currently running task 設爲 task A&lt;/li&gt;
+&lt;li&gt;若 task A 為 null（則任務隊列為空），直接跳到第 6 步&lt;/li&gt;
+&lt;li&gt;將 currently running task 設為 task A&lt;/li&gt;
 &lt;li&gt;執行 task A（即執行回調函式）&lt;/li&gt;
-&lt;li&gt;將 currently running task 設爲 null 並移出 task A&lt;/li&gt;
+&lt;li&gt;將 currently running task 設為 null 並移出 task A&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;執行 microtask queue&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;在 microtask 中選出最早的任務 task X&lt;/li&gt;
-&lt;li&gt;若 task X 爲 null，直接跳到 xii&lt;/li&gt;
-&lt;li&gt;將 currently running task X 設爲 task X&lt;/li&gt;
+&lt;li&gt;若 task X 為 null，直接跳到 xii&lt;/li&gt;
+&lt;li&gt;將 currently running task X 設為 task X&lt;/li&gt;
 &lt;li&gt;執行 task X&lt;/li&gt;
-&lt;li&gt;將 currently running task 設爲 null 並移出 task X&lt;/li&gt;
+&lt;li&gt;將 currently running task 設為 null 並移出 task X&lt;/li&gt;
 &lt;li&gt;在 microtask 中選出最早的任務，跳到 ii&lt;/li&gt;
 &lt;li&gt;結束 microtask queue&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;li&gt;跳到第 1 步&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;上面是一個簡單的 event loop 執行模型。再簡單點可總結爲：&lt;/p&gt;
+&lt;p&gt;上面是一個簡單的 event loop 執行模型。再簡單點可總結為：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;在 macrotask queue 中執行最早的 task，然後移出&lt;/li&gt;
 &lt;li&gt;執行 microtask 隊列中所有可用的任務，然後移出&lt;/li&gt;
@@ -630,7 +642,7 @@
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;即使兩者不再變化，但由於每次 &lt;code class=&quot;language-text&quot;&gt;mapStateToProps&lt;/code&gt; 返回結果 &lt;code class=&quot;language-text&quot;&gt;{ data: { ... } }&lt;/code&gt; 中的 &lt;code class=&quot;language-text&quot;&gt;data&lt;/code&gt; 都是新創建的字面量對象，導致淺對比失敗，&lt;code class=&quot;language-text&quot;&gt;App&lt;/code&gt; 依然會重渲染。&lt;/p&gt;
-&lt;p&gt;其次是 &lt;code class=&quot;language-text&quot;&gt;combineReducers&lt;/code&gt;。Redux Store 鼓勵我們把狀態對象劃分爲不同碎片（slices）或領域（domains，業務），並分別編寫 reducer 函數以管理其狀態，最後使用 &lt;code class=&quot;language-text&quot;&gt;combineReducers&lt;/code&gt; 將這些領域及其 reducer 關聯起來，拼裝成一個整體的 &lt;code class=&quot;language-text&quot;&gt;state&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;其次是 &lt;code class=&quot;language-text&quot;&gt;combineReducers&lt;/code&gt;。Redux Store 鼓勵我們把狀態對象劃分為不同碎片（slices）或領域（domains，業務），並分別編寫 reducer 函數以管理其狀態，最後使用 &lt;code class=&quot;language-text&quot;&gt;combineReducers&lt;/code&gt; 將這些領域及其 reducer 關聯起來，拼裝成一個整體的 &lt;code class=&quot;language-text&quot;&gt;state&lt;/code&gt;。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token function&quot;&gt;combineReducers&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; todos&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; myTodoReducer&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; counter&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; myCounterReducer &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
@@ -638,9 +650,9 @@
 &lt;ol&gt;
 &lt;li&gt;創建一個對當前碎片數據的引用&lt;/li&gt;
 &lt;li&gt;調用 reducer 計算碎片數據的新狀態，並返回&lt;/li&gt;
-&lt;li&gt;爲 reducer 返回的新碎片數據創建新的引用，將新引用與當前數據進行淺對比，若對比失敗（意味著兩次引用不同，即 reducer 返回的是一個新對象），則將標識位 &lt;code class=&quot;language-text&quot;&gt;hasChanged&lt;/code&gt; 設爲 &lt;code class=&quot;language-text&quot;&gt;true&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;為 reducer 返回的新碎片數據創建新的引用，將新引用與當前數據進行淺對比，若對比失敗（意味著兩次引用不同，即 reducer 返回的是一個新對象），則將標識位 &lt;code class=&quot;language-text&quot;&gt;hasChanged&lt;/code&gt; 設為 &lt;code class=&quot;language-text&quot;&gt;true&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;遍歷完後，&lt;code class=&quot;language-text&quot;&gt;combineReducers&lt;/code&gt; 就得到一個新狀態對象，透過 &lt;code class=&quot;language-text&quot;&gt;hasChanged&lt;/code&gt; 標識位就能判斷出整體狀態是否發生更改，若爲 &lt;code class=&quot;language-text&quot;&gt;true&lt;/code&gt; 則新狀態會被返回給下游（下游指 &lt;code class=&quot;language-text&quot;&gt;react-redux&lt;/code&gt; 及其更下游的介面組件）。&lt;/p&gt;
+&lt;p&gt;遍歷完後，&lt;code class=&quot;language-text&quot;&gt;combineReducers&lt;/code&gt; 就得到一個新狀態對象，透過 &lt;code class=&quot;language-text&quot;&gt;hasChanged&lt;/code&gt; 標識位就能判斷出整體狀態是否發生更改，若為 &lt;code class=&quot;language-text&quot;&gt;true&lt;/code&gt; 則新狀態會被返回給下游（下游指 &lt;code class=&quot;language-text&quot;&gt;react-redux&lt;/code&gt; 及其更下游的介面組件）。&lt;/p&gt;
 &lt;p&gt;綜上所述我們知道，&lt;strong&gt;當狀態需要發生更改時，務必讓相應的 reducer 函數始終返回新對象。&lt;/strong&gt;修改原有對象的屬性值然後返回，並不會觸發組件的重渲染。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; Object&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;assign&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; state&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; count&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;count&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
@@ -654,7 +666,7 @@ state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;count&lt;span
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; Map &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;immutable&apos;&lt;/span&gt;
 &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; person &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Map&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;    &lt;span class=&quot;token comment&quot;&gt;// 創建一個空對象&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; personWithAge &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; person&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;age&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 爲 person 實例添加 age 屬性&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; personWithAge &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; person&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;age&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 為 person 實例添加 age 屬性&lt;/span&gt;
 &lt;span class=&quot;token comment&quot;&gt;// 調用 toJS() 打印出兩個實例&lt;/span&gt;
 console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;person&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;toJS&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// {}，person 的屬性不變&lt;/span&gt;
 console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;personWithAge&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;toJS&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// { age: 20 }&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
@@ -665,7 +677,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
       &lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Immutable 的原理：&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;有這樣一個 JavaScript 結構對象，根據 key 作爲索引，組織成字典查找樹：
+&lt;li&gt;有這樣一個 JavaScript 結構對象，根據 key 作為索引，組織成字典查找樹：
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/1-240776bc643dadbcabb25db0b589d2a4-1caba.jpg&quot;
@@ -697,7 +709,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
   
   &lt;/a&gt;
     &lt;/li&gt;
-&lt;li&gt;假設此時你想修改 &lt;code class=&quot;language-text&quot;&gt;tea&lt;/code&gt; 屬性的值爲 &lt;code class=&quot;language-text&quot;&gt;14&lt;/code&gt;，首先找到訪問到 &lt;code class=&quot;language-text&quot;&gt;tea&lt;/code&gt; 節點的關鍵路徑：
+&lt;li&gt;假設此時你想修改 &lt;code class=&quot;language-text&quot;&gt;tea&lt;/code&gt; 屬性的值為 &lt;code class=&quot;language-text&quot;&gt;14&lt;/code&gt;，首先找到訪問到 &lt;code class=&quot;language-text&quot;&gt;tea&lt;/code&gt; 節點的關鍵路徑：
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/2-665dcf1a08f3fbfff48f8b173e8b6a5c-4cf8a.jpg&quot;
