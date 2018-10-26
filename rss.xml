@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Jason Lam]]></title><description><![CDATA[慎獨｜純亦不已]]></description><link>https://lumen.netlify.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 26 Oct 2018 12:39:28 GMT</lastBuildDate><item><title><![CDATA[React 狀態管理模式]]></title><description><![CDATA[如果你的 React 應用沒有用上恰當的狀態管理模式，開發會變得非常辛苦。]]></description><link>https://lumen.netlify.com/posts/react-state-patterns</link><guid isPermaLink="false">https://lumen.netlify.com/posts/react-state-patterns</guid><pubDate>Sat, 01 Sep 2018 22:40:32 GMT</pubDate><content:encoded>&lt;h2&gt;狀態定義&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Jason Lam]]></title><description><![CDATA[慎獨｜純亦不已]]></description><link>https://lumen.netlify.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 26 Oct 2018 15:22:02 GMT</lastBuildDate><item><title><![CDATA[React 狀態管理模式]]></title><description><![CDATA[如果你的 React 應用沒有用上恰當的狀態管理模式，開發會變得非常辛苦。]]></description><link>https://lumen.netlify.com/posts/react-state-patterns</link><guid isPermaLink="false">https://lumen.netlify.com/posts/react-state-patterns</guid><pubDate>Sat, 01 Sep 2018 22:40:32 GMT</pubDate><content:encoded>&lt;h2&gt;狀態定義&lt;/h2&gt;
 &lt;p&gt;React 應用有四種不同的狀態：&lt;/p&gt;
 &lt;p&gt;
   &lt;a
@@ -353,13 +353,13 @@
 &lt;p&gt;朱熹已心之用為已發，在中和新舊說中立場一致。至於未發之心，朱熹言「性為未發」亦是心之未發，如黃宗羲言「&lt;em&gt;合性於心，言工夫也&lt;/em&gt;」即是「持敬」工夫。朱熹言「心為已發、性為未發」則「日用工夫全無本領」，而又言「&lt;em&gt;向來議論思索，直以心為已發，而日用工夫，以止以察識端倪為最初下手處，已故闕卻平日涵養一段工夫&lt;/em&gt;」。其所謂平日涵養之工夫在於涵養「&lt;em&gt;事物未至，思慮未萌，而一性渾然，道義全具，其所謂中，乃心之所以體，而寂然不動者也&lt;/em&gt;」。&lt;strong&gt;心之未發之際，性亦未發；未發之心乃一實體，內含著道義俱全之性。心在已發之際，如何能體察本心中道義俱全的性，則不僅是思慮萌發之時省察行為、情緒，亦必須在未發之際存養本心之理。&lt;/strong&gt;此所謂「一性渾然，道義全具」之心體該是朱熹所指稱之「道心」；思慮營為之心，該是朱熹所稱之人心。唯道心與人心並非兩物，而是繫於人之心體但有已發未發之不同層面。&lt;/p&gt;
 &lt;p&gt;心貫於已發未發，統合性情。當心未發，即思慮未萌，事物未至之時，性內在於心中，是心之虛靈，是性命之正。當事物交至，思慮萌發之時，性發動為情，心可以使發動之情有節制，此為道心；若心不使其發動之情有節制凡而使情傾向於私欲，則以人心稱之。於未發之際存養道義俱全之體，於已發之後時時省察行為處事，此「持敬」工夫，所著重是在「未發」時，存養工夫。&lt;/p&gt;
 &lt;h2&gt;當代之詮解&lt;/h2&gt;
-&lt;p&gt;當代學者的一大問題是：朱熹的心性思想是否承繼了孟子的道德心性學？在以心學與理學作為分判宋明理學的哲人時，伊川、朱熹被列入理學體系，而與象山、陽明的心學相異。&lt;/p&gt;
+&lt;p&gt;當代學者的一大問題是：朱熹的心性思想是否承繼了孟子的道德心性學？在以心學與理學作為分判宋明理學的哲人時，&lt;a href=&quot;https://zh.wikipedia.org/zh-hant/%E7%A8%8B%E9%A2%90&quot;&gt;伊川&lt;/a&gt;、朱熹被列入理學體系，而與&lt;a href=&quot;https://zh.wikipedia.org/zh-tw/%E9%99%B8%E4%B9%9D%E6%B7%B5&quot;&gt;象山&lt;/a&gt;、陽明的心學相異。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;象山、陽明：「心即理」，言心即是本心，而本心是道德的源泉與主體；「理」則明指仁義禮智等道德準則。人是一道德主體，因為此本心內含於人之中，且可以自律地體現出仁義禮智，此等理則非社會習俗亦非聖人特有而制訂的律則。&lt;/li&gt;
 &lt;li&gt;伊川、朱熹：「性即理」，「心」僅為一「認知心」，既然是經驗認知的知覺心便僅能認識道理而無創生意義，仁義禮智是來於社會規範或聖人之教、而非人自發自覺的體認。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;牟宗三認為象山、陽明是全然的孟子之學，其心性論是一「自律道德系統」，而伊川、朱熹的心性論則是一「他律道德系統」，與孟子心性體統不同。&lt;/p&gt;
-&lt;p&gt;勞思光認為朱熹的「心」是一「經驗主體」，只是能「知覺」「理」的能力，「理」才是一超驗實體。而孔孟至象山則是將「心」視為一超驗主體，是萬理之本。言朱熹是「立客體實有」而孔孟象山「立主體實有」。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://zh.wikipedia.org/zh-hant/%E7%89%9F%E5%AE%97%E4%B8%89&quot;&gt;牟宗三&lt;/a&gt; 認為象山、陽明是全然的孟子之學，其心性論是一「自律道德系統」，而伊川、朱熹的心性論則是一「他律道德系統」，與孟子心性體統不同。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://zh.wikipedia.org/zh-hant/%E5%8B%9E%E6%80%9D%E5%85%89&quot;&gt;勞思光&lt;/a&gt; 認為朱熹的「心」是一「經驗主體」，只是能「知覺」「理」的能力，「理」才是一超驗實體。而孔孟至象山則是將「心」視為一超驗主體，是萬理之本。言朱熹是「立客體實有」而孔孟象山「立主體實有」。&lt;/p&gt;
 &lt;p&gt;牟宗三認為中和舊說的性與心是體用關係，是承繼孟子心學的。朱熹所謂「&lt;em&gt;天命流行，生生不已之機&lt;/em&gt;」說明萬物之所以「生生不已」其「機」在於「天命流行」乃一創造實體，而「中」便是體認到「天命流行之體」。又及「寂然之本體」，牟先生認為「天命流行之體」是「&lt;em&gt;形式地說、客觀地說&lt;/em&gt;」而「寂然之本體」是「&lt;em&gt;內容地說、亦是主觀地說&lt;/em&gt;」。如此則「於穆不已」的「天命流行之體」不只是理，亦是心，亦可曰「寂感真機」。&lt;/p&gt;
 &lt;p&gt;在舊說中，性與心是一體用關係，但在新說中，心與性被視為一平行的兩體。而之所以會有這樣的轉向，是由於朱熹從「天命流行之體」說「未發之中」，轉而從「心之寂然」說「未發之中」。前者視「中」為一「於穆不已」之創生實體，是為「中體」，後者則是指「中」為一描述語，描述心在未發之際的狀態。在新說中強調了「心體流行」即是心的活動作用。當心體未活動作用時，是思慮未萌、事物未至之時，言此時心處於「寂然不動」狀態，以此言「未發之中」，而此「未發之中」的寂然不動的心體體現了天命之理，也因此言心性平行關係。&lt;/p&gt;
 &lt;p&gt;牟先生認為，朱熹在新說中，將心性視為一平行關係，真正的超越之實體（大本）只能是性，而不能是心。「心」必是一實然之心，其主要作用則是經驗知覺能力，但此一認知能力，使得人是為一經驗主體而非道德主體，「心」可以合於理，亦可以不合於理，全待於後天的修養工夫。&lt;/p&gt;
