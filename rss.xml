@@ -1,71 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by John Doe]]></title><description><![CDATA[Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.]]></description><link>https://lumen.netlify.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 26 Oct 2018 04:03:05 GMT</lastBuildDate><item><title><![CDATA[Humane Typography in the Digital Age]]></title><description><![CDATA[An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the handicrafts.]]></description><link>https://lumen.netlify.com/posts/humane-typography-in-the-digital-age/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/humane-typography-in-the-digital-age/</guid><pubDate>Sat, 19 Aug 2017 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the handicrafts.&lt;/p&gt;
-&lt;p&gt;The typography of this industrial age was no longer handcrafted. Mass production and profit became more important. Quantity mattered more than the quality. The books and printed works in general lost a part of its humanity. The typefaces were not produced by craftsmen anymore. It was the machines printing and tying the books together now. The craftsmen had to let go of their craft and became a cog in the process. An extension of the industrial machine.&lt;/p&gt;
-&lt;p&gt;But the victory of the industrialism didn’t mean that the craftsmen were completely extinct. The two worlds continued to coexist independently. Each recognising the good in the other — the power of industrialism and the humanity of craftsmanship. This was the second transition that would strip typography of a part of its humanity. We have to go 500 years back in time to meet the first one.&lt;/p&gt;
-&lt;h2&gt;The first transition&lt;/h2&gt;
-&lt;p&gt;A similar conflict emerged after the invention of the first printing press in Europe. Johannes Gutenberg invented movable type and used it to produce different compositions. His workshop could print up to 240 impressions per hour. Until then, the books were being copied by hand. All the books were handwritten and decorated with hand drawn ornaments and figures. A process of copying a book was long but each book, even a copy, was a work of art.&lt;/p&gt;
-&lt;p&gt;The first printed books were, at first, perceived as inferior to the handwritten ones. They were smaller and cheaper to produce. Movable type provided the printers with flexibility that allowed them to print books in languages other than Latin. Gill describes the transition to industrialism as something that people needed and wanted. Something similar happened after the first printed books emerged. People wanted books in a language they understood and they wanted books they could take with them. They were hungry for knowledge and printed books satisfied this hunger.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Jason Lam]]></title><description><![CDATA[慎獨｜純亦不已]]></description><link>https://lumen.netlify.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 26 Oct 2018 10:31:51 GMT</lastBuildDate><item><title><![CDATA[React 狀態管理模式]]></title><description><![CDATA[如果你的 React 應用沒有用上恰當的狀態管理模式，開發會變得非常辛苦。]]></description><link>https://lumen.netlify.com/posts/react-state-patterns</link><guid isPermaLink="false">https://lumen.netlify.com/posts/react-state-patterns</guid><pubDate>Sat, 01 Sep 2018 22:40:32 GMT</pubDate><content:encoded>&lt;h2&gt;狀態定義&lt;/h2&gt;
+&lt;p&gt;React 應用有四種不同的狀態：&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/42-line-bible-6d93cbc4956a854d4c4369f0e281e7f3-00f86.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 68.75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAOABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIEAQP/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/aAAwDAQACEAMQAAABvbVGo5jf/8QAGhAAAgIDAAAAAAAAAAAAAAAAAAIBEhARMf/aAAgBAQABBQLhdiL42osM0f/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABoQAAICAwAAAAAAAAAAAAAAAAABEUECEHH/2gAIAQEABj8CWqFJZKzhcP/EABsQAQACAwEBAAAAAAAAAAAAAAEAETFBUSFh/9oACAEBAAE/IWxVd4gBVvhEjFdWyikMcY8eJ8CgpP/aAAwDAQACAAMAAAAQKM//xAAWEQEBAQAAAAAAAAAAAAAAAAAAASH/2gAIAQMBAT8QrH//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxAn/8QAGhABAQADAQEAAAAAAAAAAAAAAREAIUFRMf/aAAgBAQABPxBRJVIvuRSQtfbjhE6LUnde3AkS1hAkddHuFEtpWk19z//Z&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;42-line-bible.jpg&quot;
-        title=&quot;&quot;
-        src=&quot;/static/42-line-bible-6d93cbc4956a854d4c4369f0e281e7f3-00f86.jpg&quot;
-        srcset=&quot;/static/42-line-bible-6d93cbc4956a854d4c4369f0e281e7f3-6a66e.jpg 240w,
-/static/42-line-bible-6d93cbc4956a854d4c4369f0e281e7f3-bc76f.jpg 480w,
-/static/42-line-bible-6d93cbc4956a854d4c4369f0e281e7f3-00f86.jpg 800w&quot;
-        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;p&gt;&lt;em&gt;The 42–Line Bible, printed by Gutenberg.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;But, through this transition, the book lost a large part of its humanity. The machine took over most of the process but craftsmanship was still a part of it. The typefaces were cut manually by the first punch cutters. The paper was made by hand. The illustrations and ornaments were still being hand drawn. These were the remains of the craftsmanship that went almost extinct in the times of Eric Gill.&lt;/p&gt;
-&lt;h2&gt;The digital age&lt;/h2&gt;
-&lt;p&gt;The first transition took away a large part of humanity from written communication. Industrialisation, the second transition described by Eric Gill, took away most of what was left. But it’s the third transition that stripped it naked. Typefaces are faceless these days. They’re just fonts on our computers. Hardly anyone knows their stories. Hardly anyone cares. Flicking through thousands of typefaces and finding the “right one” is a matter of minutes.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;In the new computer age the proliferation of typefaces and type manipulations represents a new level of visual pollution threatening our culture. Out of thousands of typefaces, all we need are a few basic ones, and trash the rest.&lt;/p&gt;
-&lt;p&gt;— Massimo Vignelli&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Typography is not about typefaces. It’s not about what looks best, it’s about what feels right. What communicates the message best. Typography, in its essence, is about the message. “Typographical design should perform optically what the speaker creates through voice and gesture of his thoughts.”, as El Lissitzky, a famous Russian typographer, put it.&lt;/p&gt;
-&lt;h2&gt;Loss of humanity through transitions&lt;/h2&gt;
-&lt;p&gt;Each transition took away a part of humanity from written language. Handwritten books being the most humane form and the digital typefaces being the least. Overuse of Helvetica is a good example. Messages are being told in a typeface just because it’s a safe option. It’s always there. Everyone knows it but yet, nobody knows it. Stop someone on the street and ask him what Helvetica is? Ask a designer the same question. Ask him where it came from, when, why and who designed it. Most of them will fail to answer these questions. Most of them used it in their precious projects but they still don’t spot it in the street.&lt;/p&gt;
-&lt;figure&gt;
-	&lt;blockquote&gt;
-		&lt;p&gt;Knowledge of the quality of a typeface is of the greatest importance for the functional, aesthetic and psychological effect.&lt;/p&gt;
-		&lt;footer&gt;
-			&lt;cite&gt;— Josef Mueller-Brockmann&lt;/cite&gt;
-		&lt;/footer&gt;
-	&lt;/blockquote&gt;
-&lt;/figure&gt;
-&lt;p&gt;Typefaces don’t look handmade these days. And that’s all right. They don’t have to. Industrialism took that away from them and we’re fine with it. We’ve traded that part of humanity for a process that produces more books that are easier to read. That can’t be bad. And it isn’t.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Humane typography will often be comparatively rough and even uncouth; but while a certain uncouthness does not seriously matter in humane works, uncouthness has no excuse whatever in the productions of the machine.&lt;/p&gt;
-&lt;p&gt;— Eric Gill&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;We’ve come close to “perfection” in the last five centuries. The letters are crisp and without rough edges. We print our compositions with high–precision printers on a high quality, machine made paper.&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/type-through-time-eaa988471fd2b61a1d4d313d0d9a5d23-b89bf.jpg&quot;
+    href=&quot;/static/1-6296f8fbed07ffbee8371d8db1a53bac-36541.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -77,18 +15,19 @@
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 20%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAEABQDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAT/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABrqJaRR//xAAXEAEAAwAAAAAAAAAAAAAAAAABAAIQ/9oACAEBAAEFAhlc/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8BJ//EABYQAAMAAAAAAAAAAAAAAAAAAAABEP/aAAgBAQAGPwIc/8QAGRAAAQUAAAAAAAAAAAAAAAAAAQAQESFx/9oACAEBAAE/ITCVU6b/2gAMAwEAAgADAAAAEIgP/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8QZ//EABURAQEAAAAAAAAAAAAAAAAAABAx/9oACAECAQE/EJP/xAAaEAEAAgMBAAAAAAAAAAAAAAABESEAEEFh/9oACAEBAAE/EAFK31cnbX06/9k=&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 38.6034255599473%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB3gQH/8QAFBABAAAAAAAAAAAAAAAAAAAAEP/aAAgBAQABBQJ//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAEP/aAAgBAQAGPwJ//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAEhEVH/2gAIAQEAAT8hpyCeH//aAAwDAQACAAMAAAAQA8//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAZEAEAAwEBAAAAAAAAAAAAAAABABEhMWH/2gAIAQEAAT8QKK12I6xXYIpfZ//Z&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;type-through-time.jpg&quot;
+        alt=&quot;React 應用的四種狀態&quot;
         title=&quot;&quot;
-        src=&quot;/static/type-through-time-eaa988471fd2b61a1d4d313d0d9a5d23-d564d.jpg&quot;
-        srcset=&quot;/static/type-through-time-eaa988471fd2b61a1d4d313d0d9a5d23-865fd.jpg 240w,
-/static/type-through-time-eaa988471fd2b61a1d4d313d0d9a5d23-d40a0.jpg 480w,
-/static/type-through-time-eaa988471fd2b61a1d4d313d0d9a5d23-d564d.jpg 960w,
-/static/type-through-time-eaa988471fd2b61a1d4d313d0d9a5d23-b89bf.jpg 1250w&quot;
+        src=&quot;/static/1-6296f8fbed07ffbee8371d8db1a53bac-d564d.jpg&quot;
+        srcset=&quot;/static/1-6296f8fbed07ffbee8371d8db1a53bac-865fd.jpg 240w,
+/static/1-6296f8fbed07ffbee8371d8db1a53bac-d40a0.jpg 480w,
+/static/1-6296f8fbed07ffbee8371d8db1a53bac-d564d.jpg 960w,
+/static/1-6296f8fbed07ffbee8371d8db1a53bac-c67c1.jpg 1440w,
+/static/1-6296f8fbed07ffbee8371d8db1a53bac-36541.jpg 1518w&quot;
         sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
       /&gt;
     &lt;/span&gt;
@@ -96,288 +35,736 @@
   
   &lt;/a&gt;
     &lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Type through 5 centuries.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;We lost a part of ourselves because of this chase after perfection. We forgot about the craftsmanship along the way. And the worst part is that we don’t care. The transition to the digital age made that clear. We choose typefaces like clueless zombies. There’s no meaning in our work. Type sizes, leading, margins… It’s all just a few clicks or lines of code. The message isn’t important anymore. There’s no more “why” behind the “what”.&lt;/p&gt;
-&lt;h2&gt;Chasing perfection&lt;/h2&gt;
-&lt;p&gt;Human beings aren’t perfect. Perfection is something that will always elude us. There will always be a small part of humanity in everything we do. No matter how small that part, we should make sure that it transcends the limits of the medium. We have to think about the message first. What typeface should we use and why? Does the typeface match the message and what we want to communicate with it? What will be the leading and why? Will there be more typefaces in our design? On what ground will they be combined? What makes our design unique and why? This is the part of humanity that is left in typography. It might be the last part. Are we really going to give it up?&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Originally published by &lt;a href=&quot;http://matejlatin.co.uk/&quot;&gt;Matej Latin&lt;/a&gt; on &lt;a href=&quot;https://medium.com/design-notes/humane-typography-in-the-digital-age-9bd5c16199bd?ref=webdesignernews.com#.lygo82z0x&quot;&gt;Medium&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Johannes Gutenberg: The Birth of Movable Type]]></title><description><![CDATA[German inventor Johannes Gutenberg developed a method of movable type and used it to create one of the western world’s first major printed books, the “Forty–Two–Line” Bible.]]></description><link>https://lumen.netlify.com/posts/the-birth-of-movable-type/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/the-birth-of-movable-type/</guid><pubDate>Fri, 18 Aug 2017 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;German inventor Johannes Gutenberg developed a method of movable type and used it to create one of the western world’s first major printed books, the “Forty–Two–Line” Bible.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Johannes Gensfleisch zur Laden zum Gutenberg&lt;/strong&gt; (c. 1398 – 1468) was a German blacksmith, goldsmith, printer, and publisher who introduced printing to Europe. His invention of mechanical movable type printing started the Printing Revolution and is widely regarded as the most important event of the modern period. It played a key role in the development of the Renaissance, Reformation, the Age of Enlightenment, and the Scientific revolution and laid the material basis for the modern knowledge-based economy and the spread of learning to the masses.&lt;/p&gt;
-&lt;figure class=&quot;float-right&quot; style=&quot;width: 240px&quot;&gt;
-	
-  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/Gutenberg-3e20438298edd3a3fa746766d803f379-a74ca.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
-  
-  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; ; max-width: 374px; margin-left: auto; margin-right: auto;&quot;&gt;
-    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 128.3422459893048%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAaABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAQP/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAFxLehXJYBWmjgwH//EABsQAAIDAQEBAAAAAAAAAAAAAAECAAMRBBIT/9oACAEBAAEFAum4iBrK2rf2hI3YjFZdV5JyV14rDV5wPpP/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAfEAACAgAHAQAAAAAAAAAAAAAAAREhAhASIjFRobH/2gAIAQEABj8C04RX6SOTd8HA+nY7LHJxl//EAB4QAQACAgIDAQAAAAAAAAAAAAEAIRExQVEQcZGB/9oACAEBAAE/IUlcYquWd5HgP0gEf0is3efsU6aL6QIa5zMz1Q9ynDYIVS24QAJjmZSlarx//9oADAMBAAIAAwAAABDwyTz/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EB//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/EB//xAAfEAEAAgICAgMAAAAAAAAAAAABABEhMUFRYXEQgaH/2gAIAQEAAT8QQiVZ26PU16WOg3QsAalx0JshMuRU4V1f3FBK8UybzfNy8S2r0QjsuzybSCl5ZOS/YeMGPyWUUwLI11aLgw+Pj//Z&amp;apos;); background-size: cover; display: block;&quot;&gt;
-      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;Gutenberg&quot; title=&quot;&quot; src=&quot;/static/Gutenberg-3e20438298edd3a3fa746766d803f379-a74ca.jpg&quot; srcset=&quot;/static/Gutenberg-3e20438298edd3a3fa746766d803f379-79241.jpg 240w,
-/static/Gutenberg-3e20438298edd3a3fa746766d803f379-a74ca.jpg 374w&quot; sizes=&quot;(max-width: 374px) 100vw, 374px&quot;&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    
-	&lt;figcaption&gt;Johannes Gutenberg&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;With his invention of the printing press, Gutenberg was the first European to use movable type printing, in around 1439. Among his many contributions to printing are: the invention of a process for mass-producing movable type; the use of oil-based ink; and the use of a wooden printing press similar to the agricultural screw presses of the period. His truly epochal invention was the combination of these elements into a practical system that allowed the mass production of printed books and was economically viable for printers and readers alike. Gutenberg’s method for making type is traditionally considered to have included a type metal alloy and a hand mould for casting type. The alloy was a mixture of lead, tin, and antimony that melted at a relatively low temperature for faster and more economical casting, cast well, and created a durable type.&lt;/p&gt;
-&lt;p&gt;In Renaissance Europe, the arrival of mechanical movable type printing introduced the era of mass communication which permanently altered the structure of society. The relatively unrestricted circulation of information — including revolutionary ideas — transcended borders, captured the masses in the Reformation and threatened the power of political and religious authorities; the sharp increase in literacy broke the monopoly of the literate elite on education and learning and bolstered the emerging middle class. Across Europe, the increasing cultural self-awareness of its people led to the rise of proto-nationalism, accelerated by the flowering of the European vernacular languages to the detriment of Latin’s status as lingua franca. In the 19th century, the replacement of the hand-operated Gutenberg-style press by steam-powered rotary presses allowed printing on an industrial scale, while Western-style printing was adopted all over the world, becoming practically the sole medium for modern bulk printing.&lt;/p&gt;
-&lt;p&gt;The use of movable type was a marked improvement on the handwritten manuscript, which was the existing method of book production in Europe, and upon woodblock printing, and revolutionized European book-making. Gutenberg’s printing technology spread rapidly throughout Europe and later the world.&lt;/p&gt;
-&lt;p&gt;His major work, the Gutenberg Bible (also known as the 42-line Bible), has been acclaimed for its high aesthetic and technical quality.&lt;/p&gt;
-&lt;h2&gt;Printing Press&lt;/h2&gt;
-&lt;p&gt;Around 1439, Gutenberg was involved in a financial misadventure making polished metal mirrors (which were believed to capture holy light from religious relics) for sale to pilgrims to Aachen: in 1439 the city was planning to exhibit its collection of relics from Emperor Charlemagne but the event was delayed by one year due to a severe flood and the capital already spent could not be repaid. When the question of satisfying the investors came up, Gutenberg is said to have promised to share a “secret”. It has been widely speculated that this secret may have been the idea of printing with movable type. Also around 1439–1440, the Dutch Laurens Janszoon Coster came up with the idea of printing. Legend has it that the idea came to him “like a ray of light”.&lt;/p&gt;
-&lt;figure class=&quot;float-left&quot; style=&quot;width: 240px&quot;&gt;
-	
-  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/Printing-press-9ec265253f068855f00558a9be7f3e03-e45ee.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
-  
-  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; ; max-width: 754px; margin-left: auto; margin-right: auto;&quot;&gt;
-    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 128.91246684350133%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAaCAIAAAA44esqAAAACXBIWXMAAAsSAAALEgHS3X78AAAEUklEQVQ4yzWUR0tlSxSF60c4cvBQxIE6UXGiOBBBERXFCKY2Yc4555zbnHPOOeecUXyImBFp9KHy0BZ1Zn/nXroGhzpVtfdea+1VJZ6entbW1k5OTv6VjYODg+3t7a2trY2Njb29vcPDw6OjI77r6+ubm5ss7uzszM3NTUxM3N7eipWVFS8vL39//5iYmMTExNDQ0Pj4+KysLBZ/yIaPjw8rISEhTNzc3FxcXDIzM62trVtbW8Xi4mJkZCRHvb29IyIiAgMDCeAoizY2Nra2thUVFeHh4cydnZ0JNjU1zcvLY97c3CxmZmZYYptzZmZmGhoaSkpK/8iGoqKipqamiYlJW1uboaEhk7i4OL66urr6+vpSZShBsra2luKAcXJyAoKBgYGenp62tnZ6ejpEAFJQUAAWaINZVVVVRUWlurpanJ2ddXZ2RkdHt7e3s52bm8sqqMDm6uoaHByMWmQkGM3c3d3T0tIsLS2VlZUl2ASXl5ezNzg4iGalpaUdHR0cQjz4IxKNQAskNDc3F0KQlGBIwUXc3NwQVlhY2NPTk5SUlJqaWlxcDH5YGRsbA5jmATUoKEhdXZ2kLS0tWlpaCgoK4BV3d3ejo6N1dXX8ABvCDg4OHEJFONvZ2cHip2yQl10w8kWIvr4+cXFxMTAwADBSZmRk0BJHR8fk5GRqWlhYIFtlZWV+fj7BbOno6JSVlbEbGxs7MjIice7t7YUqlYlH3uzsbMQgPZxBCy4iU1JSQATtmpoaWFCMdXF5eTk7Ozs+Pk7PioqKqEMDyQp/RFpYWGDFysqKYDqC1E1NTXQbOYeGhgQ2rq+vJwzZ6BbEOIft6DzBIKJtGIN15tQANis4anh4WOzv75+fn+MTrLa8vExiUmBJctNz5OEc+tECjIXOVAK/r6+vFEzl09NTUuzu7tI6aHOZuDqcDgsLow4sCEBLCqIZLgAIREAqaCPdwkaYgYuGyLBFs4aGBipzlCw5OTl8uTA0Hy2joqL8/PzGxsakW4WY8maQDBkRBpFRG8AeHh40H53ImJCQQDqAIJiRkRE9ElNTU+gJT5boVmNjIx4GSHd3N/ixp6enJ+34/v7m2bi6usKR9Jn7ByipMud4HKqqqshKPpgvLS2trq4iHm6n8+hPXlLgtv7+fpTnhvIrqENxZqTki+nAj/LHx8egRWGkhiRawJZI5OCq2dvbc0bwLCE4bGkspuNVCAgIQGeYoxD25OlAXm6S3HMA4VXijGQSgq+vr0mjpqZGM9hmD/7ya4gT5cai4fxCjbZxFzAMKKQH8OPjgz5xUbArxgQ5BkBCukX6rq4uCLPOnHUi5V5CKcHs/f0dGbmVJMMVnCaevcnJyfn5eb5oMT09jQuIRGQSlZSUSG8Y1iceeWkYYEjBKpG8DfKjzPmiFveJNwfn0k6Y0yDx+fn5+Pj4/Pz8+vr6++94e3t7lY3/ZePl5eU/2Xh4ePglG/f3919fX38AEQttJBy4KAgAAAAASUVORK5CYII=&amp;apos;); background-size: cover; display: block;&quot;&gt;
-      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;Early Printing Press&quot; title=&quot;&quot; src=&quot;/static/Printing-press-9ec265253f068855f00558a9be7f3e03-e45ee.png&quot; srcset=&quot;/static/Printing-press-9ec265253f068855f00558a9be7f3e03-309d8.png 240w,
-/static/Printing-press-9ec265253f068855f00558a9be7f3e03-1d2a3.png 480w,
-/static/Printing-press-9ec265253f068855f00558a9be7f3e03-e45ee.png 754w&quot; sizes=&quot;(max-width: 754px) 100vw, 754px&quot;&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    
-	&lt;figcaption&gt;Early wooden printing press as depicted in 1568.&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;Until at least 1444 he lived in Strasbourg, most likely in the St. Arbogast parish. It was in Strasbourg in 1440 that Gutenberg is said to have perfected and unveiled the secret of printing based on his research, mysteriously entitled Kunst und Aventur (art and enterprise). It is not clear what work he was engaged in, or whether some early trials with printing from movable type may have been conducted there. After this, there is a gap of four years in the record. In 1448, he was back in Mainz, where he took out a loan from his brother-in-law Arnold Gelthus, quite possibly for a printing press or related paraphernalia. By this date, Gutenberg may have been familiar with intaglio printing; it is claimed that he had worked on copper engravings with an artist known as the Master of Playing Cards.&lt;/p&gt;
-&lt;p&gt;By 1450, the press was in operation, and a German poem had been printed, possibly the first item to be printed there. Gutenberg was able to convince the wealthy moneylender Johann Fust for a loan of 800 guilders. Peter Schöffer, who became Fust’s son-in-law, also joined the enterprise. Schöffer had worked as a scribe in Paris and is believed to have designed some of the first typefaces.&lt;/p&gt;
-&lt;figure&gt;
-	&lt;blockquote&gt;
-		&lt;p&gt;All that has been written to me about that marvelous man seen at Frankfurt is true. I have not seen complete Bibles but only a number of quires of various books of the Bible. The script was very neat and legible, not at all difficult to follow—your grace would be able to read it without effort, and indeed without glasses.&lt;/p&gt;
-		&lt;footer&gt;
-			&lt;cite&gt;—Future pope Pius II in a letter to Cardinal Carvajal, March 1455&lt;/cite&gt;
-		&lt;/footer&gt;
-	&lt;/blockquote&gt;
-&lt;/figure&gt;
-&lt;p&gt;Gutenberg’s workshop was set up at Hof Humbrecht, a property belonging to a distant relative. It is not clear when Gutenberg conceived the Bible project, but for this he borrowed another 800 guilders from Fust, and work commenced in 1452. At the same time, the press was also printing other, more lucrative texts (possibly Latin grammars). There is also some speculation that there may have been two presses, one for the pedestrian texts, and one for the Bible. One of the profit-making enterprises of the new press was the printing of thousands of indulgences for the church, documented from 1454–55.&lt;/p&gt;
-&lt;p&gt;In 1455 Gutenberg completed his 42-line Bible, known as the Gutenberg Bible. About 180 copies were printed, most on paper and some on vellum.&lt;/p&gt;
-&lt;h2&gt;Court Case&lt;/h2&gt;
-&lt;p&gt;Some time in 1456, there was a dispute between Gutenberg and Fust, and Fust demanded his money back, accusing Gutenberg of misusing the funds. Meanwhile the expenses of the Bible project had proliferated, and Gutenberg’s debt now exceeded 20,000 guilders. Fust sued at the archbishop’s court. A November 1455 legal document records that there was a partnership for a “project of the books,” the funds for which Gutenberg had used for other purposes, according to Fust. The court decided in favor of Fust, giving him control over the Bible printing workshop and half of all printed Bibles.&lt;/p&gt;
-&lt;p&gt;Thus Gutenberg was effectively bankrupt, but it appears he retained (or re-started) a small printing shop, and participated in the printing of a Bible in the town of Bamberg around 1459, for which he seems at least to have supplied the type. But since his printed books never carry his name or a date, it is difficult to be certain, and there is consequently a considerable scholarly debate on this subject. It is also possible that the large Catholicon dictionary, 300 copies of 754 pages, printed in Mainz in 1460, may have been executed in his workshop.&lt;/p&gt;
-&lt;p&gt;Meanwhile, the Fust–Schöffer shop was the first in Europe to bring out a book with the printer’s name and date, the Mainz Psalter of August 1457, and while proudly proclaiming the mechanical process by which it had been produced, it made no mention of Gutenberg.&lt;/p&gt;
-&lt;h2&gt;Later Life&lt;/h2&gt;
-&lt;p&gt;In 1462, during a conflict between two archbishops, Mainz was sacked by archbishop Adolph von Nassau, and Gutenberg was exiled. An old man by now, he moved to Eltville where he may have initiated and supervised a new printing press belonging to the brothers Bechtermünze.&lt;/p&gt;
-&lt;p&gt;In January 1465, Gutenberg’s achievements were recognized and he was given the title Hofmann (gentleman of the court) by von Nassau. This honor included a stipend, an annual court outfit, as well as 2,180 litres of grain and 2,000 litres of wine tax-free. It is believed he may have moved back to Mainz around this time, but this is not certain.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;Gutenberg died in 1468 and was buried in the Franciscan church at Mainz, his contributions largely unknown. This church and the cemetery were later destroyed, and Gutenberg’s grave is now lost.&lt;/p&gt;
-&lt;p&gt;In 1504, he was mentioned as the inventor of typography in a book by Professor Ivo Wittig. It was not until 1567 that the first portrait of Gutenberg, almost certainly an imaginary reconstruction, appeared in Heinrich Pantaleon’s biography of famous Germans.&lt;/p&gt;
-&lt;h2&gt;Printing Method With Movable Type&lt;/h2&gt;
-&lt;p&gt;Gutenberg’s early printing process, and what tests he may have made with movable type, are not known in great detail. His later Bibles were printed in such a way as to have required large quantities of type, some estimates suggesting as many as 100,000 individual sorts. Setting each page would take, perhaps, half a day, and considering all the work in loading the press, inking the type, pulling the impressions, hanging up the sheets, distributing the type, etc., it is thought that the Gutenberg–Fust shop might have employed as many as 25 craftsmen.&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/movable-type-0d1540b9a8fca9db753ad10ae0a3427e-94ac0.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 960px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 66.43356643356644%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABlT8ktxAf/8QAGBABAQEBAQAAAAAAAAAAAAAAAQARAkH/2gAIAQEAAQUC8tkNJ7x//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGRAAAgMBAAAAAAAAAAAAAAAAARAAETFR/9oACAEBAAY/AidlLOv/xAAZEAEAAwEBAAAAAAAAAAAAAAABABEhUUH/2gAIAQEAAT8hGrOMO3FDOPkxyVDQxUc5LGi7sRCp/9oADAMBAAIAAwAAABDQD//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/EKr/xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQIBAT8QCwb/xAAeEAEBAAICAgMAAAAAAAAAAAABEQAhMVFB4WGR8P/aAAgBAQABPxBGghtORln24lVU05k694Azw6uOmDAwiT2+ct3AIWn7eBEac//Z&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Movable metal type, and composing stick, descended from Gutenberg&apos;s press. Photo by Willi Heidelbach. Licensed under CC BY 2.5&quot;
-        title=&quot;&quot;
-        src=&quot;/static/movable-type-0d1540b9a8fca9db753ad10ae0a3427e-d564d.jpg&quot;
-        srcset=&quot;/static/movable-type-0d1540b9a8fca9db753ad10ae0a3427e-865fd.jpg 240w,
-/static/movable-type-0d1540b9a8fca9db753ad10ae0a3427e-d40a0.jpg 480w,
-/static/movable-type-0d1540b9a8fca9db753ad10ae0a3427e-d564d.jpg 960w,
-/static/movable-type-0d1540b9a8fca9db753ad10ae0a3427e-c67c1.jpg 1440w,
-/static/movable-type-0d1540b9a8fca9db753ad10ae0a3427e-667be.jpg 1920w,
-/static/movable-type-0d1540b9a8fca9db753ad10ae0a3427e-94ac0.jpg 2288w&quot;
-        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Movable metal type, and composing stick, descended from Gutenberg’s press. Photo by Willi Heidelbach. Licensed under CC BY 2.5&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Gutenberg’s technique of making movable type remains unclear. In the following decades, punches and copper matrices became standardized in the rapidly disseminating printing presses across Europe. Whether Gutenberg used this sophisticated technique or a somewhat primitive version has been the subject of considerable debate.&lt;/p&gt;
-&lt;p&gt;In the standard process of making type, a hard metal punch (made by punchcutting, with the letter carved back to front) is hammered into a softer copper bar, creating a matrix. This is then placed into a hand-held mould and a piece of type, or “sort”, is cast by filling the mould with molten type-metal; this cools almost at once, and the resulting piece of type can be removed from the mould. The matrix can be reused to create hundreds, or thousands, of identical sorts so that the same character appearing anywhere within the book will appear very uniform, giving rise, over time, to the development of distinct styles of typefaces or fonts. After casting, the sorts are arranged into type-cases, and used to make up pages which are inked and printed, a procedure which can be repeated hundreds, or thousands, of times. The sorts can be reused in any combination, earning the process the name of “movable type”.&lt;/p&gt;
-&lt;p&gt;The invention of the making of types with punch, matrix and mold has been widely attributed to Gutenberg. However, recent evidence suggests that Gutenberg’s process was somewhat different. If he used the punch and matrix approach, all his letters should have been nearly identical, with some variations due to miscasting and inking. However, the type used in Gutenberg’s earliest work shows other variations.&lt;/p&gt;
-&lt;figure&gt;
-	&lt;blockquote&gt;
-		&lt;p&gt;It is a press, certainly, but a press from which shall flow in inexhaustible streams… Through it, god will spread his word.&lt;/p&gt;
-		&lt;footer&gt;
-			&lt;cite&gt;—Johannes Gutenberg&lt;/cite&gt;
-		&lt;/footer&gt;
-	&lt;/blockquote&gt;
-&lt;/figure&gt;
-&lt;p&gt;In 2001, the physicist Blaise Agüera y Arcas and Princeton librarian Paul Needham, used digital scans of a Papal bull in the Scheide Library, Princeton, to carefully compare the same letters (types) appearing in different parts of the printed text. The irregularities in Gutenberg’s type, particularly in simple characters such as the hyphen, suggested that the variations could not have come from either ink smear or from wear and damage on the pieces of metal on the types themselves. While some identical types are clearly used on other pages, other variations, subjected to detailed image analysis, suggested that they could not have been produced from the same matrix. Transmitted light pictures of the page also appeared to reveal substructures in the type that could not arise from traditional punchcutting techniques. They hypothesized that the method may have involved impressing simple shapes to create alphabets in “cuneiform” style in a matrix made of some soft material, perhaps sand. Casting the type would destroy the mould, and the matrix would need to be recreated to make each additional sort. This could explain the variations in the type, as well as the substructures observed in the printed images.&lt;/p&gt;
-&lt;p&gt;Thus, they feel that “the decisive factor for the birth of typography”, the use of reusable moulds for casting type, might have been a more progressive process than was previously thought. They suggest that the additional step of using the punch to create a mould that could be reused many times was not taken until twenty years later, in the 1470s. Others have not accepted some or all of their suggestions, and have interpreted the evidence in other ways, and the truth of the matter remains very uncertain.&lt;/p&gt;
-&lt;p&gt;A 1568 history by Hadrianus Junius of Holland claims that the basic idea of the movable type came to Gutenberg from Laurens Janszoon Coster via Fust, who was apprenticed to Coster in the 1430s and may have brought some of his equipment from Haarlem to Mainz. While Coster appears to have experimented with moulds and castable metal type, there is no evidence that he had actually printed anything with this technology. He was an inventor and a goldsmith. However, there is one indirect supporter of the claim that Coster might be the inventor. The author of the Cologne Chronicle of 1499 quotes Ulrich Zell, the first printer of Cologne, that printing was performed in Mainz in 1450, but that some type of printing of lower quality had previously occurred in the Netherlands. However, the chronicle does not mention the name of Coster, while it actually credits Gutenberg as the “first inventor of printing” in the very same passage (fol. 312). The first securely dated book by Dutch printers is from 1471, and the Coster connection is today regarded as a mere legend.&lt;/p&gt;
-&lt;p&gt;The 19th century printer and typefounder Fournier Le Jeune suggested that Gutenberg might not have been using type cast with a reusable matrix, but possibly wooden types that were carved individually. A similar suggestion was made by Nash in 2004. This remains possible, albeit entirely unproven.&lt;/p&gt;
-&lt;p&gt;It has also been questioned whether Gutenberg used movable types at all. In 2004, Italian professor Bruno Fabbiani claimed that examination of the 42-line Bible revealed an overlapping of letters, suggesting that Gutenberg did not in fact use movable type (individual cast characters) but rather used whole plates made from a system somewhat like a modern typewriter, whereby the letters were stamped successively into the plate and then printed. However, most specialists regard the occasional overlapping of type as caused by paper movement over pieces of type of slightly unequal height.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The Origins of Social Stationery Lettering]]></title><description><![CDATA[Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.]]></description><link>https://lumen.netlify.com/posts/the-origins-of-social-stationery-lettering</link><guid isPermaLink="false">https://lumen.netlify.com/posts/the-origins-of-social-stationery-lettering</guid><pubDate>Thu, 01 Dec 2016 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;Pellentesque habitant morbi tristique&lt;/strong&gt; senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. &lt;em&gt;Aenean ultricies mi vitae est.&lt;/em&gt; Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. &lt;/p&gt;
-&lt;p&gt;Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.  &lt;a href=&quot;#&quot;&gt;Donec non enim&lt;/a&gt; in turpis pulvinar facilisis.&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/1-2c2b7012cc7a218b86a2e5f4fdd1b9c7-5b032.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 960px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEDBP/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHflc0iMP/EABoQAQADAAMAAAAAAAAAAAAAAAIAARIDITL/2gAIAQEAAQUCazPUfISkq0O4hq//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAaEAACAgMAAAAAAAAAAAAAAAAAARARIVFh/9oACAEBAAY/AumSqLE9OP/EABsQAAIDAQEBAAAAAAAAAAAAAAABESExQXGx/9oACAEBAAE/IUVVi23Dn00T0lpaYnT6JkfKP//aAAwDAQACAAMAAAAQzy//xAAXEQADAQAAAAAAAAAAAAAAAAAAAREh/9oACAEDAQE/EFEYf//EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAgEBPxB1n//EABsQAQEBAAMBAQAAAAAAAAAAAAERACExUUGh/9oACAEBAAE/EDQKdHmA9UQLwQ/M6hQVLmMVa1OjN+ctDjjEqA108Xf/2Q==&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Nulla faucibus vestibulum eros in tempus. Vestibulum tempor imperdiet velit nec dapibus&quot;
-        title=&quot;&quot;
-        src=&quot;/static/1-2c2b7012cc7a218b86a2e5f4fdd1b9c7-d564d.jpg&quot;
-        srcset=&quot;/static/1-2c2b7012cc7a218b86a2e5f4fdd1b9c7-865fd.jpg 240w,
-/static/1-2c2b7012cc7a218b86a2e5f4fdd1b9c7-d40a0.jpg 480w,
-/static/1-2c2b7012cc7a218b86a2e5f4fdd1b9c7-d564d.jpg 960w,
-/static/1-2c2b7012cc7a218b86a2e5f4fdd1b9c7-c67c1.jpg 1440w,
-/static/1-2c2b7012cc7a218b86a2e5f4fdd1b9c7-5b032.jpg 1800w&quot;
-        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;h2&gt;Header Level 2&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
-&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;li&gt;全局狀態：在組件樹外部維護的狀態，典型者爲 Redux。此處的狀態能爲應用中任意一處所訪問。&lt;/li&gt;
+&lt;li&gt;組件狀態：在組件（container）中透過 &lt;code class=&quot;language-text&quot;&gt;setState&lt;/code&gt; 持有並維護的狀態。&lt;/li&gt;
+&lt;li&gt;相對狀態：從父組件傳至子組件的狀態。&lt;/li&gt;
+&lt;li&gt;供給狀態：被一個 provider 置入上下文（使用 React 的 Context API）的狀態，能被組件單獨取用而毋須在組件樹中傳遞。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. &lt;/p&gt;
-&lt;figure&gt;
-	&lt;blockquote&gt;
-		&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.&lt;/p&gt;
-		&lt;footer&gt;
-			&lt;cite&gt;— Aliquam tincidunt mauris eu risus.&lt;/cite&gt;
-		&lt;/footer&gt;
-	&lt;/blockquote&gt;
-&lt;/figure&gt;
-&lt;h3&gt;Header Level 3&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
-&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.&lt;/p&gt;
+&lt;h2&gt;Pattern 1: Prop-drilling&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2-42bc63fa303ac73efe0ca5ee07531f08-5a92a.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 778px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 82.51928020565552%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAARABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe9OimCAAf/EABUQAQEAAAAAAAAAAAAAAAAAACAR/9oACAEBAAEFAjR//8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAFBABAAAAAAAAAAAAAAAAAAAAMP/aAAgBAQAGPwIf/8QAHBABAQACAgMAAAAAAAAAAAAAAQAhMRBBEVGB/9oACAEBAAE/IVz4jHA+7qAbbr5M7b//2gAMAwEAAgADAAAAEGMAAP/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8QH//EABwQAQADAAIDAAAAAAAAAAAAAAEAEUEhMVFxof/aAAgBAQABPxDyBHVRXnYNlwLWnPUEsNXkAoLmJ16J9U//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Prop-drilling pattern&quot;
+        title=&quot;&quot;
+        src=&quot;/static/2-42bc63fa303ac73efe0ca5ee07531f08-5a92a.jpg&quot;
+        srcset=&quot;/static/2-42bc63fa303ac73efe0ca5ee07531f08-c34a1.jpg 240w,
+/static/2-42bc63fa303ac73efe0ca5ee07531f08-ecebb.jpg 480w,
+/static/2-42bc63fa303ac73efe0ca5ee07531f08-5a92a.jpg 778w&quot;
+        sizes=&quot;(max-width: 778px) 100vw, 778px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;這是最爲常見的模式。其理念是僅有 containers（smart components）負責創建狀態，也僅有它們可以取用全局 store 的狀態。它們能透過 &lt;code class=&quot;language-text&quot;&gt;setState&lt;/code&gt; 創建其自己的狀態，並用 &lt;code class=&quot;language-text&quot;&gt;props&lt;/code&gt; 傳給組件樹。&lt;/p&gt;
+&lt;p&gt;當全局狀態需要變化，該變化會在 container 處激發（如 Redux 的 dispatch 一個 action）。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3-88cea6468c895e2b7f06eed880695750-5a92a.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 778px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 82.51928020565552%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAARABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe9OimCAAf/EABUQAQEAAAAAAAAAAAAAAAAAACAR/9oACAEBAAEFAjR//8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAFBABAAAAAAAAAAAAAAAAAAAAMP/aAAgBAQAGPwIf/8QAHBABAQACAgMAAAAAAAAAAAAAAQAhMRARQVHR/9oACAEBAAE/IVz1GOB93iAbb5M7b//aAAwDAQACAAMAAAAQIwAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPxAf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPxAf/8QAGxABAAMBAAMAAAAAAAAAAAAAAQARIUExcaH/2gAIAQEAAT8Qs0TI6qK72DZcC1pviCWGr5AKCycJ69E+qf/Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Prop-drilling pattern: 全局狀態的變動只能發生在 container&quot;
+        title=&quot;&quot;
+        src=&quot;/static/3-88cea6468c895e2b7f06eed880695750-5a92a.jpg&quot;
+        srcset=&quot;/static/3-88cea6468c895e2b7f06eed880695750-c34a1.jpg 240w,
+/static/3-88cea6468c895e2b7f06eed880695750-ecebb.jpg 480w,
+/static/3-88cea6468c895e2b7f06eed880695750-5a92a.jpg 778w&quot;
+        sizes=&quot;(max-width: 778px) 100vw, 778px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;這個模式有三種類型的狀態：全局狀態、組件狀態及相對狀態。&lt;/p&gt;
+&lt;p&gt;優點在於職責定義清晰。我們知道全局狀態的變動只能發生在 container，而組件接收的狀態只能來自於 container。&lt;/p&gt;
+&lt;p&gt;缺點來自相對狀態。當傳遞多於兩層時，就會變得混亂。&lt;/p&gt;
+&lt;h2&gt;Pattern 2: Redux-centric&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4-9f01d8f50014d049eb981b2a0f423f07-1f7c9.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 786px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 81.67938931297711%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAQABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe9Gi0D/xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAEFAl//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAZEAADAQEBAAAAAAAAAAAAAAAAAREhQVH/2gAIAQEAAT8hb0WeiL0pYf/aAAwDAQACAAMAAAAQcN//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAbEAADAQEAAwAAAAAAAAAAAAAAAREhMVFhof/aAAgBAQABPxDgdh4noaoSWtvwhW7d4JMOuej/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Redux-centric pattern&quot;
+        title=&quot;&quot;
+        src=&quot;/static/4-9f01d8f50014d049eb981b2a0f423f07-1f7c9.jpg&quot;
+        srcset=&quot;/static/4-9f01d8f50014d049eb981b2a0f423f07-c0b80.jpg 240w,
+/static/4-9f01d8f50014d049eb981b2a0f423f07-05f89.jpg 480w,
+/static/4-9f01d8f50014d049eb981b2a0f423f07-1f7c9.jpg 786w&quot;
+        sizes=&quot;(max-width: 786px) 100vw, 786px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;與前一個模式不同之處在於，dumb components 現在不那麼 dumb 了。它們能自己訪問到全局狀態，而毋需 Container 傳遞。&lt;/p&gt;
+&lt;p&gt;但這帶來的壞處是模糊了職責的定義，現在 container 和 dumb components 皆能自行訪問全局狀態；dumb components 何時應接收相對狀態、何時應使用全局狀態亦不明確。&lt;/p&gt;
+&lt;p&gt;最重要的是，全局狀態並不遵循 React 組件的生命週期。如果使用相對狀態模式，當 container 卸載時，其狀態會重置，意味着從 container 接收數據的組件不再擁有那些 props。但是如果該組件是從全局拉取其狀態的，而當其卸載時，該狀態仍存在於全局。當它重新掛載時，將會收到如舊的數據。這通常引致 bug。組件現在與相關的全局狀態緊密耦合了，降低其復用性。&lt;/p&gt;
+&lt;p&gt;一個方法是在組件卸載時重置該部分全局狀態。但這也說明了如果需要這樣做，或許更宜使用組件內的狀態。&lt;/p&gt;
+&lt;h2&gt;Pattern 3: Provided State&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/5-530c3e0b12f5045ea70503318fc0944a-a7a74.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 816px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 72.4264705882353%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAOABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB35Ckj//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEAAQUCX//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EABkQAAIDAQAAAAAAAAAAAAAAAAARARAhQf/aAAgBAQABPyGSMp9GhrD/2gAMAwEAAgADAAAAEHMP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGxABAAIDAQEAAAAAAAAAAAAAAQAhETFBUWH/2gAIAQEAAT8QTotgU4O3cHJkldNz4F3Hm15P/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Provided state pattern&quot;
+        title=&quot;&quot;
+        src=&quot;/static/5-530c3e0b12f5045ea70503318fc0944a-a7a74.jpg&quot;
+        srcset=&quot;/static/5-530c3e0b12f5045ea70503318fc0944a-e5b4f.jpg 240w,
+/static/5-530c3e0b12f5045ea70503318fc0944a-220ea.jpg 480w,
+/static/5-530c3e0b12f5045ea70503318fc0944a-a7a74.jpg 816w&quot;
+        sizes=&quot;(max-width: 816px) 100vw, 816px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;React v16.3 後正式支援 Context API。每個 context 都有一個 &lt;code class=&quot;language-text&quot;&gt;provider&lt;/code&gt; 和 &lt;code class=&quot;language-text&quot;&gt;consumer&lt;/code&gt;。在上圖中，Containers 是 context 的 providers，而 Components 是 consumers。Containers 能從全局狀態中承繼 state，亦能自己創造 state 並「provide」予 context。然後 Components 能從 context 中挑揀所需的 props，而毋須依賴 container 或全局狀態。&lt;/p&gt;
+&lt;p&gt;這種分工類似於 pattern 1——containers 是唯一能操縱並使用全局狀態的組件，components 只從 context 處獲取 props 並展現之。&lt;/p&gt;
+&lt;p&gt;這種模式解決了之前的問題：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;由於 component 能從 context 處獲取其所需的任意內容，毋須從 container 傳遞，雖然一定程度上還需要組件間的相對狀態，但完全消弭了 prop-drilling 問題。&lt;/li&gt;
+&lt;li&gt;毋須再顧慮 component 位於組件樹中的何處，增強了復用性。在 pattern 1 中，一旦 component 被置於組件樹中並接收 props，它就不能被隨意移動——除非重構其 props 來源。&lt;/li&gt;
+&lt;li&gt;每個 context state 都與 provider 的生命週期綁定起來，當向 context 提供 state 的 container 卸載時，所有 state 都自動 reset，亦是減少耦合、提高復用。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;一個 provided pattern 例子&lt;/strong&gt;：&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;#header h1 a&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token property&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; block&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;token property&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 300px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;token property&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 80px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// table.container.js&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; Component &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react&apos;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; Table&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Body&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Header&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; TableContext &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;../table.component&apos;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;TableContainer&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Component&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  state &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    activeRow&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    data&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      id&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      year&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;1961&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      make&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Jaguar&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      model&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;E-Type&apos;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      id&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      year&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;1969&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      make&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Farrari&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      model&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;365 GT 2 + 2&apos;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    columns&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      name&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;id&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      editable&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      name&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;year&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      editable&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      name&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;make&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      editable&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      name&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;model&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      editable&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;token function&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; data&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; columns&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; activeRow &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;state
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;TableContext&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Provider
+        value&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+          data&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+          columns&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+          activeRow&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+          selectRow&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; id &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; activeRow&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; id &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+          updateRow&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;args&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;updateRow&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;args&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Table&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+          &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Header &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+          &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Body &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;Table&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;activeRow &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+          &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;button onClick&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; activeRow&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;Done&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;button&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;TableContext&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Provider&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;token function&quot;&gt;updateRow&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;rowId&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; field&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; value&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; data &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;state
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; index &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; data&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;findIndex&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; id &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; id &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; rowId&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    data&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;index&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;field&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; value
+    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; data &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// table.component.js&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; createContext &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react&apos;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; Input &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;../shared/inputs&apos;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; TableContext &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;createContext&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;Row&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; row &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;TableContext&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Consumer&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; columns &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt;
+      columns&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;field&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; i&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;td key&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;i&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;row&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;field&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;name&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;td&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;TableContext&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Consumer&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;EditRow&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; row &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;TableContext&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Consumer&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; columns&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; updateRow &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt;
+      columns&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;field&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; i&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;td key&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;i&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+          &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;field&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;editable &lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+            &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;input
+              value&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;row&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;field&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;name&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+              onChange&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;e &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;updateRow&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;row&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;id&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; field&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;name&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; e&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;target&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+          &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+            row&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;field&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;name&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+          &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;td&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;TableContext&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Consumer&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;Body&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;TableContext&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Consumer&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; columns&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; data&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; activeRow&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; selectRow &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;tbody&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;row&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; i&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+          &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;tr key&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;row&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;id&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; onClick&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;selectRow&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;row&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;id&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+            &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;activeRow &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; row&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;id &lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;EditRow row&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;row&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Row row&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;row&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+          &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;tr&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;tbody&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;TableContext&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Consumer&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;Header&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;TableContext&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Consumer&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; columns &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;thead&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;tr&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;columns&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;field&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; i&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;th key&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;i&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;field&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;name&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;th&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;tr&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;thead&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;TableContext&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Consumer&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;Table&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; children &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;table&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;children&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;table&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;完 :)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[朱熹中和說]]></title><description><![CDATA[朱熹的新舊中和說，主要在闡發《中庸》中關於已發、未發的思想，着重於討論「心」的層面。此文介紹中和說之餘，順便梳理其與孟子心性論、陽明心學之關係。]]></description><link>https://lumen.netlify.com/posts/朱熹中和說/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/朱熹中和說/</guid><pubDate>Sun, 01 Jul 2018 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;朱熹的新舊中和說，主要在闡發《中庸》中關於已發、未發的思想，着重於討論「心」的層面。&lt;/p&gt;
+&lt;p&gt;近代學者都將朱熹的「心」解釋爲「認知心」，而王陽明的「心」則具有道德主體之意。似乎朱熹沒有孟子心學的思路，而陽明纔是真正繼承或完成孟子心性論主體思想體系。&lt;/p&gt;
+&lt;p&gt;亦有學者認爲朱熹談《中庸》之已發未發學說是出於心性論的角度，其對道德本心、良心的肯定並非不明確。&lt;/p&gt;
+&lt;p&gt;朱熹如何談已發、未發來討論「心」之概念？朱熹論「心」是否僅取「認知心」之意義、抑或涵攝「道德本心」、「良心」的層面？&lt;/p&gt;
+&lt;h2&gt;中和說之意涵&lt;/h2&gt;
+&lt;p&gt;朱熹以四書及四書義理之學取代六經及六經訓詁之學作爲整體經學的主體和基礎，強調四書重於六經，以四書闡明道統，爲建構和完善道統思想體系作論證。&lt;/p&gt;
+&lt;p&gt;如何閱讀四書，朱熹提出一「入道之序」：「&lt;em&gt;學問需以《大學》為先，次《論語》，次《孟子》，次《中庸》。《中庸》工夫密，規模大。&lt;/em&gt;」朱熹早年從學時即着重討論《中庸》義理，並對於已發未發的問題尤其注重，後來進而提出中和說。&lt;/p&gt;
+&lt;h3&gt;中和舊說&lt;/h3&gt;
+&lt;p&gt;朱熹反覆思索何謂「已發」「未發」的過程中，首先體認到：&lt;strong&gt;人生在世，無時無刻不與生活世界發生關係，而人在面對整體存在界的周流萬變，皆是時時發動念頭，包含人心在內皆屬於「已發」狀態。&lt;/strong&gt;故何來「未發」之際？當我們思考何爲「未發」時，已全然在「已發」之中，如何有「喜怒哀樂之未發」時工夫操持的可能？&lt;/p&gt;
+&lt;p&gt;既然人自出生始所有活動皆是已發，朱熹思考到是否未發是既有別於人心又與人息息相關的。朱熹進而認爲整體存在界的流行變化，即使人未接觸應對客體時，仍然生機盎然地存在並作用者，其即爲「天命流行、生生不已之機」，亦即「天理本真」是無時無刻不在作用當中。此「天理本真」是在人活動之前即有，是整體存在界運行的理序與規律，故言未發，它可存在於人的感知之外，卻又時刻可被人所感知到。而人之良心在接事應物時即會發生作用，體認到是否合乎天理或是僅爲私慾。因此必須時時體察自我之良心發現即可「&lt;em&gt;貫乎大本達道之全體而復其初&lt;/em&gt;」。&lt;strong&gt;從已發中可見人之行爲處事是否合乎未發的「天理本真」並時時察識並存養之，此即平時工夫操持。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;此爲「中和舊說」之主要論點，即以「天理本真」爲未發，即「天命流行、生生不已之機」。所謂已發則是人心感物應事之發用。&lt;/p&gt;
+&lt;figure&gt;
+	&lt;blockquote&gt;
+		&lt;p&gt;據其已發者而指其未發者，則已發者人心，而凡未發者接其性也，亦無一物不備矣。&lt;/p&gt;
+		&lt;footer&gt;
+			&lt;cite&gt;——朱熹《答張敬夫》&lt;/cite&gt;
+		&lt;/footer&gt;
+	&lt;/blockquote&gt;
+&lt;/figure&gt;
+&lt;p&gt;於是未發之天理本體是性，感物而動，進而有喜怒哀樂等情緒體顯是心的發用，因此&lt;strong&gt;性與心是體用關係&lt;/strong&gt;。此時「人心」是一思慮營爲之心。但若心僅是一認知及感受之心，則如何使得人的行爲「發而皆中節」、符合天理本真？&lt;/p&gt;
+&lt;p&gt;於是朱熹認爲心亦具備主宰功能。當事物呈現之時，心亦同時發動覺察，而「良心」亦萌發。此良心之萌發是接天理本真之性，而工夫之發用處即是致察良心的萌發並時時涵養操存之。&lt;/p&gt;
+&lt;p&gt;但若心具有主宰功能，則何以有惡？朱熹認爲人的行爲會有合宜不合宜之分，在於心有沒有作爲主宰，心若能作主宰則行爲舉止皆合乎天理、則合情合宜；否則流於私慾和情緒，行爲舉止乃有所偏頗。&lt;/p&gt;
+&lt;h3&gt;中和新說&lt;/h3&gt;
+&lt;p&gt;朱熹推翻舊說所言指心皆是已發，而認爲「&lt;em&gt;思慮未萌，事物未至&lt;/em&gt;」「&lt;em&gt;喜怒哀樂之未發&lt;/em&gt;」之時即是心體寂然不動之時。而「&lt;em&gt;喜怒哀樂之情發&lt;/em&gt;」之際則是心體的發用。因此所謂已發未發是指心的動靜狀態，即心的兩層面。&lt;/p&gt;
+&lt;figure&gt;
+	&lt;blockquote&gt;
+		&lt;p&gt;方其靜也，事物未至，思慮未萌，而一性渾然，道義全具，其所謂中，乃心之所以為體，而寂然不動者也。及其動也，事物交至，思慮萌焉，則七情迭用，各有攸主，其所謂和，乃心之所以為用，感而遂通者也。&lt;/p&gt;
+		&lt;footer&gt;
+			&lt;cite&gt;——朱熹《答張敬夫》&lt;/cite&gt;
+		&lt;/footer&gt;
+	&lt;/blockquote&gt;
+&lt;/figure&gt;
+&lt;p&gt;朱熹已心之用爲已發，在中和新舊說中立場一致。至於未發之心，朱熹言「性爲未發」亦是心之未發，如黃宗羲言「&lt;em&gt;合性於心，言工夫也&lt;/em&gt;」即是「持敬」工夫。朱熹言「心爲已發、性爲未發」則「日用工夫全無本領」，而又言「&lt;em&gt;向來議論思索，直以心爲已發，而日用工夫，以止以察識端倪爲最初下手處，已故闕卻平日涵養一段工夫&lt;/em&gt;」。其所謂平日涵養之工夫在於涵養「&lt;em&gt;事物未至，思慮未萌，而一性渾然，道義全具，其所謂中，乃心之所以體，而寂然不動者也&lt;/em&gt;」。&lt;strong&gt;心之未發之際，性亦未發；未發之心乃一實體，內含着道義俱全之性。心在已發之際，如何能體察本心中道義俱全的性，則不僅是思慮萌發之時省察行爲、情緒，亦必須在未發之際存養本心之理。&lt;/strong&gt;此所謂「一性渾然，道義全具」之心體該是朱熹所指稱之「道心」；思慮營爲之心，該是朱熹所稱之人心。唯道心與人心並非兩物，而是繫於人之心體但有已發未發之不同層面。&lt;/p&gt;
+&lt;p&gt;心貫於已發未發，統合性情。當心未發，即思慮未萌，事物未至之時，性內在於心中，是心之虛靈，是性命之正。當事物交至，思慮萌發之時，性發動為情，心可以使發動之情有節制，此為道心；若心不使其發動之情有節制凡而使情傾向於私欲，則以人心稱之。於未發之際存養道義俱全之體，於已發之後時時省察行為處事，此「持敬」工夫，所著重是在「未發」時，存養工夫。&lt;/p&gt;
+&lt;h2&gt;當代學者之詮解&lt;/h2&gt;
+&lt;p&gt;當代學者的一大問題是：朱熹的心性思想是否承繼了孟子的道德心性學？在以心學與理學作爲分判宋明理學的哲人時，伊川、朱熹被列入理學體系，而與象山、陽明的心學相異。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;象山、陽明：「心即理」，言心即是本心，而本心是道德的源泉與主體；「理」則明指仁義禮智等道德準則。人是一道德主體，因爲此本心內含於人之中，且可以自律地體現出仁義禮智，此等理則非社會習俗亦非聖人特有而制訂的律則。&lt;/li&gt;
+&lt;li&gt;伊川、朱熹：「性即理」，「心」僅爲一「認知心」，既然是經驗認知的知覺心便僅能認識道理而無創生意義，仁義禮智是來於社會規範或聖人之教、而非人自發自覺的體認。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;牟宗三認爲象山、陽明是全然的孟子之學，其心性論是一「自律道德系統」，而伊川、朱熹的心性論則是一「他律道德系統」，與孟子心性體統不同。&lt;/p&gt;
+&lt;p&gt;勞思光認爲朱熹的「心」是一「經驗主體」，只是能「知覺」「理」的能力，「理」纔是一超驗實體。而孔孟至象山則是將「心」視爲一超驗主體，是萬理之本。言朱熹是「立客體實有」而孔孟象山「立主體實有」。&lt;/p&gt;
+&lt;p&gt;牟宗三認爲中和舊說的性與心是體用關係，是承繼孟子心學的。朱熹所謂「&lt;em&gt;天命流行，生生不已之機&lt;/em&gt;」說明萬物之所以「生生不已」其「機」在於「天命流行」乃一創造實體，而「中」便是體認到「天命流行之體」。又及「寂然之本體」，牟先生認爲「天命流行之體」是「&lt;em&gt;形式地說、客觀地說&lt;/em&gt;」而「寂然之本體」是「&lt;em&gt;內容地說、亦是主觀地說&lt;/em&gt;」。如此則「於穆不已」的「天命流行之體」不只是理，亦是心，亦可曰「寂感真機」。&lt;/p&gt;
+&lt;p&gt;在舊說中，性與心是一體用關係，但在新說中，心與性被視為一平行的兩體。而之所以會有這樣的轉向，是由於朱熹從「天命流行之體」說「未發之中」，轉而從「心之寂然」說「未發之中」。前者視「中」為一「於穆不已」之創生實體，是為「中體」，後者則是指「中」為一描述語，描述心在未發之際的狀態。在新說中強調了「心體流行」即是心的活動作用。當心體未活動作用時，是思慮未萌、事物未至之時，言此時心處於「寂然不動」狀態，以此言「未發之中」，而此「未發之中」的寂然不動的心體體現了天命之理，也因此言心性平行關係。&lt;/p&gt;
+&lt;p&gt;牟先生認為，朱熹在新說中，將心性視為一平行關係，真正的超越之實體（大本）只能是性，而不能是心。「心」必是一實然之心，其主要作用則是經驗知覺能力，但此一認知能力，使得人是為一經驗主體而非道德主體，「心」可以合於理，亦可以不合於理，全待於後天的修養工夫。&lt;/p&gt;
+&lt;p&gt;完 :)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[儒家脈絡]]></title><description><![CDATA[以歷史為脈絡，梳理儒家之源頭與歷程，乃知儒家與其他哲學宗教之相同之處，蓋在天人合一也。]]></description><link>https://lumen.netlify.com/posts/儒家脈絡/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/儒家脈絡/</guid><pubDate>Tue, 19 Jun 2018 22:40:32 GMT</pubDate><content:encoded>&lt;h2&gt;巫傳統&lt;/h2&gt;
+&lt;figure&gt;
+	&lt;blockquote&gt;
+		&lt;p&gt;儒之名蓋出於需。需者，雲上於天。而儒亦知天文識旱潦。何以明之？……古之儒知天文占候，謂其多技，故號遍施於九能，諸有術者悉亥之矣。」&lt;/p&gt;
+		&lt;footer&gt;
+			&lt;cite&gt;——章太炎《原儒》&lt;/cite&gt;
+		&lt;/footer&gt;
+	&lt;/blockquote&gt;
+&lt;/figure&gt;
+&lt;p&gt;李澤厚說：中國的儒學系統的起源與發展，與天是分不開的，這可能是由於巫文化的傳統。中國上古之巫文化與西方薩滿均具有「絕地天通」之相似功用，扮演著古人在天人關係中溝通的媒介。禮在商代一開始跟巫文化是密不可分的，子曰：「&lt;em&gt;周因於殷禮。&lt;/em&gt;」&lt;/p&gt;
+&lt;p&gt;周代繼承了殷商的文化遺產，並將禮樂重新制度化、政治化，逐漸形成新的完備體系，但其中繼承的巫文化一直在禮樂中佔有重要脈絡。商周之禮最初由模仿天道而來，是對宇宙和天命的模仿和敬畏；但到孔子那裏進行了突破性的翻轉和內化。勞思光說孔子將「&lt;strong&gt;禮攝於義，義攝於仁&lt;/strong&gt;」，由外在的宇宙論、人格天命觀轉為超越性的道與內在性的仁，至此中國文化發展出內在價值具有了個人超越性的可能。&lt;/p&gt;
+&lt;h2&gt;孔子及其後學&lt;/h2&gt;
+&lt;h3&gt;孔子&lt;/h3&gt;
+&lt;p&gt;孔子「禮攝於義，義攝於仁」之過程，是將外在的天道轉變為內心的主動性，道德價值的實現不再外求於天，開始轉為內在的自覺境界。仁是一個古老的概念，非始於孔子。&lt;/p&gt;
+&lt;p&gt;《國語・周語下》說：「&lt;em&gt;仁，文之愛也、愛人能仁。&lt;/em&gt;」說明早在西周，仁就具有慈愛之含義。但孔子將仁提升至一個道德層次的普世意義。&lt;/p&gt;
+&lt;figure&gt;
+	&lt;blockquote&gt;
+		&lt;p&gt;「仁即是視人如己、淨除私累之境界，此一境界是一自覺之境界，不假外求，不受約制，故孔子又即此以言自我之主宰性。」&lt;/p&gt;
+		&lt;footer&gt;
+			&lt;cite&gt;——勞思光&lt;/cite&gt;
+		&lt;/footer&gt;
+	&lt;/blockquote&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+	&lt;blockquote&gt;
+		&lt;p&gt;「子曰：仁，遠乎哉？我欲仁，斯仁至矣。」&lt;/p&gt;
+		&lt;footer&gt;
+			&lt;cite&gt;——《論語・述而》&lt;/cite&gt;
+		&lt;/footer&gt;
+	&lt;/blockquote&gt;
+&lt;/figure&gt;
+&lt;p&gt;孔子奠定了仁內在於心的發端，這明顯不同於周公制禮作樂，後者的社會體系主要依賴於宇宙論與血緣建構，導致人與人之間的倫理關係並無很好的連結，但這點在孔子的仁學體系完成了轉變。&lt;/p&gt;
+&lt;p&gt;《論語》一書以學的重要性來說明人的主動性將可以學以成仁。《中庸》一書則致力於結合傳統的周禮與新創的仁學體系。&lt;/p&gt;
+&lt;h3&gt;孟子&lt;/h3&gt;
+&lt;p&gt;孟子提出「四端」說。&lt;/p&gt;
+&lt;figure&gt;
+	&lt;blockquote&gt;
+		&lt;p&gt;「今人乍見孺子將入於井，皆有怵惕惻隱之心。……人之有是四端也，猶其有四體也。」&lt;/p&gt;
+		&lt;footer&gt;
+			&lt;cite&gt;——《孟子・公孫丑上》&lt;/cite&gt;
+		&lt;/footer&gt;
+	&lt;/blockquote&gt;
+&lt;/figure&gt;
+&lt;p&gt;每個人都有「四善端」，分別是「惻隱」「羞惡」「辭讓」「是非」。所謂性善並非人性本善，而是人皆有善端，發與未發全看個人的養氣和行動。善端使得人具有內在價值自覺之可能，以及逐漸完善自身之可能。&lt;/p&gt;
+&lt;figure&gt;
+	&lt;blockquote&gt;
+		&lt;p&gt;「萬物皆備於我矣。反身而誠，樂莫大焉。強恕而行，求仁莫近焉。」&lt;/p&gt;
+		&lt;footer&gt;
+			&lt;cite&gt;——《孟子・盡心上》&lt;/cite&gt;
+		&lt;/footer&gt;
+	&lt;/blockquote&gt;
+&lt;/figure&gt;
+&lt;p&gt;人如何通曉道德知識？透過誠意進而能知；正因為本心為善，故才能正其心，進而明德，培養出道德意義的「好惡之知」。&lt;/p&gt;
+&lt;h3&gt;荀子&lt;/h3&gt;
+&lt;p&gt;荀子不認同孟子心性論，謂以為孟子性善論是一自然事實，亦即「人性本善」。唯孟子本來之含意為人之心具有價值自覺之能力與實踐能力，非一出生即善的自然之心，故孟子言養氣成德，成德與否全在個人，人具有自由意志或實現能力來決定是否擁有德性。然荀子的心並不具備一主體，是「&lt;strong&gt;虛壹而靜&lt;/strong&gt;」之心（「&lt;em&gt;心何以知？曰：『虛壹而靜』&lt;/em&gt;」《荀子・解蔽》），虛靜之心僅有觀照功能，而無主動性，故荀子實否定一內在主動（體）性之可能。除了跟孟子心性論的差異外，荀子哲學另一特色就是重談禮，並透過義的結合，讓禮能夠與理接軌，成為一個新體系。同時荀子重視聖人的作用，認為聖人扮演著溝通天地並制禮作樂的角色。&lt;/p&gt;
+&lt;h2&gt;漢代的天人之際&lt;/h2&gt;
+&lt;p&gt;秦朝焚書之後，宇宙論和巫文化再次活躍於中國文化中，此即結合巫蠱、宇宙論、天命觀而形成的西漢儒學，價值根源又回到天。此時的天是一具有人格性、意志性的天。&lt;/p&gt;
+&lt;p&gt;在漢代的儒家思想脈絡中，「性」是最重要的部分之一，這其實是對孟、荀思想的繼承發展。此時的儒學，除了經學之外，還展開了對「性」「情」之辯。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;董仲舒將性完全歸於天和命。&lt;/strong&gt;「&lt;em&gt;命者天之令也，性者生之質也，情者人之慾也。或夭或壽，或仁或鄙，陶冶而成之，不能粹美，有治亂之所生，故不齊也。&lt;/em&gt;」上天造人之時，就已經各有不同的質和屬性，也帶有可能遮蔽人理智的「情」，故需要聖王聖人來教化。「&lt;em&gt;為政而宜於民者，固當受祿於天。夫仁誼禮知信五常之道，王者所當修飭也；五者修飭，故受天之佑，而享鬼神之靈，德施於方外，延及群生也。&lt;/em&gt;」上天會藉由天人感應來賞罰君主和百姓的作為。「&lt;em&gt;天者，百神之君也，王者之所最尊也。&lt;/em&gt;」董仲舒認為，&lt;strong&gt;天創造了人和萬物，主宰著一切。統治者宜順應天意、順百姓之性來治理國家。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;漢代宇宙論和天命主宰觀直至東漢王充《論衡》一書中方有劇烈轉變。&lt;strong&gt;王充在〈物勢〉中提及勢非由陰影五行所訂，亦即非由天命所定，乃是萬物自身之因素&lt;/strong&gt;，此即〈物勢〉通篇主旨。王充可謂是開啓了魏晉思潮之先。&lt;/p&gt;
+&lt;h2&gt;魏晉沈香至唐韻風骨&lt;/h2&gt;
+&lt;p&gt;曹魏經學家王弼，將無上升至道的層面，融合儒道，別開新面。&lt;/p&gt;
+&lt;figure&gt;
+	&lt;blockquote&gt;
+		&lt;p&gt;「凡有皆始於無，故「未形」、「無名」之時則為萬物之始，及其「有形」、「有名」之時，則長之育之，亭之毒之，為其母也。言道以無形無名始成萬物，以始以成而不知其所以玄之又玄也。」&lt;/p&gt;
+		&lt;footer&gt;
+			&lt;cite&gt;——王弼《道德經註》&lt;/cite&gt;
+		&lt;/footer&gt;
+	&lt;/blockquote&gt;
+&lt;/figure&gt;
+&lt;p&gt;至西晉郭象則由老子入莊子，談「獨化」「自生」：「&lt;em&gt;請問夫造物者有耶，無耶？無也，則胡能造物哉？有也，則不足以物眾形。故明眾形之自物，而後始可與言造物耳。是以涉有物之域，雖復罔兩，未有不獨化於玄冥者也。故造物者無主，而物各自造。物各自造而無所待焉，此天地之正也。&lt;/em&gt;」（郭象《莊子註》）&lt;strong&gt;萬物皆是自生自滅，自己的特性（才性）並不來自上天。萬物對於自己的生滅沒有自我主宰性，都是偶然的。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;同時萬物的屬性，包括人的仁義道德、優劣好壞等，也都是註定的、無法改變的，所以聖人和君主，要順著人的本性來施政，才是無為之境——而非因為要順著天的意志。&lt;/p&gt;
+&lt;p&gt;可以留意到，雖然王弼、郭象他們都不盡然是儒家為核心的思想，然而都延續了漢代對於「性」的重視。&lt;/p&gt;
+&lt;p&gt;除性之學外，東漢末年，佛教東傳，教派繁盛，中觀學、唯識宗、法性宗、天台宗、華嚴宗、禪宗等等，百家爭鳴，蔚為大觀。&lt;/p&gt;
+&lt;figure&gt;
+	&lt;blockquote&gt;
+		&lt;p&gt;「天台有所謂『心生萬法』；華嚴宗有融佛性於真心；禪宗則更認為佛性即人之本心（本性）。由於佛教的中國化，使得中國化的佛教宗派、特別是禪宗大大改變了印度佛教的原貌。」&lt;/p&gt;
+		&lt;footer&gt;
+			&lt;cite&gt;——湯一介《矚望新軸心時代：在新世紀的哲學思考》&lt;/cite&gt;
+		&lt;/footer&gt;
+	&lt;/blockquote&gt;
+&lt;/figure&gt;
+&lt;p&gt;唐武宗「會昌毀佛」後佛學一時大衰，但是佛學的理論早就融於儒學之中。唐代韓愈雖然察覺孔孟之道的失傳，但其立說如《原道》依然沒有將心性與才性的差異辨析明白，與他所嚮往的孔孟之道亦有距離。可以說漢以降至唐代韓愈，孟子思想基本無所繼承發展。&lt;/p&gt;
+&lt;figure&gt;
+	&lt;blockquote&gt;
+		&lt;p&gt;「他日若能窺孟子，終身何敢望韓公。」&lt;/p&gt;
+		&lt;footer&gt;
+			&lt;cite&gt;——王安石&lt;/cite&gt;
+		&lt;/footer&gt;
+	&lt;/blockquote&gt;
+&lt;/figure&gt;
+&lt;h2&gt;兩宋與古今之變&lt;/h2&gt;
+&lt;p&gt;北宋始時，儒學再次受到重視。葛兆光說：「&lt;em&gt;因為士人相信，中唐以來國家權威的失墜，是由於社會道德的淪喪、倫理崩壞，人們對國家合法性與秩序合理性的漠視……長達兩個世紀的變動，曾經給士人留下相當的痛苦和相當深刻的印象，也刺激了重建國家與思想秩序的想法……正是在這種心境下，超越自然與社會的道，或為政治國家、道德倫理、宇宙構架、自然知識提供同一性依據的理，才會被提出來。&lt;/em&gt;」&lt;/p&gt;
+&lt;p&gt;而此時的儒學也面臨佛教、道教的挑戰，佛教中國化的進程和道教精密化、規範化、制度化過程，給儒者以極大的震撼和衝擊，儒教文明必須改弦易張，必須吸收佛道之長，融突創新，使儒釋道三教合一。故北宋儒學不論是理學、蜀學、功利學派等等，基本都具有高度融合儒釋道三家與積極追求孔孟正統但同時又再詮釋的特徵。&lt;/p&gt;
+&lt;h3&gt;二程&lt;/h3&gt;
+&lt;p&gt;程顥（明道）的形上學，最值得注意的是&lt;strong&gt;生生&lt;/strong&gt;和&lt;strong&gt;一本&lt;/strong&gt;。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;生生—是明道藉由易經產發的形而上理論。明道謂：「&lt;em&gt;生生謂之易，是天之所以為道也。&lt;/em&gt;」；「&lt;em&gt;天地設立，而易行乎其中。&lt;/em&gt;」將易的道理作為一種「於穆不已」的流動「易體」，而這種易體其實也就是所謂的一本。&lt;/li&gt;
+&lt;li&gt;一本—牟宗三謂：「&lt;em&gt;所謂『一本』者，無論從主觀面來說，或從客觀面來說，總只是這『本體宇宙論的實體』之道德創造或宇宙生化之立體地直貫……它是本體宇宙論實體，司時亦即是德創造（道德行為之純亦不已）之創造實體（creative reality）。&lt;/em&gt;」牟宗三之意，即「一本」者既是天地化生之本源，同時也是道德的創造者。一本論之下，沒有「我」與「他者」，萬物都是一，雖從本源中生化而出，但並沒有脫離本源，而是始終一體。明道「&lt;em&gt;以仁者與天地萬物為一體&lt;/em&gt;」是為仁者能與物同體，也就是說，創生的本源在創生時，就同時賦予被創生者道德意義。這樣一來就確保了世界的道德來源，明道以其一本從而得以貫通天理性命。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;與之相比，程頤（伊川）之形上學是否具有此種動態，就成為二程的主要分歧。對於伊川來說，仁是性（理），而愛是情（氣）。理氣二者的關係不即不離，理恆常而氣變化，二者在現實上雖不可分，在概念上卻必須加以分疏。明道雖也劃分形上、形下，但道即器、器即道，二者乃一體之兩面。伊川卻將理氣分屬兩層，理論效果乃大不同。伊川說：&lt;/p&gt;
+&lt;figure&gt;
+	&lt;blockquote&gt;
+		&lt;p&gt;「『一陰一陽之謂道』，道非陰陽也，所以一陰一陽，道也。如一闔一闢為之變。」&lt;/p&gt;
+		&lt;footer&gt;
+			&lt;cite&gt;——《二程遺書》&lt;/cite&gt;
+		&lt;/footer&gt;
+	&lt;/blockquote&gt;
+&lt;/figure&gt;
+&lt;p&gt;明道那裏，道就是陰陽，但伊川將其區隔。不過伊川又補充說：&lt;/p&gt;
+&lt;figure&gt;
+	&lt;blockquote&gt;
+		&lt;p&gt;「離了陰陽更無道，所以陰陽者是道也，陰陽氣也。氣是形而下者，道是形而上者。形而上者則是密也。」&lt;/p&gt;
+		&lt;footer&gt;
+			&lt;cite&gt;——《二程遺書》&lt;/cite&gt;
+		&lt;/footer&gt;
+	&lt;/blockquote&gt;
+&lt;/figure&gt;
+&lt;p&gt;言陰陽是氣，所以陰陽者是道，一為形而下，一為形而上，陰陽之能運行，是由於道所致。程伊川在此面臨一個哲學困難，牟宗三認為這是其必須花大力氣去闡釋「氣論」的原因，此困難就在於，伊川將「生成源」與「生成」二事區分開來，生成者「道」和負責生成的「陰陽」被區隔，道只存有而不活動。而為了說明道的「化生」，伊川必須以氣論入手，而這點又直接影響了性論。原本在明道那裏，性直接貫通天道，但在伊川這裏，性是透過氣而化生，從而其心就分成「已發」「未發」的存有狀態。這點可謂是大小程的一個根本不同。&lt;/p&gt;
+&lt;p&gt;牟宗三謂程伊川是「旁出」，並未承接「孟子—程明道」的系統，理由是伊川之理無法化生進而產生自律道德。但此番質疑是否成立，還需要考察伊川是否偏離了「一本」思想。伊川之化生理論繁雜而不流動，並不能說明伊川就不是一本。伊川云：&lt;/p&gt;
+&lt;figure&gt;
+	&lt;blockquote&gt;
+		&lt;p&gt;「理也，性也，命也，三者未嘗有異。窮理則盡性，盡性則知天命。」&lt;/p&gt;
+		&lt;footer&gt;
+			&lt;cite&gt;——《二程遺書》&lt;/cite&gt;
+		&lt;/footer&gt;
+	&lt;/blockquote&gt;
+&lt;/figure&gt;
+&lt;p&gt;此能看出伊川歸根結底也是一本論。牟宗三認為伊川之理不流動，恰有可能是因為伊川要解決明道之工夫論離生活實踐頗有抽象距離的問題。伊川又云：&lt;/p&gt;
+&lt;figure&gt;
+	&lt;blockquote&gt;
+		&lt;p&gt;「道一也。未有盡人而不盡天者也。以天人為二，非道也。子雲謂：『通天地而不通人，曰伎。』亦猶是也。或曰：『乾，天道也；坤，地道也。』論其體則天尊地卑，其道則無二也。豈有通天地而不通人？」&lt;/p&gt;
+		&lt;footer&gt;
+			&lt;cite&gt;——《二程遺書》&lt;/cite&gt;
+		&lt;/footer&gt;
+	&lt;/blockquote&gt;
+&lt;/figure&gt;
+&lt;p&gt;伊川只是把人生至高的境界轉換為某種日常的切己工夫。可以說明道完成的是抽象的理論，而伊川則加以具體化建構。這也可以理解，為何伊川也認為，工夫論不出一個「敬」字，此正「涵養須用敬，進學則在致知」。透過「敬」的內在修為進而能格物致知，進而能窮知天理，這與程明道內心直達天理其實殊途同歸，只是更為具體化。&lt;/p&gt;
+&lt;h3&gt;朱子&lt;/h3&gt;
+&lt;p&gt;朱熹在張載和二程的基礎上，進一步展開自己的思想。「&lt;em&gt;蓋太極是理，形而上者，陰陽是氣，形而下者。然理無形，而氣卻有跡。&lt;/em&gt;」朱熹認為萬物背後有一超越之道，氣是道的表現，同時也是萬物本質，理氣不能分離，亦無先後。「&lt;em&gt;或問『理在先，氣在後』。曰：『理與氣本無先後之可言。但推上去時，卻如理在先，氣在後相似。』&lt;/em&gt;」理氣不可分離，理在氣的先，是指邏輯上的先，不是時間上的先。萬物背後有一個普遍之理，但因為事物不同，普遍之理的表現方式亦有不同。&lt;strong&gt;這裏的普遍之理非指萬物的同一（和莊子不同），而是指在更高的層次來看，它們具有普遍原則的同一性。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;朱熹云「&lt;em&gt;天地中有一太極，萬物中各有一太極&lt;/em&gt;」；「&lt;em&gt;人人有一太極，物物有一太極&lt;/em&gt;」。太極指萬物的共同本體，事物的性理來自太極，卻非分有太極的狀態，而是物物各自的太極（此處是儒家哲學的一難題）。以月為例，月印萬川，隨處均可見，萬川之月只是天上之月。&lt;/p&gt;
+&lt;p&gt;朱子早年認為心分成未發和已發兩種狀態（簡單而言，未發指心情平靜、情緒平穩的一種精神體驗，同時也是哲學上心之體的一種沈靜不動，亦即「中」。已發指有情緒活動，同時也是哲學上心的活動。），但後來轉向一種更具寬闊意義的認識。根據未發和已發的不同狀態，有不同的工夫涵養。在未發狀態時的涵養工夫是「主靜涵養」，具體要收斂、謹畏、惺惺、主一、整齊嚴肅。已發時的工夫論是「格物致知」，格，至也，物，猶事也，窮盡事物之理。而從涵養守敬到格物窮理的背後目的，並不只是一種哲學上的認識論或是神秘的精神體驗，如郭齊勇指出：「&lt;em&gt;此具統一性、普遍性的本體之理為人所本具有亦即人自身所本有的仁義之性，故他所謂物理也就無非是儒家道德倫理準則和行為規範，而格物格得無非就是與倫理有關的事物，而窮理即窮與倫理有關的理。&lt;/em&gt;」&lt;strong&gt;朱熹希望的是透過一理論，一方面制約君權，保護百姓利益，一方面是使國家富強，並為孔子以降的道統與道學找到一基礎。&lt;/strong&gt;朱熹曾說：「&lt;em&gt;鄭氏曰：『言作禮樂者，必聖人在天子之位。』&lt;/em&gt;」他認為三代到周都有道統，周以降只有霸業沒有道統（外王無內聖）。孔子雖為聖人但不在天子之位，故有道學，而道統不會因為時間而消逝或改變。朱熹希望將孔子的道學發揚，上升到國家與文化高度，再次與道統接軌。如余英時在其經典作品《朱熹的歷史世界》中所敘述的：「&lt;em&gt;道學與哲學間不能畫上等號，這是不證自明的……治統的合法性來自於道統。&lt;/em&gt;」朱熹認為「&lt;em&gt;千五百年之間，堯舜三王周公孔子所傳之道，未嘗一日得行於天地之間也。&lt;/em&gt;」而朱熹如此在意道統的原因或許如馮友蘭所揭示的「&lt;em&gt;所以王霸之分，推其本源也就是義利之辯&lt;/em&gt;」，朱熹在意的正是道德正當性和「被統治者的幸福」。&lt;/p&gt;
+&lt;h3&gt;陸九淵與王陽明&lt;/h3&gt;
+&lt;p&gt;陸九淵大體與朱熹同時。「&lt;em&gt;存之者，存此心也，故曰：『大人者不失其赤子之心。』四端者，即此心……人皆有是心，心皆具是理，心即理也。&lt;/em&gt;」陸九淵認為價值歸於內在，毋須外求，反對朱熹格物致知與理學心有外理的主張。陸象山之心，乃指此自覺能力，即能立價值標準，能為一切價值詞語意義根源者。&lt;strong&gt;象山強調心之普遍性，恰與朱氏強調心的特殊性相對。&lt;/strong&gt;至此，陸象山回歸孟子心學之方向，為後來的王陽明打下基礎。&lt;/p&gt;
+&lt;p&gt;王陽明的核心乃致良知，為何要致良知、如何致良知是一個根本的儒學問題。美國漢學家倪德衛（David S. Nivison）在 &lt;em&gt;Motivation and Moral Actionin Mencius&lt;/em&gt; 一文中指出，&lt;strong&gt;早期中國哲學的特色是不質疑道德動機之來源，但思考了道德動機到道德實踐之間的難題&lt;/strong&gt;。到了王陽明那裏，其關鍵就在於工夫論，而核心就是以「誠意」修心進而完成「知行合一」。道德實踐的關鍵特色和重點，便在於「知」與「行」並非是兩件事，而是一件事。&lt;/p&gt;
+&lt;figure&gt;
+	&lt;blockquote&gt;
+		&lt;p&gt;「今人卻就將知行分作兩件去做。以為必先知了，然後能行。我如今且去講習討論做知的工夫。待知得真了，方去做行的工夫。故遂終身不行，亦遂終身不知。」&lt;/p&gt;
+		&lt;footer&gt;
+			&lt;cite&gt;——王陽明《傳習錄》&lt;/cite&gt;
+		&lt;/footer&gt;
+	&lt;/blockquote&gt;
+&lt;/figure&gt;
+&lt;p&gt;《孟子・盡心上》：「&lt;em&gt;人之所不學而能者，其良能也；所不慮而知者，其良知也。&lt;/em&gt;」焦循（清代《孟子》《易經》經學家）在闡釋時把「良知」和「良能」解釋成兩種事物，認為中間還需要聖人的教化來完成。然而焦循的解釋並未貼近孟子原意。&lt;/p&gt;
+&lt;p&gt;《孟子・梁惠王上》：「&lt;em&gt;故王之不王，非挾泰山以北海之類也；王不之王，是折枝之類也。老吾老，以及人之老；幼吾幼，以及人之幼；天下可運於掌。&lt;/em&gt;」王之道統並非不可能之事，而是不願意之事，在此孟子進一步凸顯「能」與道德的自然聯繫。&lt;/p&gt;
+&lt;p&gt;《孟子・盡心上》：「&lt;em&gt;萬物皆備於我矣。反身而誠，樂莫大焉。強恕而行，求仁莫近焉。&lt;/em&gt;」如勞思光所云：「&lt;em&gt;孟子此處之所謂「知」，蓋指自覺而言；心之發用即是性之顯現，……心發用至充足狀態，方自覺到自身之性……故亦即自覺其為萬里之源。&lt;/em&gt;」&lt;/p&gt;
+&lt;p&gt;王陽明對知的此點準確地把握住孟子的原意：「&lt;em&gt;知是行之始，行是知之成。若會得時，只說一個知，已自有行在。只說一個行，已自有知在。&lt;/em&gt;」&lt;strong&gt;知行的合一在此已表述無遺。良知必須知行合一，不僅有內在的認識，同時有外在的行動，所謂「&lt;em&gt;實實落落依良知去做&lt;/em&gt;」，至此方是一個完整的「致良知」&lt;/strong&gt;。也就是說，王陽明認為，不存在理學中所謂知與行孰先孰後的問題，&lt;strong&gt;道德主體性不能脫離形而上的基礎，也不能脫離形而下的具體行為。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;如同漢學家 Joseph A. Adler 所言：「&lt;em&gt;一個在儒學中的核心問題是，如果人性本是善的，那為何會有惡？惡是從哪裡來的？為何人人都不是聖人？&lt;/em&gt;」王陽明亦不可避免必須解釋，若知行合一便可免除惡，那何以大部分人還沒法達到完全的道德實踐生活呢？對此王陽明的回應是：&lt;/p&gt;
+&lt;p&gt;「&lt;em&gt;在虔與於中、謙之同侍。先生曰：『人胸中各有個聖人，只自信不及，都自埋倒了。』因顧於中曰：『爾胸中原是聖人。』於中起不敢當。先生曰：『此是爾自家有的，如何要推？……眾人皆有之，況在於中，卻何故謙起來？謙亦不得。……良知在人，隨你如何不能泯滅，雖盜賊亦自知不當為盜，喚他做賊，他還忸怩。』於中曰：『只是物慾遮蔽，良心在內，自不會失；如雲蔽日，日何嘗失了！』先生曰：『於中如此聰明，他人見不及此。』&lt;/em&gt;」&lt;/p&gt;
+&lt;p&gt;良知是先驗的，同時又是實踐的。「胸中原是聖人」不代表真的可以成為聖人，「&lt;em&gt;作為致知對象的良知並不是靜態的本體，它本質上處於發用流行的過程中。&lt;/em&gt;」（楊國榮《王學通論：從王陽明到熊十力》）只有透過知行合一，才能真正實踐良知，才是真知。大部分人尚沒法結合起來，「無自制力」。&lt;strong&gt;而克服這種無自制力的最好方法就是時刻地發源本心，以本心去致良知，方能知行合一。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;對王陽明而言，惡是整全性的缺失，而這點可以用工夫論去克服。王陽明講「四句教」：「&lt;em&gt;無善無惡心之體，有善有惡意之動，知善知惡是良知，為善去惡是格物。&lt;/em&gt;」&lt;strong&gt;正因為大多數人是「有習心在」，心體隨人在世而顯於外，由於受到外物矇蔽，意念發動時便落在有善有惡上。&lt;/strong&gt;（習心，理學家指透過耳聞目見所得的意念，與良知良能有別。《二程遺書》：「&lt;em&gt;蓋良知良能，元不喪失，以昔日習心未除，卻須存習此心，久則可奪舊習。&lt;/em&gt;」）&lt;/p&gt;
+&lt;p&gt;人人皆可道德修養，達致道德上的內聖，此是王陽明傳承與發揚孟子的重要特徵。&lt;/p&gt;
+&lt;figure&gt;
+	&lt;blockquote&gt;
+		&lt;p&gt;「有明學術，從前習熟先儒之成說，未嘗反身理會，推見至隱，所謂『此亦一述朱，彼亦一述朱……故無姚江，則古來之學脈絕矣。』」&lt;/p&gt;
+		&lt;footer&gt;
+			&lt;cite&gt;——黃宗羲《姚江學案》&lt;/cite&gt;
+		&lt;/footer&gt;
+	&lt;/blockquote&gt;
+&lt;/figure&gt;
+&lt;p&gt;明代王學出現以前，是朱學的天下。王學對於朱學的態度，不再滿足於「述朱」。儘管宋代有改經風氣，而明代王學對於經學尤其是《大學》，則是採取復古的態度。因此，明代學術不支持宋代改經，而是回到漢學。然而明代經學不同於漢代，意不在表面的字句或順序，而在於印證於心——即王陽明所稱作「行」。&lt;/p&gt;
+&lt;p&gt;余英時指出，天和人分別代表「超越領域」和「現實領域」，故天人關係、天人合一其實並不只是一種對天的敬畏或是某種特殊的精神體悟，還代表了一種逐漸完善自身的過程。這種觀點以劉殿爵所翻譯的英譯《孟子》序言可看出：「&lt;em&gt;如此一來，孟子已經打破天人隔閡及天命與人性之間的藩籬，由人心深處有一密道可通上天，而所屬天者已經非外於人，反而是屬於人最真實的本性了。&lt;/em&gt;」龐樸又言：「&lt;em&gt;儒學走向心性論研究，相信人道源於人心。&lt;/em&gt;」&lt;/p&gt;
+&lt;p&gt;但我們也須思考，最終心學得出的德性近乎於完全歸結於內心的結論，其實是否已經是對於傳統儒家的偏離？天命觀與經學幾乎完全從心學的視野裏消失，其實也意味著人論基礎的破碎化和個人化，最終極有可能造成一種顛覆。而這種內在的衝突，其實早在孔子那裏便已埋下伏筆。&lt;/p&gt;
+&lt;p&gt;完 :)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[事件循環之 Macrotask & Microtask]]></title><description><![CDATA[JavaScript 的事件循环（Event Loop）中，macrotask 和 microtask 同属于异步任务。二者有什么区别？何时使用何者？]]></description><link>https://lumen.netlify.com/posts/macrotask-and-microtask/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/macrotask-and-microtask/</guid><pubDate>Fri, 01 Jun 2018 22:40:32 GMT</pubDate><content:encoded>&lt;h2&gt;定義&lt;/h2&gt;
+&lt;p&gt;一個事件循環（event loop）中會有一個正在執行的任務（task），這個任務就是從 macrotask 中來的。當該 macrotask 執行結束後，所有可用的 microtask 將會在同一個事件循環中執行，當這些 microtask 執行結束後還能繼續添加 microtask 直至整個 microtask 隊列執行結束。&lt;/p&gt;
+&lt;h2&gt;用法&lt;/h2&gt;
+&lt;p&gt;當我們想以同步的方式處理異步任務時就用 microtask（比如需要直接在某斷代碼後去執行某個任務，正如 Promise）。其他情況就直接用 macrotask。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;macrotasks: &lt;code class=&quot;language-text&quot;&gt;setTimeout&lt;/code&gt;、&lt;code class=&quot;language-text&quot;&gt;setInterval&lt;/code&gt;、I/O、UI 渲染&lt;/li&gt;
+&lt;li&gt;microtasks: Promise、&lt;code class=&quot;language-text&quot;&gt;process.nextTick&lt;/code&gt;、&lt;code class=&quot;language-text&quot;&gt;Object.observe&lt;/code&gt;、MutationObserver&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;規範&lt;/h2&gt;
+&lt;p&gt;根據 WHATWG 規範：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一個 event loop 會有一個或多個 task queue 即 macrotask queue&lt;/li&gt;
+&lt;li&gt;每個 event loop 都有一個 microtask queue&lt;/li&gt;
+&lt;li&gt;task queue == macrotask queue != microtask queue&lt;/li&gt;
+&lt;li&gt;一個 task 可放入 macrotask queue 亦可放入 microtask queue&lt;/li&gt;
+&lt;li&gt;當一個 task 被放入 queue（macro/micro）則該 task 可被立即執行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;當 call stack 爲空時，開始依次執行：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;把最早的任務 task A 放入任務隊列&lt;/li&gt;
+&lt;li&gt;若 task A 爲 null（則任務隊列爲空），直接跳到第 6 步&lt;/li&gt;
+&lt;li&gt;將 currently running task 設爲 task A&lt;/li&gt;
+&lt;li&gt;執行 task A（即執行回調函式）&lt;/li&gt;
+&lt;li&gt;將 currently running task 設爲 null 並移出 task A&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;執行 microtask queue&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在 microtask 中選出最早的任務 task X&lt;/li&gt;
+&lt;li&gt;若 task X 爲 null，直接跳到 xii&lt;/li&gt;
+&lt;li&gt;將 currently running task X 設爲 task X&lt;/li&gt;
+&lt;li&gt;執行 task X&lt;/li&gt;
+&lt;li&gt;將 currently running task 設爲 null 並移出 task X&lt;/li&gt;
+&lt;li&gt;在 microtask 中選出最早的任務，跳到 ii&lt;/li&gt;
+&lt;li&gt;結束 microtask queue&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;跳到第 1 步&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;上面是一個簡單的 event loop 執行模型。再簡單點可總結爲：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在 macrotask queue 中執行最早的 task，然後移出&lt;/li&gt;
+&lt;li&gt;執行 microtask 隊列中所有可用的任務，然後移出&lt;/li&gt;
+&lt;li&gt;下一個循環，執行下一個 macrotask 中的任務（跳到第 2 步）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;其他&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;當一個 macrotask 正處執行狀態，亦可能會有新的事件被註冊（創建新 task）。比如：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;promiseA.then()&lt;/code&gt; 的回調就是一個 task&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;promiseA&lt;/code&gt; 是 resolved 或 rejected，則該 task 會放入當前事件循環回合的 microtask queue&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;promiseA&lt;/code&gt; 是 pending，則該 task 會放入事件循環的未來某個回合的 microtask queue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;setTimeout&lt;/code&gt; 的回調也是 task，它會被放入 macrotask queue（即使是 0ms）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;microtask queue 中的 task 會在事件循環的當前回合中執行，因此 macrotask queue 中的 task 就只能等到事件循環的下一個回合執行&lt;/li&gt;
+&lt;li&gt;click、Ajax、&lt;code class=&quot;language-text&quot;&gt;setTimeout&lt;/code&gt; 的回調都是 task，包裹在一個 &lt;code class=&quot;language-text&quot;&gt;&amp;lt;script&amp;gt;&lt;/code&gt; 標籤中的 JS 代碼亦是一個 task——它們都是 macrotask。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;完 :)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[react-redux 與 Immutable 優化]]></title><description><![CDATA[使用 react-redux 時，確保你熟悉它在更新和賦值時所做的操作，以及 immutable、side effects 和 mutation 的概念，以防止意外的 mutation 降低了應用性能。]]></description><link>https://lumen.netlify.com/posts/react-redux-and-immutable/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/react-redux-and-immutable/</guid><pubDate>Thu, 01 Sep 2016 23:46:37 GMT</pubDate><content:encoded>&lt;h2&gt;react-redux&lt;/h2&gt;
+&lt;p&gt;兩個前提：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;shouldComponentUpdate&lt;/code&gt; 默認返回 &lt;code class=&quot;language-text&quot;&gt;true&lt;/code&gt;，即只要組件的狀態（&lt;code class=&quot;language-text&quot;&gt;props&lt;/code&gt; 或者 &lt;code class=&quot;language-text&quot;&gt;state&lt;/code&gt;）發生改變，組件就會執行 &lt;code class=&quot;language-text&quot;&gt;render&lt;/code&gt; 函數進行重渲染。除非重寫 &lt;code class=&quot;language-text&quot;&gt;shouldComponentUpdate&lt;/code&gt; 透過返回 &lt;code class=&quot;language-text&quot;&gt;false&lt;/code&gt; 阻止重渲染，或者讓組件直接繼承自 &lt;code class=&quot;language-text&quot;&gt;PureComponent&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;PureComponent&lt;/code&gt; 的原理只不過代替你實現了 &lt;code class=&quot;language-text&quot;&gt;shouldComponentUpdate&lt;/code&gt;：在函數內對當前和過去的 &lt;code class=&quot;language-text&quot;&gt;props&lt;/code&gt;/&lt;code class=&quot;language-text&quot;&gt;state&lt;/code&gt; 進行淺對比（即僅比較對象的引用而非比較對象每個屬性值）。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;其實在 &lt;code class=&quot;language-text&quot;&gt;react-redux&lt;/code&gt; 中實現了這套邏輯，對數據進行淺對比：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; connect &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react-redux&apos;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mapStateToProps&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    todos&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;todos&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    visibleTodos&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;getVisibleTodos&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;connect&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;mapStateToProps&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; mapDispatchToProps&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;App&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;react-redux&lt;/code&gt; 會假設 &lt;code class=&quot;language-text&quot;&gt;App&lt;/code&gt; 是一個 &lt;code class=&quot;language-text&quot;&gt;PureComponent&lt;/code&gt;，即對於唯一的 &lt;code class=&quot;language-text&quot;&gt;props&lt;/code&gt;/&lt;code class=&quot;language-text&quot;&gt;state&lt;/code&gt; 有唯一的渲染結果。故 &lt;code class=&quot;language-text&quot;&gt;react-redux&lt;/code&gt; 首先會對根狀態（即上述代碼中 &lt;code class=&quot;language-text&quot;&gt;mapStateToProps&lt;/code&gt; 的第一個形參 &lt;code class=&quot;language-text&quot;&gt;state&lt;/code&gt;）創建索引，進行淺對比，若對比結果一致則不對組件進行重渲染，否則繼續調用 &lt;code class=&quot;language-text&quot;&gt;mapStateToProps&lt;/code&gt; 函數；同時繼續對 &lt;code class=&quot;language-text&quot;&gt;mapStateToProps&lt;/code&gt; 返回的 &lt;code class=&quot;language-text&quot;&gt;props&lt;/code&gt; 對象中每個屬性值（&lt;code class=&quot;language-text&quot;&gt;state.todos&lt;/code&gt; 和 &lt;code class=&quot;language-text&quot;&gt;getVisibleTodos(state)&lt;/code&gt; 值）創建索引。和 &lt;code class=&quot;language-text&quot;&gt;shouldComponentUpdate&lt;/code&gt; 類似，只有當淺對比失敗，即索引發生變動時才會對封裝組件進行重渲染。&lt;/p&gt;
+&lt;p&gt;只有 &lt;code class=&quot;language-text&quot;&gt;state.todos&lt;/code&gt; 和 &lt;code class=&quot;language-text&quot;&gt;getVisibleTodos(state)&lt;/code&gt; 值不變，那麼 &lt;code class=&quot;language-text&quot;&gt;App&lt;/code&gt; 組件就永不會重渲染。但注意下面的陷阱模式：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mapStateToProps&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    data&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      todos&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;todos&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      visibleTodos&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;getVisibleTodos&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;p&gt;Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Perfecting the Art of Perfection]]></title><description><![CDATA[Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum.]]></description><link>https://lumen.netlify.com/posts/perfecting-the-art-of-perfection/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/perfecting-the-art-of-perfection/</guid><pubDate>Thu, 01 Sep 2016 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum.&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/1-a3057b79175cdcf4a107e8cc2c8f8325-5b032.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 960px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQBAgMF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAaa8hyWBEP/EABoQAAIDAQEAAAAAAAAAAAAAAAECAAMSBBP/2gAIAQEAAQUCPOXmbM+hSK5BbqszP//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/AVf/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPwFH/8QAHRAAAAYDAQAAAAAAAAAAAAAAAAECEBESISJxof/aAAgBAQAGPwKbkNIVwVWWWr63/8QAGxAAAgIDAQAAAAAAAAAAAAAAAREAIRAxYfD/2gAIAQEAAT8h3bQTdQqhABeGb4Xc6SF3AcC8f//aAAwDAQACAAMAAAAQAA//xAAXEQEBAQEAAAAAAAAAAAAAAAABABEx/9oACAEDAQE/EBO2r//EABcRAAMBAAAAAAAAAAAAAAAAAAABETH/2gAIAQIBAT8Qdwk//8QAHBABAAIDAQEBAAAAAAAAAAAAAQARIUFRcWGh/9oACAEBAAE/ENbRSGh5mKaJNdVRpGY+sMF/kEI3133soB7jAB85FbVyuVdz/9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Nulla faucibus vestibulum eros in tempus. Vestibulum tempor imperdiet velit nec dapibus&quot;
-        title=&quot;&quot;
-        src=&quot;/static/1-a3057b79175cdcf4a107e8cc2c8f8325-d564d.jpg&quot;
-        srcset=&quot;/static/1-a3057b79175cdcf4a107e8cc2c8f8325-865fd.jpg 240w,
-/static/1-a3057b79175cdcf4a107e8cc2c8f8325-d40a0.jpg 480w,
-/static/1-a3057b79175cdcf4a107e8cc2c8f8325-d564d.jpg 960w,
-/static/1-a3057b79175cdcf4a107e8cc2c8f8325-c67c1.jpg 1440w,
-/static/1-a3057b79175cdcf4a107e8cc2c8f8325-5b032.jpg 1800w&quot;
-        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;p&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. &lt;/p&gt;
-&lt;p&gt;Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[A Brief History of Typography]]></title><description><![CDATA[Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.]]></description><link>https://lumen.netlify.com/posts/a-brief-history-of-typography/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/a-brief-history-of-typography/</guid><pubDate>Tue, 02 Feb 2016 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;Pellentesque habitant morbi tristique&lt;/strong&gt; senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. &lt;em&gt;Aenean ultricies mi vitae est.&lt;/em&gt; Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. &lt;/p&gt;
-&lt;p&gt;Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.  &lt;a href=&quot;#&quot;&gt;Donec non enim&lt;/a&gt; in turpis pulvinar facilisis.&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/1-07d3a9ebe902d793eab5fe701b12a6e2-5b032.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 960px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwAE/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgED/9oADAMBAAIQAxAAAAFYTebWei//xAAcEAABAwUAAAAAAAAAAAAAAAABAAIhAxESMkH/2gAIAQEAAQUCBQkPxvKp6d//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAZEAACAwEAAAAAAAAAAAAAAAAAARAhYXH/2gAIAQEABj8CmhaPp//EABwQAAMBAAIDAAAAAAAAAAAAAAERIQAxQWFxgf/aAAgBAQABPyFql7wy4DI95FkPziaZIrc400T9xRmIQ3//2gAMAwEAAgADAAAAEHcv/8QAFhEAAwAAAAAAAAAAAAAAAAAAAAEh/9oACAEDAQE/EEoQ/8QAFhEAAwAAAAAAAAAAAAAAAAAAAAEh/9oACAECAQE/EG6U/8QAHRABAAICAgMAAAAAAAAAAAAAAQARITFBYVFxsf/aAAgBAQABPxAajTkHHCQKTVidt9R1VUy2YhWWHFuu/kBSlnIG7EIXmC3n3P/Z&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Nulla faucibus vestibulum eros in tempus. Vestibulum tempor imperdiet velit nec dapibus&quot;
-        title=&quot;&quot;
-        src=&quot;/static/1-07d3a9ebe902d793eab5fe701b12a6e2-d564d.jpg&quot;
-        srcset=&quot;/static/1-07d3a9ebe902d793eab5fe701b12a6e2-865fd.jpg 240w,
-/static/1-07d3a9ebe902d793eab5fe701b12a6e2-d40a0.jpg 480w,
-/static/1-07d3a9ebe902d793eab5fe701b12a6e2-d564d.jpg 960w,
-/static/1-07d3a9ebe902d793eab5fe701b12a6e2-c67c1.jpg 1440w,
-/static/1-07d3a9ebe902d793eab5fe701b12a6e2-5b032.jpg 1800w&quot;
-        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;h2&gt;Header Level 2&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
-&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. &lt;/p&gt;
-&lt;figure&gt;
-	&lt;blockquote&gt;
-		&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.&lt;/p&gt;
-		&lt;footer&gt;
-			&lt;cite&gt;— Aliquam tincidunt mauris eu risus.&lt;/cite&gt;
-		&lt;/footer&gt;
-	&lt;/blockquote&gt;
-&lt;/figure&gt;
-&lt;h3&gt;Header Level 3&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
-&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.&lt;/p&gt;
+&lt;p&gt;即使兩者不再變化，但由於每次 &lt;code class=&quot;language-text&quot;&gt;mapStateToProps&lt;/code&gt; 返回結果 &lt;code class=&quot;language-text&quot;&gt;{ data: { ... } }&lt;/code&gt; 中的 &lt;code class=&quot;language-text&quot;&gt;data&lt;/code&gt; 都是新創建的字面量對象，導致淺對比失敗，&lt;code class=&quot;language-text&quot;&gt;App&lt;/code&gt; 依然會重渲染。&lt;/p&gt;
+&lt;p&gt;其次是 &lt;code class=&quot;language-text&quot;&gt;combineReducers&lt;/code&gt;。Redux Store 鼓勵我們把狀態對象劃分爲不同碎片（slices）或領域（domains，業務），並分別編寫 reducer 函數以管理其狀態，最後使用 &lt;code class=&quot;language-text&quot;&gt;combineReducers&lt;/code&gt; 將這些領域及其 reducer 關聯起來，拼裝成一個整體的 &lt;code class=&quot;language-text&quot;&gt;state&lt;/code&gt;。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;#header h1 a&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token property&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; block&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;token property&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 300px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;token property&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 80px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token function&quot;&gt;combineReducers&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; todos&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; myTodoReducer&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; counter&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; myCounterReducer &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;p&gt;Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;combineReducers&lt;/code&gt; 會遍歷每一對領域（key 是領域名，value 是 reducer），對於每次遍歷：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;創建一個對當前碎片數據的引用&lt;/li&gt;
+&lt;li&gt;調用 reducer 計算碎片數據的新狀態，並返回&lt;/li&gt;
+&lt;li&gt;爲 reducer 返回的新碎片數據創建新的引用，將新引用與當前數據進行淺對比，若對比失敗（意味著兩次引用不同，即 reducer 返回的是一個新對象），則將標識位 &lt;code class=&quot;language-text&quot;&gt;hasChanged&lt;/code&gt; 設爲 &lt;code class=&quot;language-text&quot;&gt;true&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;遍歷完後，&lt;code class=&quot;language-text&quot;&gt;combineReducers&lt;/code&gt; 就得到一個新狀態對象，透過 &lt;code class=&quot;language-text&quot;&gt;hasChanged&lt;/code&gt; 標識位就能判斷出整體狀態是否發生更改，若爲 &lt;code class=&quot;language-text&quot;&gt;true&lt;/code&gt; 則新狀態會被返回給下游（下游指 &lt;code class=&quot;language-text&quot;&gt;react-redux&lt;/code&gt; 及其更下游的介面組件）。&lt;/p&gt;
+&lt;p&gt;綜上所述我們知道，&lt;strong&gt;當狀態需要發生更改時，務必讓相應的 reducer 函數始終返回新對象。&lt;/strong&gt;修改原有對象的屬性值然後返回，並不會觸發組件的重渲染。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; Object&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;assign&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; state&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; count&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;count&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// 而非僅修改原對象：&lt;/span&gt;
+state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;count&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; state&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h2&gt;Immutable Data 和 ImmutableJS&lt;/h2&gt;
+&lt;p&gt;結上可知，無論是從 reducer 的定義上，還是從 Redux 的工作機制上，我們都走上了同一條 &lt;code class=&quot;language-text&quot;&gt;Object.assign&lt;/code&gt; 的模式，即不修改原狀態，只返回新狀態。可見 state 天生就是不可變異的（immutable）。&lt;/p&gt;
+&lt;p&gt;使用 ImmutableJS 能實現幾類不可變異的數據結構，譬如 &lt;code class=&quot;language-text&quot;&gt;Map&lt;/code&gt;、&lt;code class=&quot;language-text&quot;&gt;List&lt;/code&gt;。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; Map &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;immutable&apos;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; person &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Map&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;    &lt;span class=&quot;token comment&quot;&gt;// 創建一個空對象&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; personWithAge &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; person&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;age&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 爲 person 實例添加 age 屬性&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// 調用 toJS() 打印出兩個實例&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;person&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;toJS&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// {}，person 的屬性不變&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;personWithAge&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;toJS&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// { age: 20 }&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;在 Immutable 的數據結構中，當你想更改某個對象屬性時，你得到的永遠是一個新對象，而原對象不會變化。上述 reducer 中：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;count&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;count&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Immutable 的原理：&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;有這樣一個 JavaScript 結構對象，根據 key 作爲索引，組織成字典查找樹：
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1-240776bc643dadbcabb25db0b589d2a4-1caba.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 400px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 93.75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAATABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIBAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH3pwdEjZCwf//EABgQAAIDAAAAAAAAAAAAAAAAAAEQACAh/9oACAEBAAEFAqZAgF//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAUEAEAAAAAAAAAAAAAAAAAAAAw/9oACAEBAAY/Ah//xAAaEAEAAwEBAQAAAAAAAAAAAAABABExIRBB/9oACAEBAAE/IVqDXjyx1hq4GogvSBWfIYT/2gAMAwEAAgADAAAAEPMIgP/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8QH//EABoQAQEBAQEBAQAAAAAAAAAAAAERACExcbH/2gAIAQEAAT8QuAKvmen0sZ+4aXPqD0PmcBiwXvHNqwWnzCYPEyVR4Nz8t//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;image&quot;
+        title=&quot;&quot;
+        src=&quot;/static/1-240776bc643dadbcabb25db0b589d2a4-1caba.jpg&quot;
+        srcset=&quot;/static/1-240776bc643dadbcabb25db0b589d2a4-38c71.jpg 240w,
+/static/1-240776bc643dadbcabb25db0b589d2a4-1caba.jpg 400w&quot;
+        sizes=&quot;(max-width: 400px) 100vw, 400px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/li&gt;
+&lt;li&gt;假設此時你想修改 &lt;code class=&quot;language-text&quot;&gt;tea&lt;/code&gt; 屬性的值爲 &lt;code class=&quot;language-text&quot;&gt;14&lt;/code&gt;，首先找到訪問到 &lt;code class=&quot;language-text&quot;&gt;tea&lt;/code&gt; 節點的關鍵路徑：
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2-665dcf1a08f3fbfff48f8b173e8b6a5c-4cf8a.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 55.400000000000006%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgABBf/EABQBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAe8UQdsv/8QAFxAAAwEAAAAAAAAAAAAAAAAAAAEQMf/aAAgBAQABBQJijyf/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAbEAACAwADAAAAAAAAAAAAAAABEQAQITFBgf/aAAgBAQABPyFlnMLH0TQtDAN9r//aAAwDAQACAAMAAAAQjw//xAAVEQEBAAAAAAAAAAAAAAAAAAAQQf/aAAgBAwEBPxCn/8QAFhEBAQEAAAAAAAAAAAAAAAAAERAh/9oACAECAQE/EDWf/8QAGxABAQACAwEAAAAAAAAAAAAAAREAECExsXH/2gAIAQEAAT8QYiRdKcGSiJQj3oGClPcMr191/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;image&quot;
+        title=&quot;&quot;
+        src=&quot;/static/2-665dcf1a08f3fbfff48f8b173e8b6a5c-d564d.jpg&quot;
+        srcset=&quot;/static/2-665dcf1a08f3fbfff48f8b173e8b6a5c-865fd.jpg 240w,
+/static/2-665dcf1a08f3fbfff48f8b173e8b6a5c-d40a0.jpg 480w,
+/static/2-665dcf1a08f3fbfff48f8b173e8b6a5c-d564d.jpg 960w,
+/static/2-665dcf1a08f3fbfff48f8b173e8b6a5c-4cf8a.jpg 1000w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/li&gt;
+&lt;li&gt;然後將路徑上的節點複製出來，構建一棵一模一樣結構的樹，唯新樹的其他節點均是對原樹的引用：
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3-6a3d9e29c3fd90d027c227cbdac79a00-4cf8a.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 68.80000000000001%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAOABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHfkRQiT//EABgQAAMBAQAAAAAAAAAAAAAAAAABMQIQ/9oACAEBAAEFAuKMRmf/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAaEAACAgMAAAAAAAAAAAAAAAAAMQERQVGh/9oACAEBAAE/IZReIFGxC3wSf//aAAwDAQACAAMAAAAQcP8A/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAEx/9oACAEDAQE/EEx//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAEx/9oACAECAQE/EEx//8QAHBABAQEAAQUAAAAAAAAAAAAAAREAITFBUXHB/9oACAEBAAE/EGCuCnwyVnr6mMoBXzkQ8IEMCGkZ2V3/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;image&quot;
+        title=&quot;&quot;
+        src=&quot;/static/3-6a3d9e29c3fd90d027c227cbdac79a00-d564d.jpg&quot;
+        srcset=&quot;/static/3-6a3d9e29c3fd90d027c227cbdac79a00-865fd.jpg 240w,
+/static/3-6a3d9e29c3fd90d027c227cbdac79a00-d40a0.jpg 480w,
+/static/3-6a3d9e29c3fd90d027c227cbdac79a00-d564d.jpg 960w,
+/static/3-6a3d9e29c3fd90d027c227cbdac79a00-4cf8a.jpg 1000w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/li&gt;
+&lt;li&gt;最後將新建的樹返回。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;完 :)&lt;/p&gt;</content:encoded></item></channel></rss>

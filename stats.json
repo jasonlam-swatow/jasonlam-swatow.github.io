@@ -1,178 +1,138 @@
 {
   "assetsByChunkName": {
     "component---src-templates-tag-template-jsx": [
-      "component---src-templates-tag-template-jsx-2b3726fa7cce65b202ed.js",
-      "component---src-templates-tag-template-jsx-2b3726fa7cce65b202ed.js.map"
+      "component---src-templates-tag-template-jsx-bbc5e7e79f8ea1799c20.js",
+      "component---src-templates-tag-template-jsx-bbc5e7e79f8ea1799c20.js.map"
     ],
-    "path---posts-perfecting-the-art-of-perfection": [
-      "path---posts-perfecting-the-art-of-perfection-46a1eee4c20d4b7e97ab.js",
-      "path---posts-perfecting-the-art-of-perfection-46a1eee4c20d4b7e97ab.js.map"
+    "path---tags-儒家": [
+      "path---tags-儒家-50d64992dd38960419d3.js",
+      "path---tags-儒家-50d64992dd38960419d3.js.map"
     ],
     "component---src-templates-page-template-jsx": [
       "component---src-templates-page-template-jsx-ef150ef5bc28b140dfe9.js",
       "component---src-templates-page-template-jsx-ef150ef5bc28b140dfe9.js.map"
     ],
-    "path---posts-the-birth-of-movable-type": [
-      "path---posts-the-birth-of-movable-type-dc2545ead99121f9331f.js",
-      "path---posts-the-birth-of-movable-type-dc2545ead99121f9331f.js.map"
-    ],
-    "path---tags-linotype": [
-      "path---tags-linotype-4ebb29811cb98106ba7d.js",
-      "path---tags-linotype-4ebb29811cb98106ba7d.js.map"
-    ],
-    "path---categories-design-culture": [
-      "path---categories-design-culture-6aa6862cecbca8b4923f.js",
-      "path---categories-design-culture-6aa6862cecbca8b4923f.js.map"
-    ],
-    "path---posts-humane-typography-in-the-digital-age": [
-      "path---posts-humane-typography-in-the-digital-age-8434077089766245738f.js",
-      "path---posts-humane-typography-in-the-digital-age-8434077089766245738f.js.map"
+    "path---posts-react-state-patterns": [
+      "path---posts-react-state-patterns-eaf3be821a8a02295399.js",
+      "path---posts-react-state-patterns-eaf3be821a8a02295399.js.map"
     ],
     "path---categories": [
-      "path---categories-fb376fbf75e79886bc6e.js",
-      "path---categories-fb376fbf75e79886bc6e.js.map"
-    ],
-    "path---tags-typefaces": [
-      "path---tags-typefaces-9f2b5d2a4a04bf12fd3e.js",
-      "path---tags-typefaces-9f2b5d2a4a04bf12fd3e.js.map"
+      "path---categories-aee333ed01028cc7c2c9.js",
+      "path---categories-aee333ed01028cc7c2c9.js.map"
     ],
     "component---src-pages-tags-jsx": [
-      "component---src-pages-tags-jsx-e787e63a56bf6859a224.js",
-      "component---src-pages-tags-jsx-e787e63a56bf6859a224.js.map"
-    ],
-    "path---tags-typography": [
-      "path---tags-typography-2fe54f1e12be600b6683.js",
-      "path---tags-typography-2fe54f1e12be600b6683.js.map"
-    ],
-    "path---tags-open-source": [
-      "path---tags-open-source-bddeec4ad45a25507415.js",
-      "path---tags-open-source-bddeec4ad45a25507415.js.map"
+      "component---src-pages-tags-jsx-7784358121464139e351.js",
+      "component---src-pages-tags-jsx-7784358121464139e351.js.map"
     ],
     "path---tags": [
-      "path---tags-4b84c258966c3ad65ad1.js",
-      "path---tags-4b84c258966c3ad65ad1.js.map"
-    ],
-    "path---categories-typography": [
-      "path---categories-typography-4d19a764159911528067.js",
-      "path---categories-typography-4d19a764159911528067.js.map"
+      "path---tags-5c4e3f58c31fe31862ff.js",
+      "path---tags-5c4e3f58c31fe31862ff.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
-    "path---tags-design": [
-      "path---tags-design-04c52c90ae367eea80ec.js",
-      "path---tags-design-04c52c90ae367eea80ec.js.map"
-    ],
     "component---src-layouts-index-jsx": [
       "component---src-layouts-index-jsx-4f1afcf85a63189a1f8f.js",
       "component---src-layouts-index-jsx-4f1afcf85a63189a1f8f.js.map"
     ],
-    "path---tags-helvetica": [
-      "path---tags-helvetica-9e6853a3d008d4977a72.js",
-      "path---tags-helvetica-9e6853a3d008d4977a72.js.map"
-    ],
-    "path---categories-design-inspiration": [
-      "path---categories-design-inspiration-8cb4e939220f01defe22.js",
-      "path---categories-design-inspiration-8cb4e939220f01defe22.js.map"
+    "path---tags-react": [
+      "path---tags-react-0ef6d6968049ef40ae38.js",
+      "path---tags-react-0ef6d6968049ef40ae38.js.map"
     ],
     "component---src-templates-category-template-jsx": [
-      "component---src-templates-category-template-jsx-801615e0ee15486d4622.js",
-      "component---src-templates-category-template-jsx-801615e0ee15486d4622.js.map"
+      "component---src-templates-category-template-jsx-ced5f4d67462289a72b8.js",
+      "component---src-templates-category-template-jsx-ced5f4d67462289a72b8.js.map"
+    ],
+    "path---posts-react-redux-and-immutable": [
+      "path---posts-react-redux-and-immutable-a10666f0772b1f728029.js",
+      "path---posts-react-redux-and-immutable-a10666f0772b1f728029.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
+    "path---tags-哲學": [
+      "path---tags-哲學-4126239b330e04c6dd15.js",
+      "path---tags-哲學-4126239b330e04c6dd15.js.map"
+    ],
     "component---src-templates-post-template-jsx": [
-      "component---src-templates-post-template-jsx-d7589e304c7c1cd853c9.js",
-      "component---src-templates-post-template-jsx-d7589e304c7c1cd853c9.js.map"
+      "component---src-templates-post-template-jsx-6f70457638d40a25cde7.js",
+      "component---src-templates-post-template-jsx-6f70457638d40a25cde7.js.map"
     ],
-    "path---tags-history-of-typography": [
-      "path---tags-history-of-typography-7e7c2f95e84f079f5be7.js",
-      "path---tags-history-of-typography-7e7c2f95e84f079f5be7.js.map"
+    "path---categories-前端技術": [
+      "path---categories-前端技術-9901b0ec9134f21e7b46.js",
+      "path---categories-前端技術-9901b0ec9134f21e7b46.js.map"
     ],
-    "path---tags-lettering": [
-      "path---tags-lettering-1ea3990cb2cde2040e98.js",
-      "path---tags-lettering-1ea3990cb2cde2040e98.js.map"
-    ],
-    "path---posts-the-origins-of-social-stationery-lettering": [
-      "path---posts-the-origins-of-social-stationery-lettering-2f9c96e94253e8f0e36f.js",
-      "path---posts-the-origins-of-social-stationery-lettering-2f9c96e94253e8f0e36f.js.map"
-    ],
-    "path---tags-gatsby": [
-      "path---tags-gatsby-6619968aa791fdf329b8.js",
-      "path---tags-gatsby-6619968aa791fdf329b8.js.map"
-    ],
-    "path---tags-learning-to-write": [
-      "path---tags-learning-to-write-02ac5e4038d54f200b47.js",
-      "path---tags-learning-to-write-02ac5e4038d54f200b47.js.map"
+    "path---posts-儒家脈絡": [
+      "path---posts-儒家脈絡-b380043be98dadcdbb35.js",
+      "path---posts-儒家脈絡-b380043be98dadcdbb35.js.map"
     ],
     "component---src-pages-categories-jsx": [
-      "component---src-pages-categories-jsx-2da18a892adca87ae12e.js",
-      "component---src-pages-categories-jsx-2da18a892adca87ae12e.js.map"
+      "component---src-pages-categories-jsx-f30c3b09968771fedef4.js",
+      "component---src-pages-categories-jsx-f30c3b09968771fedef4.js.map"
     ],
     "path---index": [
-      "path---index-d00de6b6edf9a30e7a45.js",
-      "path---index-d00de6b6edf9a30e7a45.js.map"
+      "path---index-233600b47139a53f90df.js",
+      "path---index-233600b47139a53f90df.js.map"
+    ],
+    "path---posts-macrotask-and-microtask": [
+      "path---posts-macrotask-and-microtask-3b4961ab92ded49ea7fb.js",
+      "path---posts-macrotask-and-microtask-3b4961ab92ded49ea7fb.js.map"
     ],
     "commons": [
-      "commons-7e38583222dfc776e76c.js",
+      "commons-c186304b7401bad9b97a.js",
       "build-js-styles.css",
-      "commons-7e38583222dfc776e76c.js.map",
+      "commons-c186304b7401bad9b97a.js.map",
       "build-js-styles.css.map"
     ],
     "path---404-html": [
-      "path---404-html-ce8a5eb9789115c0af77.js",
-      "path---404-html-ce8a5eb9789115c0af77.js.map"
-    ],
-    "path---tags-history": [
-      "path---tags-history-c1155cc601a592837bcd.js",
-      "path---tags-history-c1155cc601a592837bcd.js.map"
+      "path---404-html-123e3cf2443a635101e9.js",
+      "path---404-html-123e3cf2443a635101e9.js.map"
     ],
     "component---src-pages-404-jsx": [
       "component---src-pages-404-jsx-265d0c38bdff4d0a90c6.js",
       "component---src-pages-404-jsx-265d0c38bdff4d0a90c6.js.map"
     ],
     "path---contact": [
-      "path---contact-66074aa55c6c77198e0a.js",
-      "path---contact-66074aa55c6c77198e0a.js.map"
-    ],
-    "path---tags-handwriting": [
-      "path---tags-handwriting-85fb06de6daeafbfcb71.js",
-      "path---tags-handwriting-85fb06de6daeafbfcb71.js.map"
+      "path---contact-6de1ee422161eef4ca53.js",
+      "path---contact-6de1ee422161eef4ca53.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "component---src-pages-index-jsx": [
-      "component---src-pages-index-jsx-64649fde84da96ead11c.js",
-      "component---src-pages-index-jsx-64649fde84da96ead11c.js.map"
+    "path---tags-java-script": [
+      "path---tags-java-script-1fc61d5cb9e71d3aa8d5.js",
+      "path---tags-java-script-1fc61d5cb9e71d3aa8d5.js.map"
     ],
-    "path---tags-monotype": [
-      "path---tags-monotype-06d52e7cd05467a9fa10.js",
-      "path---tags-monotype-06d52e7cd05467a9fa10.js.map"
+    "component---src-pages-index-jsx": [
+      "component---src-pages-index-jsx-0ff8d0d5c329973ac59c.js",
+      "component---src-pages-index-jsx-0ff8d0d5c329973ac59c.js.map"
     ],
     "app": [
-      "app-03c0756fd3450d6f1bec.js",
-      "app-03c0756fd3450d6f1bec.js.map"
+      "app-005c785a7b30025422fd.js",
+      "app-005c785a7b30025422fd.js.map"
     ],
-    "path---tags-web-development": [
-      "path---tags-web-development-6084b8345613129e4f1d.js",
-      "path---tags-web-development-6084b8345613129e4f1d.js.map"
+    "path---tags-大前端": [
+      "path---tags-大前端-12b89a1de4384ae93d2c.js",
+      "path---tags-大前端-12b89a1de4384ae93d2c.js.map"
     ],
-    "path---posts-a-brief-history-of-typography": [
-      "path---posts-a-brief-history-of-typography-330e6ea0027b26c27acc.js",
-      "path---posts-a-brief-history-of-typography-330e6ea0027b26c27acc.js.map"
+    "path---categories-哲學": [
+      "path---categories-哲學-5cfb4f6aba791b6317ff.js",
+      "path---categories-哲學-5cfb4f6aba791b6317ff.js.map"
+    ],
+    "path---posts-朱熹中和說": [
+      "path---posts-朱熹中和說-b62d5161fecfb843fd4c.js",
+      "path---posts-朱熹中和說-b62d5161fecfb843fd4c.js.map"
     ],
     "path---404": [
-      "path---404-ce8a5eb9789115c0af77.js",
-      "path---404-ce8a5eb9789115c0af77.js.map"
+      "path---404-123e3cf2443a635101e9.js",
+      "path---404-123e3cf2443a635101e9.js.map"
     ],
     "path---about": [
-      "path---about-94c2ac461b8fc7a345ce.js",
-      "path---about-94c2ac461b8fc7a345ce.js.map"
+      "path---about-158db6db335ecacc474c.js",
+      "path---about-158db6db335ecacc474c.js.map"
     ]
   }
 }

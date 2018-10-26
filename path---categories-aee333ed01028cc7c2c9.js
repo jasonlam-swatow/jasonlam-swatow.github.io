@@ -1,0 +1,2 @@
+webpackJsonp([30875753179511],{391:function(t,a){t.exports={data:{site:{siteMetadata:{title:"Jason Lam",subtitle:"慎獨｜純亦不已",copyright:"© 原創版權",menu:[{label:"文章",path:"/"},{label:"關於我",path:"/about/"},{label:"聯繫",path:"/contact/"}],author:{name:"Jason Lam",email:"jasonlam0619@gmail.com",twitter:"https://twitter.com/jasonlam0619",github:"https://github.com/jasonlam-swatow/",rss:"#"}}},allMarkdownRemark:{group:[{fieldValue:"前端技術",totalCount:3},{fieldValue:"哲學",totalCount:2}]}},pathContext:{}}}});
+//# sourceMappingURL=path---categories-aee333ed01028cc7c2c9.js.map
