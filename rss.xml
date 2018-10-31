@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Jason Lam]]></title><description><![CDATA[慎獨｜純亦不已]]></description><link>https://lumen.netlify.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 29 Oct 2018 17:37:18 GMT</lastBuildDate><item><title><![CDATA[重磅：React Hooks]]></title><description><![CDATA[React v16.7.0-alpha 後引入了「Hooks」此一向後兼容之概念。本文詳盡地介紹了 Hooks 的誕生背景、使用方法與情境。]]></description><link>https://lumen.netlify.com/posts/react-hooks/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/react-hooks/</guid><pubDate>Sat, 27 Oct 2018 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;React v16.7.0-alpha 後引入了「Hooks」此一向後兼容之概念。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Jason Lam]]></title><description><![CDATA[慎獨｜純亦不已]]></description><link>https://lumen.netlify.com</link><generator>RSS for Node</generator><lastBuildDate>Wed, 31 Oct 2018 02:35:35 GMT</lastBuildDate><item><title><![CDATA[重磅：React Hooks]]></title><description><![CDATA[React v16.7.0-alpha 後引入了「Hooks」此一向後兼容之概念。本文詳盡地介紹了 Hooks 的誕生背景、使用方法與情境。]]></description><link>https://lumen.netlify.com/posts/react-hooks/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/react-hooks/</guid><pubDate>Sat, 27 Oct 2018 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;React v16.7.0-alpha 後引入了「Hooks」此一向後兼容之概念。&lt;/p&gt;
 &lt;h2&gt;背景介紹&lt;/h2&gt;
 &lt;p&gt;隨著 React 應用長期擴展和維護，終會引致以下所謂「unconnected」問題，而 Hooks 因應而生：&lt;/p&gt;
 &lt;ul&gt;
@@ -17,13 +17,13 @@
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;h3&gt;State Hooks&lt;/h3&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;useState&lt;/code&gt; 是一個 hook。在函式組件內調用它（傳參為初始 state 值），會返回新增的本地 state、以及用以更新該 state 的函式：&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;useState&lt;/code&gt; 是一個 Hook。在函式組件內調用它（傳參為初始 state 值），會返回新增的本地 state、以及用以更新該 state 的函式：&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;count&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; setCount&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;useState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;// 初始值為 0 的新 state，返回該 state 和更新函式&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;上例之 &lt;code class=&quot;language-text&quot;&gt;setCount&lt;/code&gt; 和 class 裏的 &lt;code class=&quot;language-text&quot;&gt;this.setState&lt;/code&gt; 相似，除了它&lt;strong&gt;不合併新舊 state，而是直接替代&lt;/strong&gt;——此即為 Hooks 的初衷，即提倡基於哪些 state 會一道改變來分割 state（並因之分割 Hooks），故直接替代 state 值而非合併一龐雜的 state 對象。&lt;/p&gt;
 &lt;h3&gt;Effect Hooks&lt;/h3&gt;
-&lt;p&gt;諸如抓取數據、訂閱和手動操作 DOM 這些行為，皆是「副作用」（簡稱「effects」）。我們通常想副作用發生於 React 更新 DOM 之後，譬如把基於 state 的 DOM 手動操作放在 &lt;code class=&quot;language-text&quot;&gt;componentDidMount&lt;/code&gt; 和 &lt;code class=&quot;language-text&quot;&gt;componentDidUpdate&lt;/code&gt; 生命週期中，而這導致重複代碼。&lt;code class=&quot;language-text&quot;&gt;useEffect&lt;/code&gt; 此一 hook，發揮並結合了 class 裏的各生命週期的用處，能在函式組件發生渲染之後執行副作用。&lt;/p&gt;
+&lt;p&gt;諸如抓取數據、訂閱和手動操作 DOM 這些行為，皆是「副作用」（簡稱「effects」）。我們通常想副作用發生於 React 更新 DOM 之後，譬如把基於 state 的 DOM 手動操作放在 &lt;code class=&quot;language-text&quot;&gt;componentDidMount&lt;/code&gt; 和 &lt;code class=&quot;language-text&quot;&gt;componentDidUpdate&lt;/code&gt; 生命週期中，而這導致重複代碼。&lt;code class=&quot;language-text&quot;&gt;useEffect&lt;/code&gt; 此一 Hook，發揮並結合了 class 裏的各生命週期的用處，能在函式組件發生渲染之後執行副作用。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token function&quot;&gt;useEffect&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
   document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;title &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`You clicked &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;count&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt; times`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
@@ -558,21 +558,21 @@
 
 &lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;Table&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; children &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;table&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;children&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;table&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;p&gt;完 :)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[你可能不需要 Derived State]]></title><description><![CDATA[React v16.4 納入了對 getDerivedStateFromProps 的 bugfix，使得 React 應用中一些 bugs 更易重現。此文旨在解釋一些關於 derived state 的反模式以及替代方案。]]></description><link>https://lumen.netlify.com/posts/derived-state/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/derived-state/</guid><pubDate>Fri, 27 Jul 2018 22:40:32 GMT</pubDate><content:encoded>&lt;h2&gt;何時使用 derived state&lt;/h2&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;getDerivedStateFromProps&lt;/code&gt; 的意義祇在使組件依其 props 的變化結果而改變其內部 state。&lt;/p&gt;
+&lt;p&gt;完 :)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[你可能不需要 Derived State]]></title><description><![CDATA[componentWillReceiveProps、getDerivedStateFromProps 均是用於因應 props 變化以更新狀態，且不導致額外渲染的生命週期。但二者經常因誤用而引致 bug。本文旨在解釋其使用場景及反模式。]]></description><link>https://lumen.netlify.com/posts/derived-state/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/derived-state/</guid><pubDate>Fri, 27 Jul 2018 22:40:32 GMT</pubDate><content:encoded>&lt;h2&gt;何時使用 derived state&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;getDerivedStateFromProps&lt;/code&gt; 的意義僅在使組件依其 props 的變化來改變其內部 state。Derived state 不應頻繁使用，須遵循以下原則：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;如果你使用 derived state 以 memoize 一些祇基於當前 props 的計算，你就不需要 derived state。&lt;/li&gt;
 &lt;li&gt;如果你無條件更新 derived state 或每當 props 和 state 不匹配時更新之，你的組件可能會過於頻繁地重置其 state。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;使用 derived state 的常見 bugs&lt;/h2&gt;
-&lt;p&gt;對於組件：&lt;/p&gt;
+&lt;p&gt;對於組件有以下二類：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;controlled&lt;/strong&gt;：數據以 props 傳入，父組件得以控制數據&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;uncontrolled&lt;/strong&gt;：數據僅存於內部 state，父組件不能直接改變之&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;controlled 組件&lt;/strong&gt;：數據以 props 傳入，父組件得以控制數據&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;uncontrolled 組件&lt;/strong&gt;：數據僅存於內部 state，父組件不能直接改變之&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Derived state 的最常見錯誤是混淆此兩者。若一 derived state 值也能為 &lt;code class=&quot;language-text&quot;&gt;setState&lt;/code&gt; 調用所更新，該數據就不止有一個 source of truth。&lt;/p&gt;
+&lt;p&gt;Derived state 的最常見錯誤是混淆此兩者。若一 derived state 值也能被 &lt;code class=&quot;language-text&quot;&gt;setState&lt;/code&gt; 所更新，該數據就不止有一個 source of truth。&lt;/p&gt;
 &lt;h3&gt;反模式：無條件複製 props 至 state&lt;/h3&gt;
-&lt;p&gt;一個常見誤解是 &lt;code class=&quot;language-text&quot;&gt;getDerivedStateFromProps&lt;/code&gt; 和 &lt;code class=&quot;language-text&quot;&gt;componentWillReceiveProps&lt;/code&gt; 祇在 props 變更時調用。每當父組件重渲染時，這些 lifecycles 都會觸發，而不論 props 是否有變。因此，在這些 lifecycles 中無條件地覆蓋 state 即不安全，造成 state 更新丟失。&lt;/p&gt;
+&lt;p&gt;一個常見誤解是 &lt;code class=&quot;language-text&quot;&gt;getDerivedStateFromProps&lt;/code&gt; 和 &lt;code class=&quot;language-text&quot;&gt;componentWillReceiveProps&lt;/code&gt; 祇在 props 變更時調用。事實是每當父組件重渲染時，這些 lifecycles 都會觸發，而不論 props 是否有變。因此，在這些 lifecycles 中無條件地覆蓋 state 並不安全，會造成 state 更新丟失。&lt;/p&gt;
 &lt;p&gt;一個將 prop 映射至 state 的 &lt;code class=&quot;language-text&quot;&gt;EmailInput&lt;/code&gt; 組件：&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;EmailInput&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Component&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
@@ -587,8 +587,8 @@
   &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
   &lt;span class=&quot;token function&quot;&gt;componentWillReceiveProps&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;nextProps&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token comment&quot;&gt;// This will erase any local state updates!&lt;/span&gt;
-    &lt;span class=&quot;token comment&quot;&gt;// Do not do this.&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// 這會擦除任何本地狀態更新！&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// 別這麼做。&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; email&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; nextProps&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;email &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
   &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
@@ -598,7 +598,7 @@
 &lt;h3&gt;反模式：props 變更時抹除 state&lt;/h3&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token function&quot;&gt;componentWillReceiveProps&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;nextProps&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token comment&quot;&gt;// Any time props.email changes, update state.&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// 每當 `props.email` 變化時，即更新狀態。&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;nextProps&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;email &lt;span class=&quot;token operator&quot;&gt;!==&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;email&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
       &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
         email&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; nextProps&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;email
@@ -881,6 +881,18 @@
 &lt;p&gt;明代王學出現以前，是朱學的天下。王學對於朱學的態度，不再滿足於「述朱」。儘管宋代有改經風氣，而明代王學對於經學尤其是《大學》，則是採取復古的態度。因此，明代學術不支持宋代改經，而是回到漢學。然而明代經學不同於漢代，意不在表面的字句或順序，而在於印證於心——即王陽明所稱作「行」。&lt;/p&gt;
 &lt;p&gt;余英時指出，天和人分別代表「超越領域」和「現實領域」，故天人關係、天人合一其實並不只是一種對天的敬畏或是某種特殊的精神體悟，還代表了一種逐漸完善自身的過程。這種觀點以劉殿爵所翻譯的英譯《孟子》序言可看出：「&lt;em&gt;如此一來，孟子已經打破天人隔閡及天命與人性之間的藩籬，由人心深處有一密道可通上天，而所屬天者已經非外於人，反而是屬於人最真實的本性了。&lt;/em&gt;」龐樸又言：「&lt;em&gt;儒學走向心性論研究，相信人道源於人心。&lt;/em&gt;」&lt;/p&gt;
 &lt;p&gt;但我們也須思考，最終心學得出的德性近乎於完全歸結於內心的結論，其實是否已經是對於傳統儒家的偏離？天命觀與經學幾乎完全從心學的視野裏消失，其實也意味著人論基礎的破碎化和個人化，最終極有可能造成一種顛覆。而這種內在的衝突，其實早在孔子那裏便已埋下伏筆。&lt;/p&gt;
+&lt;p&gt;完 :)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[禪宗公案之疏山有句無句]]></title><description><![CDATA[唐末僧疏山問大安：「有與無的概念既如同藤繞樹，忽遇樹倒藤枯，世界又歸何處？」大安聽畢，呵呵大笑而歸。]]></description><link>https://lumen.netlify.com/posts/koan-sozan/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/koan-sozan/</guid><pubDate>Fri, 01 Jun 2018 22:40:32 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;唐末僧&lt;u&gt;疏山&lt;/u&gt;特至福州溈山參學&lt;u&gt;大安&lt;/u&gt;之「&lt;strong&gt;有句無句，如藤倚樹&lt;/strong&gt;」（有與無的概念如同藤繞樹），並請問「忽遇樹倒藤枯，句歸何處」，&lt;u&gt;大安&lt;/u&gt;聞後，放下泥槃，呵呵大笑而歸方丈；&lt;u&gt;疏山&lt;/u&gt;不滿，深感賣卻布單，特為此事遠道而來，和尚何得相弄；&lt;u&gt;大安&lt;/u&gt;遂囑侍者予師二百錢，並告知&lt;u&gt;明招德謙&lt;/u&gt;可為師點破。&lt;u&gt;疏山&lt;/u&gt;遂往明招處，&lt;u&gt;明招&lt;/u&gt;欲為其點破，謂「頭正尾正，祇是不遇知音」。師亦不明白，又問「忽遇樹倒藤枯，句歸何處」，明招以「卻使&lt;u&gt;溈山&lt;/u&gt;笑轉新」作答，師乃言下大悟，有感而謂「&lt;u&gt;溈山&lt;/u&gt;元來笑裡有刀」，遙望禮拜。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;有與無的問題是抽象觀念和哲學問題。吾人一切思想皆始於有無之對立，若無這種對立，吾人就不可能推理。因此，疏山的問題直擊基本：「若有與無的概念枯萎掉，吾人的思想體系將會如何？」當樹倒下，藤亦自然枯死。有必須與無為伴，才成其存在，反之亦然。唯有當吾輩認識到有與無之基本對立，才能對個殊事物的世界有所瞭解。當此有無之對立不再存在時，吾輩將前往何處？絕對的空無嗎？這似乎是不可思議的。如此，則這種對立看法是否根本就錯了呢？然而它又面對著吾人，吾人無法消除這個生與死的世界；而這生與死的世界，以眼下的狀態而言，又遠不能滿足吾人精神上的需要。這種生與死、有與無的對立似非最終階段，而吾輩又永遠渴切超逾它；它指向某種愈高、愈深之事，而此事是吾輩希望抓住的。相互的對立狀態是必須超逾的，但如何超逾？事實上這正是疏山所提之問題。&lt;/p&gt;
+&lt;p&gt;祇有吾人還停留在相互對立的世界，吾人就永不得滿足；吾人常被不安感所騷擾。疏山深受有與無或生與死的問題所騷擾——或就基督教之說法，深受靈魂不死的問題所騷擾。當他聽聞溈山大安和尚言及此事時，他想終於有人可助他解決這個問題、為他帶來安寧了。他變賣財物，長途跋涉來到溈山，迫不及待地向正在抹泥牆的大安祈求啟悟：「當這個世界在這一劫結束之際，同它的一切萬象俱化成灰之後，我們這些人、我們人類的靈魂都會如何呢？」&lt;/p&gt;
+&lt;p&gt;此問題，既是形而上學的，又是宗教的。就以它不想沿著純粹智性的路線來發展而言，它是宗教的；就以它是以抽象的概念為表達方式而言，它又是形而上的。此乃禪宗之一大特色。若想選用一個名字，可稱之為實際哲學，而這種實際性全可從溈山大安用大笑來回答疏山的問題表明出來。&lt;strong&gt;疏山的心相當於形而上學，故會訴諸有與無這樣抽象的概念，但他的實際心靈又使他把這種抽象概念化為樹與藤之間的具體關係。&lt;/strong&gt;然而疏山的這種實際性卻被大安更進一步的實際性徹底攪亂了：大安丟下泥槃，大笑歸去。大安完全是實際行動的，而疏山則還在語言象徵的層面；這即是說，他還在概念層面，離開了生活。&lt;/p&gt;
+&lt;p&gt;疏山仍舊是語文的困囚，他不能立即抓住真如。他的心充滿了有與無、樹與藤、生與死、絕對與限制、因與果、業與涅槃等觀念，而對事實的真如沒有直接的領悟。而大安根本不同這位邏輯家辯論，不談絕對又不談矛盾辯證，亦不談在有與無的對立之下的基本存在。他祇是大笑歸去。&lt;/p&gt;
+&lt;p&gt;疏山的問題有何好笑？吾輩人類總是因自己所見事物之毀壞而憂愁，尤以關於吾人肉體的存在、以及之後的來生為然。這似乎是吾人共同的情感，何以惹來禪師的大笑呢？他大笑不特止，還丟下了器具、停止工作，回到自己的房中。他這樣做，是否意味著不要問任何東西，祇須去過生活、享受生活，當事物展現在吾人面前時，就按照它們的樣子認識它們，當可笑的事物出現就笑，當使你哭的事物出現就哭——總之，是否意味著接受一切，並因此歡愉呢？或者他意味當世界結束之際，他就享受同世界一起結束？或者他意味並無所謂結束——一切都是永恆，相對的世界祇是表象——因之並無樹倒亦無藤枯，由此來截斷由相對觀念與表象為基礎所產生的概念臆想？或者他大笑發問者的愚蠢，這個愚蠢使得他未能認識到他內在正運作著的另一樣東西，這種東西是與他對樹倒藤枯的深切關懷完全分開的；或者從另一角度說，是與他對樹倒藤枯的深切關懷交合並進的。所有這些意義上的變化，都可以在大安的行為中覽讀出來。但從禪的觀點來看，此處當務之急，是在直接體驗那意義之本身，而把智性的解釋留待必然隨這體驗產生的禪意識去做。&lt;/p&gt;
+&lt;p&gt;在這整個故事裏，並無任何形而上學的討論，沒有任何神祕虔敬的宗教行為。它始於對有與無的哲學性詢問，將之比於藤繞樹；而其解答則完全沒有按照原路線——而是絕對超乎常人在這種情形下的預期。而更為特異的是發問者終竟了悟了禪師的怪異行為，後者蘊涵的意義顯然解除了有與無的對立糾纏。&lt;/p&gt;
+&lt;p&gt;附：&lt;/p&gt;
+&lt;p&gt;當圜悟問五祖關於樹倒藤枯的事情時，五祖說：「你設網自陷。」體驗有其表達方法，它需要說出來，它需要肯定它自己、意識到它自己。而為了這樣做，禪有其絕對獨特的方式。既然沒有任何方式可以把完美的禪體驗世界描繪出來，則有與無、樹與藤、生與死、綜合與對立、內在與超越、毀壞與構築、倒與枯以及化歸無物等又是甚麼呢？所有這些觀念與範疇，都是我們為了生活在這個世界而發明的方便工具；但除非我們知道，如何在得當的機會應用它們，它們就會轉過來把我們陷住；亦即是說，我們會被它們所奴役所束縛。當禪體驗未能被我們適當地掌握，它就變成一個導致不幸的工具。這個體驗是一把雙刃劍，需要小心謹慎。&lt;/p&gt;
+&lt;p&gt;本文錄自鈴木大拙《禪學隨筆》並改寫&lt;/p&gt;
 &lt;p&gt;完 :)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[事件循環之 Macrotask & Microtask]]></title><description><![CDATA[JavaScript 的事件循環（Event Loop）中，macrotask 和 microtask 同屬於異步任務。二者有什麼區別？何時使用何者？]]></description><link>https://lumen.netlify.com/posts/macrotask-and-microtask/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/macrotask-and-microtask/</guid><pubDate>Fri, 01 Jun 2018 22:40:32 GMT</pubDate><content:encoded>&lt;h2&gt;定義&lt;/h2&gt;
 &lt;p&gt;一個事件循環（event loop）中會有一個正在執行的任務（task），這個任務就是從 macrotask 中來的。當該 macrotask 執行結束後，所有可用的 microtask 將會在同一個事件循環中執行，當這些 microtask 執行結束後還能繼續添加 microtask 直至整個 microtask 隊列執行結束。&lt;/p&gt;
 &lt;h2&gt;用法&lt;/h2&gt;
@@ -943,18 +955,6 @@
 &lt;li&gt;microtask queue 中的 task 會在事件循環的當前回合中執行，因此 macrotask queue 中的 task 就只能等到事件循環的下一個回合執行&lt;/li&gt;
 &lt;li&gt;click、Ajax、&lt;code class=&quot;language-text&quot;&gt;setTimeout&lt;/code&gt; 的回調都是 task，包裹在一個 &lt;code class=&quot;language-text&quot;&gt;&amp;lt;script&amp;gt;&lt;/code&gt; 標籤中的 JS 代碼亦是一個 task——它們都是 macrotask。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;完 :)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[禪宗公案之疏山有句無句]]></title><description><![CDATA[唐末僧疏山問大安：「有與無的概念既如同藤繞樹，忽遇樹倒藤枯，世界又歸何處？」大安聽畢，呵呵大笑而歸。]]></description><link>https://lumen.netlify.com/posts/koan-sozan/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/koan-sozan/</guid><pubDate>Fri, 01 Jun 2018 22:40:32 GMT</pubDate><content:encoded>&lt;blockquote&gt;
-&lt;p&gt;唐末僧&lt;u&gt;疏山&lt;/u&gt;特至福州溈山參學&lt;u&gt;大安&lt;/u&gt;之「&lt;strong&gt;有句無句，如藤倚樹&lt;/strong&gt;」（有與無的概念如同藤繞樹），並請問「忽遇樹倒藤枯，句歸何處」，&lt;u&gt;大安&lt;/u&gt;聞後，放下泥槃，呵呵大笑而歸方丈；&lt;u&gt;疏山&lt;/u&gt;不滿，深感賣卻布單，特為此事遠道而來，和尚何得相弄；&lt;u&gt;大安&lt;/u&gt;遂囑侍者予師二百錢，並告知&lt;u&gt;明招德謙&lt;/u&gt;可為師點破。&lt;u&gt;疏山&lt;/u&gt;遂往明招處，&lt;u&gt;明招&lt;/u&gt;欲為其點破，謂「頭正尾正，祇是不遇知音」。師亦不明白，又問「忽遇樹倒藤枯，句歸何處」，明招以「卻使&lt;u&gt;溈山&lt;/u&gt;笑轉新」作答，師乃言下大悟，有感而謂「&lt;u&gt;溈山&lt;/u&gt;元來笑裡有刀」，遙望禮拜。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;有與無的問題是抽象觀念和哲學問題。吾人一切思想皆始於有無之對立，若無這種對立，吾人就不可能推理。因此，疏山的問題直擊基本：「若有與無的概念枯萎掉，吾人的思想體系將會如何？」當樹倒下，藤亦自然枯死。有必須與無為伴，才成其存在，反之亦然。唯有當吾輩認識到有與無之基本對立，才能對個殊事物的世界有所瞭解。當此有無之對立不再存在時，吾輩將前往何處？絕對的空無嗎？這似乎是不可思議的。如此，則這種對立看法是否根本就錯了呢？然而它又面對著吾人，吾人無法消除這個生與死的世界；而這生與死的世界，以眼下的狀態而言，又遠不能滿足吾人精神上的需要。這種生與死、有與無的對立似非最終階段，而吾輩又永遠渴切超逾它；它指向某種愈高、愈深之事，而此事是吾輩希望抓住的。相互的對立狀態是必須超逾的，但如何超逾？事實上這正是疏山所提之問題。&lt;/p&gt;
-&lt;p&gt;祇有吾人還停留在相互對立的世界，吾人就永不得滿足；吾人常被不安感所騷擾。疏山深受有與無或生與死的問題所騷擾——或就基督教之說法，深受靈魂不死的問題所騷擾。當他聽聞溈山大安和尚言及此事時，他想終於有人可助他解決這個問題、為他帶來安寧了。他變賣財物，長途跋涉來到溈山，迫不及待地向正在抹泥牆的大安祈求啟悟：「當這個世界在這一劫結束之際，同它的一切萬象俱化成灰之後，我們這些人、我們人類的靈魂都會如何呢？」&lt;/p&gt;
-&lt;p&gt;此問題，既是形而上學的，又是宗教的。就以它不想沿著純粹智性的路線來發展而言，它是宗教的；就以它是以抽象的概念為表達方式而言，它又是形而上的。此乃禪宗之一大特色。若想選用一個名字，可稱之為實際哲學，而這種實際性全可從溈山大安用大笑來回答疏山的問題表明出來。&lt;strong&gt;疏山的心相當於形而上學，故會訴諸有與無這樣抽象的概念，但他的實際心靈又使他把這種抽象概念化為樹與藤之間的具體關係。&lt;/strong&gt;然而疏山的這種實際性卻被大安更進一步的實際性徹底攪亂了：大安丟下泥槃，大笑歸去。大安完全是實際行動的，而疏山則還在語言象徵的層面；這即是說，他還在概念層面，離開了生活。&lt;/p&gt;
-&lt;p&gt;疏山仍舊是語文的困囚，他不能立即抓住真如。他的心充滿了有與無、樹與藤、生與死、絕對與限制、因與果、業與涅槃等觀念，而對事實的真如沒有直接的領悟。而大安根本不同這位邏輯家辯論，不談絕對又不談矛盾辯證，亦不談在有與無的對立之下的基本存在。他祇是大笑歸去。&lt;/p&gt;
-&lt;p&gt;疏山的問題有何好笑？吾輩人類總是因自己所見事物之毀壞而憂愁，尤以關於吾人肉體的存在、以及之後的來生為然。這似乎是吾人共同的情感，何以惹來禪師的大笑呢？他大笑不特止，還丟下了器具、停止工作，回到自己的房中。他這樣做，是否意味著不要問任何東西，祇須去過生活、享受生活，當事物展現在吾人面前時，就按照它們的樣子認識它們，當可笑的事物出現就笑，當使你哭的事物出現就哭——總之，是否意味著接受一切，並因此歡愉呢？或者他意味當世界結束之際，他就享受同世界一起結束？或者他意味並無所謂結束——一切都是永恆，相對的世界祇是表象——因之並無樹倒亦無藤枯，由此來截斷由相對觀念與表象為基礎所產生的概念臆想？或者他大笑發問者的愚蠢，這個愚蠢使得他未能認識到他內在正運作著的另一樣東西，這種東西是與他對樹倒藤枯的深切關懷完全分開的；或者從另一角度說，是與他對樹倒藤枯的深切關懷交合並進的。所有這些意義上的變化，都可以在大安的行為中覽讀出來。但從禪的觀點來看，此處當務之急，是在直接體驗那意義之本身，而把智性的解釋留待必然隨這體驗產生的禪意識去做。&lt;/p&gt;
-&lt;p&gt;在這整個故事裏，並無任何形而上學的討論，沒有任何神祕虔敬的宗教行為。它始於對有與無的哲學性詢問，將之比於藤繞樹；而其解答則完全沒有按照原路線——而是絕對超乎常人在這種情形下的預期。而更為特異的是發問者終竟了悟了禪師的怪異行為，後者蘊涵的意義顯然解除了有與無的對立糾纏。&lt;/p&gt;
-&lt;p&gt;附：&lt;/p&gt;
-&lt;p&gt;當圜悟問五祖關於樹倒藤枯的事情時，五祖說：「你設網自陷。」體驗有其表達方法，它需要說出來，它需要肯定它自己、意識到它自己。而為了這樣做，禪有其絕對獨特的方式。既然沒有任何方式可以把完美的禪體驗世界描繪出來，則有與無、樹與藤、生與死、綜合與對立、內在與超越、毀壞與構築、倒與枯以及化歸無物等又是甚麼呢？所有這些觀念與範疇，都是我們為了生活在這個世界而發明的方便工具；但除非我們知道，如何在得當的機會應用它們，它們就會轉過來把我們陷住；亦即是說，我們會被它們所奴役所束縛。當禪體驗未能被我們適當地掌握，它就變成一個導致不幸的工具。這個體驗是一把雙刃劍，需要小心謹慎。&lt;/p&gt;
-&lt;p&gt;本文錄自鈴木大拙《禪學隨筆》並改寫&lt;/p&gt;
 &lt;p&gt;完 :)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[入禪五位]]></title><description><![CDATA[曹洞宗創始人洞山良價禪師［唐］提出入禪五位，即開悟過程之五階段。鈴木大拙博士對此作了深刻而詳盡的解析。]]></description><link>https://lumen.netlify.com/posts/five-steps-into-zen/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/five-steps-into-zen/</guid><pubDate>Thu, 24 May 2018 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;「位」者意為「境地」、「階段」或「步驟」。&lt;/p&gt;
 &lt;p&gt;入禪五位如下：&lt;/p&gt;
 &lt;ol&gt;
